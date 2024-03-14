@@ -1,0 +1,1639 @@
+14:03:37.732 XHROPTIONS
+https://gsp.target.com/gsp/authentications/v1/skip_passwordless_registrations
+
+14:03:37.755 XHRPOST
+https://gsp.target.com/gsp/authentications/v1/skip_passwordless_registrations
+
+14:03:38.077 GET
+https://gsp.target.com/gsp/authentications/v1/auth_codes?client_id=ecom-web-1.0.0
+[HTTP/2 302  229ms]
+
+14:03:38.090 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=click
+[HTTP/2 201  114ms]
+
+14:03:38.309 GET
+https://www.target.com/?ref=tgt_adv_xsl&AFID=google&fndsrc=tgtao&DFA=71700000012637812&CPNG=Other_Target+Brand|Holiday_Ecomm_Other&adgroup=Core+Branded+Keywords&LID=700000001170706&LNM=target&MT=e&network=g&device=c&location=9032170&targetid=kwd-19131461&gad_source=1&gclid=Cj0KCQjwwMqvBhCtARIsAIXsZpbVWSUwve41rxuAaT5pngD9cNTy9NBrfAi_vfIZcWFXuYj2_Wj-FcsaAsvJEALw_wcB&gclsrc=aw.ds&code=33c211c7-3967-4742-bce1-8a873076c6db&state=1710450040392&status=success
+[HTTP/2 200  1147ms]
+
+14:03:38.780 OPTIONS
+https://api.target.com/rum_analytics/v1?key=S6N4CK5P8KbyvmqOVLApWayFS8vCEuM3
+
+14:03:38.796 POST
+https://api.target.com/telemetry_data/v1/traces?key=5622b71fe94d55e17b492fa9e2b07dbc69f68c4f
+
+14:03:38.909 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/ssx/ssx.mod.js?async ssx.mod.js
+14:03:38.911 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://securepubads.g.doubleclick.net/tag/js/gpt.js gpt.js
+14:03:38.914 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://pub.doubleverify.com/signals/pub.js#ctx=21728514&cmp=DV1026531 pub.js
+14:03:38.915 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/2363-2a1ff19fa72ef978.js 2363-2a1ff19fa72ef978.js
+14:03:38.915 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/4773-bcc3cf9805bb9951.js 4773-bcc3cf9805bb9951.js
+14:03:38.916 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3215-1cf70f46e6f756fa.js 3215-1cf70f46e6f756fa.js
+14:03:38.916 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1156-ef9c6e2af0d29870.js 1156-ef9c6e2af0d29870.js
+14:03:38.917 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1769-246ceccb88ca6142.js 1769-246ceccb88ca6142.js
+14:03:38.917 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/6237-f13910b347ee5dcc.js 6237-f13910b347ee5dcc.js
+14:03:38.918 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/2827-a977b1f864d447fd.js 2827-a977b1f864d447fd.js
+14:03:38.918 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/4399-8612ccdc02d76cff.js 4399-8612ccdc02d76cff.js
+14:03:38.919 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/7612-9fb426b689d48bd6.js 7612-9fb426b689d48bd6.js
+14:03:38.919 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/7240-175796daef4aaad1.js 7240-175796daef4aaad1.js
+14:03:38.920 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1953-b9208d0a0ea9edac.js 1953-b9208d0a0ea9edac.js
+14:03:38.920 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/9090-32af100bad1988e5.js 9090-32af100bad1988e5.js
+14:03:38.921 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1784-4297904e59ffe223.js 1784-4297904e59ffe223.js
+14:03:38.922 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5704-acc77ecf46286092.js 5704-acc77ecf46286092.js
+14:03:38.922 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/8486-b99fa9937a7f82d5.js 8486-b99fa9937a7f82d5.js
+14:03:38.923 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/990-c942de09fd92d2fd.js 990-c942de09fd92d2fd.js
+14:03:38.924 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/16-0841752d739a5667.js 16-0841752d739a5667.js
+14:03:38.926 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/4535.b3c1a9997137a9e5.js 4535.b3c1a9997137a9e5.js
+14:03:38.931 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5085-7fe4290c2b838916.js 5085-7fe4290c2b838916.js
+14:03:38.933 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/9672-5a27384e232fb52d.js 9672-5a27384e232fb52d.js
+14:03:38.935 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5371-bc20b9bdc9bf22f8.js 5371-bc20b9bdc9bf22f8.js
+14:03:38.936 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1108-0df93088ed606636.js 1108-0df93088ed606636.js
+14:03:38.937 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/stof-PageTitleHidden.5d05096a22a0aa90.js stof-PageTitleHidden.5d05096a22a0aa90.js
+14:03:38.939 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/500.efa4937e91bed121.js 500.efa4937e91bed121.js
+14:03:38.940 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/6019.0abc35642343df3c.js 6019.0abc35642343df3c.js
+14:03:38.940 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/6909-7bc4a32ffe371354.js 6909-7bc4a32ffe371354.js
+14:03:38.941 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1969.4ad92f3f5801099d.js 1969.4ad92f3f5801099d.js
+14:03:38.941 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/7423.ae80c7bf71cb45db.js 7423.ae80c7bf71cb45db.js
+14:03:38.942 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-Superhero.008f26beb5fb99bc.js slingshot-components-Superhero.008f26beb5fb99bc.js
+14:03:38.943 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3366.6fc4b720cb7b5526.js 3366.6fc4b720cb7b5526.js
+14:03:38.943 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-Storyblocks.da5f0488646230f3.js slingshot-components-Storyblocks.da5f0488646230f3.js
+14:03:38.944 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/9468-fe055ebc9f9170de.js 9468-fe055ebc9f9170de.js
+14:03:38.944 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/796-e49545d881f2adfa.js 796-e49545d881f2adfa.js
+14:03:38.945 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1346-0fd7253ef1f2fa92.js 1346-0fd7253ef1f2fa92.js
+14:03:38.946 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5404-05060e1ac46fc72b.js 5404-05060e1ac46fc72b.js
+14:03:38.947 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-PersonalizationCarousel.a786e6d27746dd83.js slingshot-components-PersonalizationCarousel.a786e6d27746dd83.js
+14:03:38.948 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-PubAdContainer.d90faab5628d7d92.js slingshot-components-PubAdContainer.d90faab5628d7d92.js
+14:03:38.950 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-Banner.d61dc2a879b0b527.js slingshot-components-Banner.d61dc2a879b0b527.js
+14:03:38.951 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/134-becbd5c53c0f062d.js 134-becbd5c53c0f062d.js
+14:03:38.951 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3040.c9c5dce16f7e3212.js 3040.c9c5dce16f7e3212.js
+14:03:38.952 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5635.e41ef84815810e21.js 5635.e41ef84815810e21.js
+14:03:38.953 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1468.7b9e4d6c4f83b4b9.js 1468.7b9e4d6c4f83b4b9.js
+14:03:38.954 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/6220.0084fc9e14bca711.js 6220.0084fc9e14bca711.js
+14:03:38.955 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/7546.028ab2705038d534.js 7546.028ab2705038d534.js
+14:03:38.956 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-contentpool.132956e1fbc3ead9.js slingshot-components-contentpool.132956e1fbc3ead9.js
+14:03:38.958 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1280.86ddef35c8a46d41.js 1280.86ddef35c8a46d41.js
+14:03:38.959 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-UgcFilmstrip.22601378bad8444d.js slingshot-components-UgcFilmstrip.22601378bad8444d.js
+14:03:38.960 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-Browse.d3c1b761b35b008b.js slingshot-components-Browse.d3c1b761b35b008b.js
+14:03:38.962 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/AdAddToCartWrapper.71d53ed1292b9c28.js AdAddToCartWrapper.71d53ed1292b9c28.js
+14:03:38.971 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/UseGptComponent.fe42fab785293b0a.js UseGptComponent.fe42fab785293b0a.js
+14:03:38.973 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/stof-BaseboardAdWrapper.79bcf18417acff47.js stof-BaseboardAdWrapper.79bcf18417acff47.js
+14:03:38.977 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5299.535509aea86ded58.js 5299.535509aea86ded58.js
+14:03:38.979 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/ScheduledDeliveryRateAndTipDrawerDynamic.86937a77250df271.js ScheduledDeliveryRateAndTipDrawerDynamic.86937a77250df271.js
+14:03:38.980 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/webpack-00e01b265bac11bd.js webpack-00e01b265bac11bd.js
+14:03:38.982 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/framework-314c182fa7e2bf37.js framework-314c182fa7e2bf37.js
+14:03:38.983 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/vendor-0e28b3137c6b7747.js vendor-0e28b3137c6b7747.js
+14:03:38.984 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/main-cc6480bbee58b15c.js main-cc6480bbee58b15c.js
+14:03:38.987 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/_app-c7cf8d06176ace59.js _app-c7cf8d06176ace59.js
+14:03:38.988 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3246-40293662dd6b93c5.js 3246-40293662dd6b93c5.js
+14:03:38.990 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3289-d05696a901317f81.js 3289-d05696a901317f81.js
+14:03:38.991 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/9764-2441b6fd3ec1abaf.js 9764-2441b6fd3ec1abaf.js
+14:03:38.992 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/index-ffccedc42dce446e.js index-ffccedc42dce446e.js
+14:03:38.992 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/fOnDSnTYBQPeU76mO52VU/_buildManifest.js _buildManifest.js
+14:03:38.992 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/fOnDSnTYBQPeU76mO52VU/_ssgManifest.js _ssgManifest.js
+14:03:39.140 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_5cc247ae-50e4-4933-af4a-a58da6cd699a?wid=1200&qlt=80&fmt=webp GUEST_5cc247ae-50e4-4933-af4a-a58da6cd699a
+14:03:39.141 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_7721d8e6-c85f-463c-be35-0045799d8df4?wid=1200&qlt=80&fmt=webp GUEST_7721d8e6-c85f-463c-be35-0045799d8df4
+14:03:39.142 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_2ee548cf-4620-482b-bfb3-8bc144a9d110?wid=500&qlt=80&fmt=webp GUEST_2ee548cf-4620-482b-bfb3-8bc144a9d110
+14:03:39.143 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_dd75f142-2eae-40b9-b096-f9a062343948?wid=500&qlt=80&fmt=webp GUEST_dd75f142-2eae-40b9-b096-f9a062343948
+14:03:39.144 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_d5ec5a83-8efe-40c5-b4ad-068ec8327162?wid=500&qlt=80&fmt=webp GUEST_d5ec5a83-8efe-40c5-b4ad-068ec8327162
+14:03:39.146 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_4e4183b4-04fe-4f86-b0f8-c9c1327a73c9?wid=500&qlt=80&fmt=webp GUEST_4e4183b4-04fe-4f86-b0f8-c9c1327a73c9
+14:03:39.283 POST
+https://api.target.com/rum_analytics/v1?key=S6N4CK5P8KbyvmqOVLApWayFS8vCEuM3
+[HTTP/2 201  439ms]
+
+14:03:39.330 GET
+https://assets.targetimg1.com/ssx/ssx.mod.js?async
+[HTTP/2 200  3397ms]
+
+14:03:39.558 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/2363-2a1ff19fa72ef978.js
+[HTTP/2 200  0ms]
+
+14:03:39.565 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1953-b9208d0a0ea9edac.js
+
+14:03:39.565 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/9090-32af100bad1988e5.js
+
+14:03:39.574 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/ui/fonts/273cae72-9365-49ab-b24f-5d8e2d5e733A.woff2 273cae72-9365-49ab-b24f-5d8e2d5e733A.woff2
+14:03:39.597 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1784-4297904e59ffe223.js
+
+14:03:39.597 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5704-acc77ecf46286092.js
+
+14:03:39.597 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/8486-b99fa9937a7f82d5.js
+
+14:03:39.600 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/4773-bcc3cf9805bb9951.js
+[HTTP/2 200  0ms]
+
+14:03:39.612 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/990-c942de09fd92d2fd.js
+
+14:03:39.612 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/16-0841752d739a5667.js
+
+14:03:39.612 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/4535.b3c1a9997137a9e5.js
+
+14:03:39.616 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3215-1cf70f46e6f756fa.js
+[HTTP/2 200  0ms]
+
+14:03:39.628 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5085-7fe4290c2b838916.js
+
+14:03:39.628 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/9672-5a27384e232fb52d.js
+
+14:03:39.635 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1156-ef9c6e2af0d29870.js
+[HTTP/2 200  0ms]
+
+14:03:39.636 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5371-bc20b9bdc9bf22f8.js
+
+14:03:39.641 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1769-246ceccb88ca6142.js
+[HTTP/2 200  0ms]
+
+14:03:39.644 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1108-0df93088ed606636.js
+
+14:03:39.644 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/stof-PageTitleHidden.5d05096a22a0aa90.js
+
+14:03:39.644 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/500.efa4937e91bed121.js
+
+14:03:39.644 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/6019.0abc35642343df3c.js
+
+14:03:39.649 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/6237-f13910b347ee5dcc.js
+[HTTP/2 200  0ms]
+
+14:03:39.659 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/6909-7bc4a32ffe371354.js
+
+14:03:39.659 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1969.4ad92f3f5801099d.js
+
+14:03:39.659 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/7423.ae80c7bf71cb45db.js
+
+14:03:39.659 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-Superhero.008f26beb5fb99bc.js
+
+14:03:39.672 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/2827-a977b1f864d447fd.js
+[HTTP/2 200  0ms]
+
+14:03:39.675 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3366.6fc4b720cb7b5526.js
+
+14:03:39.675 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-Storyblocks.da5f0488646230f3.js
+
+14:03:39.675 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/9468-fe055ebc9f9170de.js
+
+14:03:39.675 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/796-e49545d881f2adfa.js
+
+14:03:39.689 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/4399-8612ccdc02d76cff.js
+[HTTP/2 200  0ms]
+
+14:03:39.699 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/7612-9fb426b689d48bd6.js
+[HTTP/2 200  0ms]
+
+14:03:39.706 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1346-0fd7253ef1f2fa92.js
+
+14:03:39.706 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5404-05060e1ac46fc72b.js
+
+14:03:39.706 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-PersonalizationCarousel.a786e6d27746dd83.js
+
+14:03:39.715 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/7240-175796daef4aaad1.js
+[HTTP/2 200  0ms]
+
+14:03:39.722 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-PubAdContainer.d90faab5628d7d92.js
+
+14:03:39.722 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-Banner.d61dc2a879b0b527.js
+
+14:03:39.722 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/134-becbd5c53c0f062d.js
+
+14:03:39.722 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3040.c9c5dce16f7e3212.js
+
+14:03:39.722 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5635.e41ef84815810e21.js
+
+14:03:39.754 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1468.7b9e4d6c4f83b4b9.js
+
+14:03:39.754 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/6220.0084fc9e14bca711.js
+
+14:03:39.754 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/7546.028ab2705038d534.js
+
+14:03:39.754 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-contentpool.132956e1fbc3ead9.js
+
+14:03:39.754 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/1280.86ddef35c8a46d41.js
+
+14:03:39.769 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-UgcFilmstrip.22601378bad8444d.js
+
+14:03:39.769 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/slingshot-components-Browse.d3c1b761b35b008b.js
+
+14:03:39.769 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/AdAddToCartWrapper.71d53ed1292b9c28.js
+
+14:03:39.769 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/UseGptComponent.fe42fab785293b0a.js
+
+14:03:39.769 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/stof-BaseboardAdWrapper.79bcf18417acff47.js
+
+14:03:39.785 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/5299.535509aea86ded58.js
+
+14:03:39.785 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/ScheduledDeliveryRateAndTipDrawerDynamic.86937a77250df271.js
+
+14:03:39.785 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/webpack-00e01b265bac11bd.js
+
+14:03:39.800 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/framework-314c182fa7e2bf37.js
+
+14:03:39.800 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/vendor-0e28b3137c6b7747.js
+
+14:03:39.836 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/main-cc6480bbee58b15c.js
+
+14:03:39.836 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/_app-c7cf8d06176ace59.js
+
+14:03:39.848 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3246-40293662dd6b93c5.js
+
+14:03:39.863 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/3289-d05696a901317f81.js
+
+14:03:39.863 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/9764-2441b6fd3ec1abaf.js
+
+14:03:39.879 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/index-ffccedc42dce446e.js
+
+14:03:39.879 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/fOnDSnTYBQPeU76mO52VU/_buildManifest.js
+
+14:03:39.910 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/fOnDSnTYBQPeU76mO52VU/_ssgManifest.js
+
+14:03:40.099 GET
+https://target.scene7.com/is/image/Target/GUEST_5cc247ae-50e4-4933-af4a-a58da6cd699a?wid=1200&qlt=80&fmt=webp
+
+14:03:40.099 GET
+https://target.scene7.com/is/image/Target/GUEST_7721d8e6-c85f-463c-be35-0045799d8df4?wid=1200&qlt=80&fmt=webp
+
+14:03:40.124 GET
+https://target.scene7.com/is/image/Target/GUEST_2ee548cf-4620-482b-bfb3-8bc144a9d110?wid=500&qlt=80&fmt=webp
+[HTTP/2 200  0ms]
+
+14:03:40.128 GET
+https://target.scene7.com/is/image/Target/GUEST_dd75f142-2eae-40b9-b096-f9a062343948?wid=500&qlt=80&fmt=webp
+[HTTP/2 200  0ms]
+
+14:03:40.139 GET
+https://target.scene7.com/is/image/Target/GUEST_d5ec5a83-8efe-40c5-b4ad-068ec8327162?wid=500&qlt=80&fmt=webp
+[HTTP/2 200  0ms]
+
+14:03:40.142 GET
+https://target.scene7.com/is/image/Target/GUEST_4e4183b4-04fe-4f86-b0f8-c9c1327a73c9?wid=500&qlt=80&fmt=webp
+[HTTP/2 200  0ms]
+
+14:03:40.193 GET
+https://www.target.com/icons/assets/decorative/light/BullseyeRed.svg#BullseyeRed
+
+14:03:40.208 GET
+https://www.target.com/icons/assets/glyph/ArrowDown.svg
+[HTTP/2 304  190ms]
+
+14:03:40.224 GET
+https://www.target.com/icons/assets/glyph/Menu.svg
+[HTTP/2 304  1248ms]
+
+14:03:40.240 GET
+https://www.target.com/icons/assets/glyph/PaginationForward.svg
+[HTTP/2 304  1223ms]
+
+14:03:40.243 Empty string passed to getElementById(). LoginManager.shared.mjs:40:23
+14:03:40.243 Empty string passed to getElementById(). LoginManager.shared.mjs:40:23
+14:03:40.256 GET
+https://www.target.com/icons/assets/glyph/Account.svg
+[HTTP/2 304  1254ms]
+
+14:03:40.256 GET
+https://www.target.com/icons/assets/glyph/MediaPlay.svg
+[HTTP/2 304  1255ms]
+
+14:03:40.256 GET
+https://www.target.com/icons/assets/glyph/Cart.svg
+[HTTP/2 304  1271ms]
+
+14:03:40.256 GET
+https://www.target.com/icons/assets/glyph/PaginationBack.svg
+[HTTP/2 304  1286ms]
+
+14:03:40.302 GET
+https://assets.targetimg1.com/ui/fonts/273cae72-9365-49ab-b24f-5d8e2d5e733A.woff2
+[HTTP/2 304  2330ms]
+
+14:03:40.374 Request to access cookie or storage on “<URL>” was blocked because it came from a tracker and content blocking is enabled. 4
+14:03:40.421 Empty string passed to getElementById(). 2 LoginManager.shared.mjs:40:23
+14:03:40.613 Some cookies are misusing the recommended “SameSite“ attribute 58
+14:03:41.383 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/ProductCardVariantDefaultLoader.e54045bd581e5e46.js webpack-00e01b265bac11bd.js:1:20013
+14:03:41.391 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/ProductCardVariantDefaultLoader.e54045bd581e5e46.js
+[HTTP/2 200  0ms]
+
+14:03:41.742 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/smudge.75e99beed40149cb.js webpack-00e01b265bac11bd.js:1:17741
+14:03:41.746 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/murmurhash3js.c779be2af5348578.js webpack-00e01b265bac11bd.js:1:17741
+14:03:41.926 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/component-search-box-SearchTypeahead.1c7665ea4264234c.js webpack-00e01b265bac11bd.js:1:17741
+14:03:42.021 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/smudge.75e99beed40149cb.js
+[HTTP/2 200  0ms]
+
+14:03:42.072 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/murmurhash3js.c779be2af5348578.js
+[HTTP/2 200  0ms]
+
+14:03:42.077 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/component-search-box-SearchTypeahead.1c7665ea4264234c.js
+[HTTP/2 200  0ms]
+
+14:03:42.324 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-firefly-get-tracking-contextual-data.e064257fb84247ed.js webpack-00e01b265bac11bd.js:1:17741
+14:03:42.340 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-firefly-get-tracking-contextual-data.e064257fb84247ed.js
+[HTTP/2 200  0ms]
+
+14:03:42.436 XHROPTIONS
+https://api.target.com/guest_global_content/v1/structured_content/MEDALLIA
+[HTTP/2 200  159ms]
+
+14:03:42.619 XHRGET
+https://api.target.com/guest_global_content/v1/structured_content/MEDALLIA
+[HTTP/2 200  61ms]
+
+14:03:42.763 GET
+https://securepubads.g.doubleclick.net/tag/js/gpt.js
+[HTTP/2 200  0ms]
+
+14:03:42.769 GET
+https://pub.doubleverify.com/signals/pub.js#ctx=21728514&cmp=DV1026531
+[HTTP/2 200  0ms]
+
+14:03:42.777 GET
+https://assets.targetimg1.com/static/images/apple-touch-icon-precomposed.png
+[HTTP/2 200  0ms]
+
+14:03:42.787 GET
+https://assets.targetimg1.com/static/images/favicon-32x32.png
+[HTTP/2 200  0ms]
+
+14:03:43.127 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_0793603f-b1d3-453f-98e9-ef2aaeec45a0?wid=668&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.149 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_9e4fe4fc-ee38-4a81-a376-a8b3550b6310?wid=668&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.167 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_2ee548cf-4620-482b-bfb3-8bc144a9d110?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.173 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 200  112ms]
+
+14:03:43.177 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 200  109ms]
+
+14:03:43.180 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_dd75f142-2eae-40b9-b096-f9a062343948?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.186 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 200  136ms]
+
+14:03:43.189 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 200  110ms]
+
+14:03:43.191 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 200  132ms]
+
+14:03:43.191 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_d5ec5a83-8efe-40c5-b4ad-068ec8327162?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.193 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 200  135ms]
+
+14:03:43.206 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_4e4183b4-04fe-4f86-b0f8-c9c1327a73c9?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.208 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 200  119ms]
+
+14:03:43.218 GET
+https://target.scene7.com/is/image/Target/GUEST_0793603f-b1d3-453f-98e9-ef2aaeec45a0?wid=668&qlt=80&fmt=webp
+
+14:03:43.226 GET
+https://target.scene7.com/is/image/Target/GUEST_9e4fe4fc-ee38-4a81-a376-a8b3550b6310?wid=668&qlt=80&fmt=webp
+
+14:03:43.237 GET
+https://target.scene7.com/is/image/Target/GUEST_2ee548cf-4620-482b-bfb3-8bc144a9d110?wid=521&qlt=80&fmt=webp
+
+14:03:43.238 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_c3a20cd6-3fdc-48d9-af0a-58499f0fa466?wid=668&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.241 GET
+https://target.scene7.com/is/image/Target/GUEST_dd75f142-2eae-40b9-b096-f9a062343948?wid=521&qlt=80&fmt=webp
+
+14:03:43.249 GET
+https://target.scene7.com/is/image/Target/GUEST_d5ec5a83-8efe-40c5-b4ad-068ec8327162?wid=521&qlt=80&fmt=webp
+
+14:03:43.252 GET
+https://target.scene7.com/is/image/Target/GUEST_4e4183b4-04fe-4f86-b0f8-c9c1327a73c9?wid=521&qlt=80&fmt=webp
+
+14:03:43.252 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_08128ab1-29af-4fde-834d-80b1173075ae?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.259 GET
+https://target.scene7.com/is/image/Target/GUEST_c3a20cd6-3fdc-48d9-af0a-58499f0fa466?wid=668&qlt=80&fmt=webp
+
+14:03:43.266 GET
+https://target.scene7.com/is/image/Target/GUEST_08128ab1-29af-4fde-834d-80b1173075ae?wid=521&qlt=80&fmt=webp
+
+14:03:43.267 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_652c79fa-f63b-4fd7-b6c9-8dd87a6d5c7e?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.279 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_15894353-292b-45e9-9f78-ed97850c2e51?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.289 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_2ab385d1-886a-45f3-84ba-a281c084b43e?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:03:43.309 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_59d37725-43ce-4378-a549-2001828b3b2e?fmt=webp&qlt=80&wid=2400 framework-314c182fa7e2bf37.js:9:3480
+14:03:43.316 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  120ms]
+
+14:03:43.320 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  159ms]
+
+14:03:43.367 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  109ms]
+
+14:03:43.377 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  108ms]
+
+14:03:43.379 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_59d37725-43ce-4378-a549-2001828b3b2e?fmt=webp&qlt=80&wid=2400 framework-314c182fa7e2bf37.js:9:91099
+14:03:43.386 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  103ms]
+
+14:03:43.391 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  117ms]
+
+14:03:43.399 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  130ms]
+
+14:03:43.404 GET
+https://target.scene7.com/is/image/Target/GUEST_652c79fa-f63b-4fd7-b6c9-8dd87a6d5c7e?wid=521&qlt=80&fmt=webp
+
+14:03:43.408 GET
+https://target.scene7.com/is/image/Target/GUEST_5cc247ae-50e4-4933-af4a-a58da6cd699a?wid=1200&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:03:43.414 GET
+https://target.scene7.com/is/image/Target/GUEST_7721d8e6-c85f-463c-be35-0045799d8df4?wid=1200&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:03:43.418 GET
+https://target.scene7.com/is/image/Target/GUEST_2ee548cf-4620-482b-bfb3-8bc144a9d110?wid=500&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:03:43.421 GET
+https://target.scene7.com/is/image/Target/GUEST_dd75f142-2eae-40b9-b096-f9a062343948?wid=500&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:03:43.424 GET
+https://target.scene7.com/is/image/Target/GUEST_d5ec5a83-8efe-40c5-b4ad-068ec8327162?wid=500&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:03:43.430 GET
+https://target.scene7.com/is/image/Target/GUEST_4e4183b4-04fe-4f86-b0f8-c9c1327a73c9?wid=500&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:03:43.435 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_96d36380-30c6-463a-a9c0-e651505cd985?wid=1200&qlt=80&fmt=webp GUEST_96d36380-30c6-463a-a9c0-e651505cd985
+14:03:43.439 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_08128ab1-29af-4fde-834d-80b1173075ae?wid=500&qlt=80&fmt=webp GUEST_08128ab1-29af-4fde-834d-80b1173075ae
+14:03:43.440 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_652c79fa-f63b-4fd7-b6c9-8dd87a6d5c7e?wid=500&qlt=80&fmt=webp GUEST_652c79fa-f63b-4fd7-b6c9-8dd87a6d5c7e
+14:03:43.441 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_15894353-292b-45e9-9f78-ed97850c2e51?wid=500&qlt=80&fmt=webp GUEST_15894353-292b-45e9-9f78-ed97850c2e51
+14:03:43.442 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_2ab385d1-886a-45f3-84ba-a281c084b43e?wid=500&qlt=80&fmt=webp GUEST_2ab385d1-886a-45f3-84ba-a281c084b43e
+14:03:43.476 Cookie “3YCzT93n” has been rejected for invalid domain. ssx.mod.js
+14:03:43.476 Cookie “3YCzT93n” has been rejected for invalid domain. ssx.mod.js
+14:03:43.479 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIDAwz6OAQAAR7VpcARMuyMWUO92jTvfyZEJmNlcJRByvziKqLZZikcrC6My&X-GyJwza5Z--z=q ssx.mod.js:1:916
+14:03:43.502 GET
+https://target.scene7.com/is/image/Target/GUEST_59d37725-43ce-4378-a549-2001828b3b2e?fmt=webp&qlt=80&wid=2400
+
+14:03:43.533 GET
+https://target.scene7.com/is/image/Target/GUEST_15894353-292b-45e9-9f78-ed97850c2e51?wid=521&qlt=80&fmt=webp
+
+14:03:43.610 GET
+https://target.scene7.com/is/image/Target/GUEST_2ab385d1-886a-45f3-84ba-a281c084b43e?wid=521&qlt=80&fmt=webp
+
+14:03:44.232 GET
+https://target.scene7.com/is/image/Target/GUEST_59d37725-43ce-4378-a549-2001828b3b2e?fmt=webp&qlt=80&wid=2400
+[HTTP/2 200  0ms]
+
+14:03:44.396 GET
+https://target.scene7.com/is/image/Target/GUEST_96d36380-30c6-463a-a9c0-e651505cd985?wid=1200&qlt=80&fmt=webp
+[HTTP/2 200  0ms]
+
+14:03:44.409 GET
+https://target.scene7.com/is/image/Target/GUEST_08128ab1-29af-4fde-834d-80b1173075ae?wid=500&qlt=80&fmt=webp
+[HTTP/2 200  0ms]
+
+14:03:44.421 GET
+https://target.scene7.com/is/image/Target/GUEST_652c79fa-f63b-4fd7-b6c9-8dd87a6d5c7e?wid=500&qlt=80&fmt=webp
+[HTTP/2 200  0ms]
+
+14:03:44.427 GET
+https://target.scene7.com/is/image/Target/GUEST_15894353-292b-45e9-9f78-ed97850c2e51?wid=500&qlt=80&fmt=webp
+[HTTP/2 200  0ms]
+
+14:03:44.434 GET
+https://target.scene7.com/is/image/Target/GUEST_2ab385d1-886a-45f3-84ba-a281c084b43e?wid=500&qlt=80&fmt=webp
+[HTTP/2 200  0ms]
+
+14:03:44.610 GET
+https://assets.targetimg1.com/ssx/ssx.mod.js?seed=AIDAwz6OAQAAR7VpcARMuyMWUO92jTvfyZEJmNlcJRByvziKqLZZikcrC6My&X-GyJwza5Z--z=q
+[HTTP/2 200  0ms]
+
+14:03:44.723 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=experiment
+[HTTP/2 200  119ms]
+
+14:03:44.987 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=experiment
+[HTTP/2 201  107ms]
+
+14:03:45.205 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202403130101/pubads_impl.js gpt.js:10:45306
+14:03:45.298 GET
+https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202403130101/pubads_impl.js
+[HTTP/2 200  0ms]
+
+14:03:45.555 XHROPTIONS
+https://redoak.target.com/content-publish/pages/v1?url=/c/-/-/N-4nav&shallow=true
+[HTTP/2 204  5008ms]
+
+14:03:45.627 XHRGET
+https://redoak.target.com/content-publish/pages/v1?url=/c/-/-/N-4nav&shallow=true
+[HTTP/2 200  25ms]
+
+14:03:45.742 Error: Failed to lookup route: /l/target-circle/-/N-pzno9
+    NextJS 52
+vendor-0e28b3137c6b7747.js:20:14139
+14:03:46.399 : 
+ssx.mod.js:1:101852
+14:03:46.505 Use of the orientation sensor is deprecated. vendor-0e28b3137c6b7747.js:20:21420
+14:03:46.511 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://ponos.zeronaught.com/1?a=20d8370f857c86e20426b3d5f5f4a9c0277b13bb&b=AzsXxz6OAQAAXUhossv8_Onn8f_fUWFlnxqXjlRjbVmEJA8OUa0pnsHgzI11AWIzAAmcuHHrwH8AAEB3AAAAAA==&c=240388775 www.target.com:35:2099
+14:03:46.544 XHRGET
+https://ponos.zeronaught.com/1?a=20d8370f857c86e20426b3d5f5f4a9c0277b13bb&b=AzsXxz6OAQAAXUhossv8_Onn8f_fUWFlnxqXjlRjbVmEJA8OUa0pnsHgzI11AWIzAAmcuHHrwH8AAEB3AAAAAA==&c=240388775
+[HTTP/1 200 OK 510ms]
+
+14:03:47.105 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/8989-1b78e9347076d834.js 8989-1b78e9347076d834.js
+14:03:47.121 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/2779-6d5451f8ae9ad371.js 2779-6d5451f8ae9ad371.js
+14:03:47.122 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/c/%5B...subpath%5D-b4430a74d623b23d.js [...subpath]-b4430a74d623b23d.js
+14:03:47.174 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/8989-1b78e9347076d834.js
+[HTTP/2 200  0ms]
+
+14:03:47.178 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/2779-6d5451f8ae9ad371.js
+[HTTP/2 200  0ms]
+
+14:03:47.189 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/c/[...subpath]-b4430a74d623b23d.js
+[HTTP/2 200  0ms]
+
+14:03:47.452 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  791ms]
+
+14:03:47.467 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=pageload
+[HTTP/2 201  833ms]
+
+14:03:47.603 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=21728514&cmp=DV1026531&url=https%3A%2F%2Ftarget.com&ids=1&token=default www.target.com:35:2099
+14:03:47.617 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=21728514&cmp=DV1026531&url=https%3A%2F%2Ftarget.com%2F%3F%26AFID%3Dgoogle%26fndsrc%3Dtgtao%26DFA%3D71700000012637812%26CPNG%3DOther_Target%252BBrand%257CHoliday_Ecomm_Other%26adgroup%3DCore%252BBranded%252BKeywords%26LID%3D700000001170706%26LNM%3Dtarget%26MT%3De%26network%3Dg%26device%3Dc%26location%3D9032170%26targetid%3Dkwd-19131461%26gad_source%3D1%26gclid%3DCj0KCQjwwMqvBhCtARIsAIXsZpbVWSUwve41rxuAaT5pngD9cNTy9NBrfAi_vfIZcWFXuYj2_Wj-FcsaAsvJEALw_wcB%26gclsrc%3Daw.ds%26code%3D33c211c7-3967-4742-bce1-8a873076c6db%26state%3D1710450040392%26status%3Dsuccess&bsc=1&token=default www.target.com:35:2099
+14:03:47.623 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://pub.doubleverify.com/dvtag/signals/vlp/pub.json?ctx=21728514&cmp=DV1026531&url=https%3A%2F%2Ftarget.com&vlp=1&tvp=1&slot-0-%2F7079046%2Ftgt%2Fhomepage=&slot-1-%2F7079046%2Ftgt%2Fhomepage=&token=default www.target.com:35:2099
+14:03:47.704 XHRPOST
+https://gsp.target.com/gsp/oauth_tokens/v2/client_tokens
+[HTTP/2 201  894ms]
+
+14:03:47.797 XHROPTIONS
+https://api.target.com/consumers/v1/ttms/events?platform=web
+[HTTP/2 200  503ms]
+
+14:03:47.805 XHROPTIONS
+https://api.target.com/firefly_events/v1/events/slingshot_impression
+[HTTP/2 200  495ms]
+
+14:03:47.987 POST
+https://api.target.com/telemetry_data/v1/traces?key=5622b71fe94d55e17b492fa9e2b07dbc69f68c4f
+[HTTP/2 200  6754ms]
+
+14:03:48.135 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/scripts/medalliav2/embed.prod.20240216-01.js _app-c7cf8d06176ace59.js:445:53654
+14:03:48.163 GET
+https://assets.targetimg1.com/webui/scripts/medalliav2/embed.prod.20240216-01.js
+[HTTP/2 200  0ms]
+
+14:03:48.349 XHRPOST
+https://api.target.com/consumers/v1/ttms/events?platform=web
+[HTTP/2 201  6405ms]
+
+14:03:48.353 XHRPOST
+https://api.target.com/firefly_events/v1/events/slingshot_impression
+[HTTP/2 201  6404ms]
+
+14:03:48.372 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://resources.digital-cloud.medallia.com/wdcus/235967/onsite/generic1707920775191.js embed.prod.20240216-01.js:2:234
+14:03:48.501 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-pixelator-marketing-pixels-effect.a9c925ff50316999.js webpack-00e01b265bac11bd.js:1:17741
+14:03:48.513 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-pixelator-marketing-pixels-effect.a9c925ff50316999.js
+[HTTP/2 200  0ms]
+
+14:03:48.543 XHRGET
+https://taglocker.target.com/tag-locker-config/rules-react.json
+[HTTP/2 200  0ms]
+
+14:03:48.743 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-pixelator-script-google-floodlight-add-to-cart-pixel.5ad9ccc0ed5647aa.js webpack-00e01b265bac11bd.js:1:17741
+14:03:48.751 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-pixelator-script-google-tag-top-of-funnel-pixel.8283956262a39534.js webpack-00e01b265bac11bd.js:1:17741
+14:03:48.759 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-pixelator-script-google-floodlight-add-to-cart-pixel.5ad9ccc0ed5647aa.js
+[HTTP/2 200  0ms]
+
+14:03:48.759 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-pixelator-script-top-of-funnel-landing-pixel.17da29bca19a79d3.js webpack-00e01b265bac11bd.js:1:17741
+14:03:48.780 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-pixelator-script-google-tag-top-of-funnel-pixel.8283956262a39534.js
+[HTTP/2 200  0ms]
+
+14:03:48.788 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/web-pixelator-script-top-of-funnel-landing-pixel.17da29bca19a79d3.js
+[HTTP/2 200  0ms]
+
+14:03:48.990 XHRGET
+https://pub.doubleverify.com/dvtag/signals/bsc/pub.json?ctx=21728514&cmp=DV1026531&url=https://target.com/?&AFID=google&fndsrc=tgtao&DFA=71700000012637812&CPNG=Other_Target%2BBrand%7CHoliday_Ecomm_Other&adgroup=Core%2BBranded%2BKeywords&LID=700000001170706&LNM=target&MT=e&network=g&device=c&location=9032170&targetid=kwd-19131461&gad_source=1&gclid=Cj0KCQjwwMqvBhCtARIsAIXsZpbVWSUwve41rxuAaT5pngD9cNTy9NBrfAi_vfIZcWFXuYj2_Wj-FcsaAsvJEALw_wcB&gclsrc=aw.ds&code=33c211c7-3967-4742-bce1-8a873076c6db&state=1710450040392&status=success&bsc=1&token=default
+[HTTP/2 200  562ms]
+
+14:03:49.007 XHRGET
+https://pub.doubleverify.com/dvtag/signals/ids/pub.json?ctx=21728514&cmp=DV1026531&url=https://target.com&ids=1&token=default
+[HTTP/3 200  0ms]
+
+14:03:49.018 XHRGET
+https://pub.doubleverify.com/dvtag/signals/vlp/pub.json?ctx=21728514&cmp=DV1026531&url=https://target.com&vlp=1&tvp=1&slot-0-/7079046/tgt/homepage=&slot-1-/7079046/tgt/homepage=&token=default
+[HTTP/3 200  0ms]
+
+14:03:49.021 GET
+https://resources.digital-cloud.medallia.com/wdcus/235967/onsite/generic1707920775191.js
+[HTTP/2 200  0ms]
+
+14:03:49.351 XHROPTIONS
+https://api.target.com/guest_profile_details/v1/profile_details/profiles?fields=address,affiliation,loyalty
+[HTTP/2 200  5384ms]
+
+14:03:49.462 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://udc-neb.kampyle.com/v1/qceuv8449dzg58ptt1bhda9g8ue19c7s/track www.target.com:35:2099
+14:03:49.479 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://udc-neb.kampyle.com/v1/qceuv8449dzg58ptt1bhda9g8ue19c7s/track www.target.com:35:2099
+14:03:49.492 XHRPOST
+https://udc-neb.kampyle.com/v1/qceuv8449dzg58ptt1bhda9g8ue19c7s/track
+[HTTP/2 200  5058ms]
+
+14:03:49.492 XHRPOST
+https://udc-neb.kampyle.com/v1/qceuv8449dzg58ptt1bhda9g8ue19c7s/track
+[HTTP/2 200  5821ms]
+
+14:03:49.627 WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER. 327e6451-1304-4f04-b14f-d8e88821edd4:1:689
+14:03:49.898 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://securepubads.g.doubleclick.net/gampad/ads?pvsid=2445339140146062&correlator=4006926559909143&eid=31079956%2C95327888%2C31081447&output=ldjh&gdfp_req=1&vrg=202403130101&ptt=17&impl=fifs&iu_parts=7079046%2Ctgt%2Chomepage&enc_prev_ius=%2F0%2F1%2F2%2C%2F0%2F1%2F2&prev_iu_szs=320x50%7C300x75%2C320x50%7C300x75&fluid=height%2Cheight&ifi=1&sfv=1-0-40&eri=1&sc=1&cookie=ID%3Dec4c873a65de0309%3AT%3D1710449703%3ART%3D1710449703%3AS%3DALNI_MZtCzpeaeg2Ryo6EomjvwBYR4PCgA&gpic=UID%3D00000dc7bf71cd5b%3AT%3D1710449703%3ART%3D1710449703%3AS%3DALNI_MbTBe1Pgve4VpIfoAIXLGSf2LBdrA&abxe=1&dt=1710450229855&lmt=1710450229&adxs=0%2C0&adys=2113%2C6774&biw=1093&bih=314&scr_x=0&scr_y=0&btvi=1%7C2&ucis=1%7C2&oid=2&u_his=5&u_h=614&u_w=1093&u_ah=566&u_aw=1093&u_cd=24&u_sd=1.25&u_tz=-420&bc=31&nvt=1&url=https%3A%2F%2Fwww.target.com%2F%3Fref%3Dtgt_adv_xsl%26AFID%3Dgoogle%26fndsrc%3Dtgtao%26DFA%3D71700000012637812%26CPNG%3DOther_Target%252BBrand%257CHoliday_Ecomm_Other%26adgroup%3DCore%252BBranded%252BKeywords%26LID%3D700000001170706%26LNM%3Dtarget%26MT%3De%26network%3Dg%26device%3Dc%26location%3D9032170%26targetid%3Dkwd-19131461%26gad_source%3D1%26gclid%3DCj0KCQjwwMqvBhCtARIsAIXsZpbVWSUwve41rxuAaT5pngD9cNTy9NBrfAi_vfIZcWFXuYj2_Wj-FcsaAsvJEALw_wcB%26gclsrc%3Daw.ds&ref=https%3A%2F%2Fwww.target.com%2Flogin%3Fclient_id%3Decom-web-1.0.0%26ui_namespace%3Dui-default%26back_button_action%3Dbrowser%26keep_me_signed_in%3Dtrue%26kmsi_default%3Dfalse%26actions%3Dcreate_session_signin&vis=1&psz=1092x0%7C1092x0&msz=1092x0%7C1092x0&fws=4%2C4&ohw=1092%2C1092&ga_vid=1273502043.1710450230&ga_sid=1710450230&ga_hid=1844163203&ga_fc=false&dlt=1710450218753&idt=8295&ppid=018E3EBDF092020190B32E0CCCE42AF0&prev_scp=as%3Dhomeclpu%26au%3D%252F7079046%252Ftgt%252Fhomepage%26pflag%3Dno%26pos%3Dclpu%26pt%3Dhome%26storeId%3D3991%26pts_sid%3D7bbf4ced-1320-42ba-b050-180c30a15819%26VLP%3D1%26TVP%3D5-8%26qt_loaded%3Dids%2Cbsc%2Cvlp%2Ctvp%7Cas%3Dhomemega%26au%3D%252F7079046%252Ftgt%252Fhomepage%26pflag%3Dno%26pos%3Dmega%26pt%3Dhome%26storeId%3D3991%26pts_sid%3D7bbf4ced-1320-42ba-b050-180c30a15819%26VLP%3D1%26TVP%3D5-8%26qt_loaded%3Dids%2Cbsc%2Cvlp%2Ctvp&cust_params=n_cat%3Dhomepage%26s_t%3D%26cat%3D%26fly%3D018E3EBDF092020190B32E0CCCE42AF0%26item%3D%26pt%3Dhome%26pts_pid%3D2762719f-87ee-4b58-94cf-c5a5b951006f%26IDS%3D0%26qt_loaded%3Dids%252Cbsc%26BSC%3D84201001&adks=3192776667%2C3192686890&frm=20&eo_id_str=ID%3Dea6546283338cde4%3AT%3D1710449703%3ART%3D1710449703%3AS%3DAA-AfjaCm5VtZ71067UVf3a1WIzV www.target.com:35:2099
+14:03:49.920 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=m202403130101&st=env www.target.com:35:2099
+14:03:49.947 XHRGET
+https://pagead2.googlesyndication.com/getconfig/sodar?sv=200&tid=gpt&tv=m202403130101&st=env
+[HTTP/2 200  3176ms]
+
+14:03:49.962 XHRGET
+https://securepubads.g.doubleclick.net/gampad/ads?pvsid=2445339140146062&correlator=4006926559909143&eid=31079956,95327888,31081447&output=ldjh&gdfp_req=1&vrg=202403130101&ptt=17&impl=fifs&iu_parts=7079046,tgt,homepage&enc_prev_ius=/0/1/2,/0/1/2&prev_iu_szs=320x50|300x75,320x50|300x75&fluid=height,height&ifi=1&sfv=1-0-40&eri=1&sc=1&cookie=ID=ec4c873a65de0309:T=1710449703:RT=1710449703:S=ALNI_MZtCzpeaeg2Ryo6EomjvwBYR4PCgA&gpic=UID=00000dc7bf71cd5b:T=1710449703:RT=1710449703:S=ALNI_MbTBe1Pgve4VpIfoAIXLGSf2LBdrA&abxe=1&dt=1710450229855&lmt=1710450229&adxs=0,0&adys=2113,6774&biw=1093&bih=314&scr_x=0&scr_y=0&btvi=1|2&ucis=1|2&oid=2&u_his=5&u_h=614&u_w=1093&u_ah=566&u_aw=1093&u_cd=24&u_sd=1.25&u_tz=-420&bc=31&nvt=1&url=https://www.target.com/?ref=tgt_adv_xsl&AFID=google&fndsrc=tgtao&DFA=71700000012637812&CPNG=Other_Target%2BBrand%7CHoliday_Ecomm_Other&adgroup=Core%2BBranded%2BKeywords&LID=700000001170706&LNM=target&MT=e&network=g&device=c&location=9032170&targetid=kwd-19131461&gad_source=1&gclid=Cj0KCQjwwMqvBhCtARIsAIXsZpbVWSUwve41rxuAaT5pngD9cNTy9NBrfAi_vfIZcWFXuYj2_Wj-FcsaAsvJEALw_wcB&gclsrc=aw.ds&ref=https://www.target.com/login?client_id=ecom-web-1.0.0&ui_namespace=ui-default&back_button_action=browser&keep_me_signed_in=true&kmsi_default=false&actions=create_session_signin&vis=1&psz=1092x0|1092x0&msz=1092x0|1092x0&fws=4,4&ohw=1092,1092&ga_vid=1273502043.1710450230&ga_sid=1710450230&ga_hid=1844163203&ga_fc=false&dlt=1710450218753&idt=8295&ppid=018E3EBDF092020190B32E0CCCE42AF0&prev_scp=as=homeclpu&au=%2F7079046%2Ftgt%2Fhomepage&pflag=no&pos=clpu&pt=home&storeId=3991&pts_sid=7bbf4ced-1320-42ba-b050-180c30a15819&VLP=1&TVP=5-8&qt_loaded=ids,bsc,vlp,tvp|as=homemega&au=%2F7079046%2Ftgt%2Fhomepage&pflag=no&pos=mega&pt=home&storeId=3991&pts_sid=7bbf4ced-1320-42ba-b050-180c30a15819&VLP=1&TVP=5-8&qt_loaded=ids,bsc,vlp,tvp&cust_params=n_cat=homepage&s_t=&cat=&fly=018E3EBDF092020190B32E0CCCE42AF0&item=&pt=home&pts_pid=2762719f-87ee-4b58-94cf-c5a5b951006f&IDS=0&qt_loaded=ids%2Cbsc&BSC=84201001&adks=3192776667,3192686890&frm=20&eo_id_str=ID=ea6546283338cde4:T=1710449703:RT=1710449703:S=AA-AfjaCm5VtZ71067UVf3a1WIzV
+[HTTP/2 200  3258ms]
+
+14:03:50.009 GET
+https://96dd48c82498c11af47ddea2f6fefb9a.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html
+[HTTP/2 200  6051ms]
+
+14:03:50.088 XHROPTIONS
+https://carts.target.com/web_checkouts/v1/cart_views?cart_type=REGULAR&field_groups=ADDRESSES,CART_ITEMS,SUMMARY&key=9f36aeafbe60771e321a7cc95a78140772ab3e96&client_feature=cart
+[HTTP/2 200  4634ms]
+
+14:03:50.323 Error: Failed to lookup route: /l/target-circle/-/N-pzno9
+    NextJS 52
+vendor-0e28b3137c6b7747.js:20:14139
+14:03:50.355 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  4445ms]
+
+14:03:50.437 POST
+https://pub.doubleverify.com/dvtag/metrics/event.png?b11=legacy-success&d6=0&d7=2214&b12=legacy&b2=6908eca&b3=&b7=2762719f-87ee-4b58-94cf-c5a5b951006f&b9=legacy&b8=&b5=21728514&b6=DV1026531&b4=www.target.com&b1=ad-request&d1=1&d2=1
+[HTTP/3 204  247ms]
+
+14:03:50.665 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/8989-1b78e9347076d834.js main-cc6480bbee58b15c.js:5:186673
+14:03:50.668 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/2779-6d5451f8ae9ad371.js main-cc6480bbee58b15c.js:5:186673
+14:03:50.672 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/c/%5B...subpath%5D-b4430a74d623b23d.js main-cc6480bbee58b15c.js:5:186673
+14:03:50.676 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/8989-1b78e9347076d834.js
+[HTTP/2 200  0ms]
+
+14:03:50.721 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/2779-6d5451f8ae9ad371.js
+[HTTP/2 200  0ms]
+
+14:03:50.725 GET
+https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/pages/c/[...subpath]-b4430a74d623b23d.js
+[HTTP/2 200  0ms]
+
+14:03:51.431 The resource at “https://assets.targetimg1.com/webui/top-of-funnel/_next/static/chunks/ProductCardVariantDefaultLoader.e54045bd581e5e46.js” preloaded with link preload was not used within a few seconds. Make sure all attributes of the preload tag are set correctly. www.target.com
+14:03:52.154 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://tpc.googlesyndication.com/sodar/sodar2.js pubads_impl.js:10:5755
+14:03:54.046 GET
+https://tpc.googlesyndication.com/sodar/sodar2.js
+[HTTP/2 200  0ms]
+
+14:03:54.664 Request to access cookie or storage on “https://96dd48c82498c11af47ddea2f6fefb9a.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html” was blocked because it came from a tracker and content blocking is enabled.
+14:03:54.779 XHRGET
+https://carts.target.com/web_checkouts/v1/cart_views?cart_type=REGULAR&field_groups=ADDRESSES,CART_ITEMS,SUMMARY&key=9f36aeafbe60771e321a7cc95a78140772ab3e96&client_feature=cart
+[HTTP/2 200  612ms]
+
+14:03:54.793 XHRGET
+https://api.target.com/guest_profile_details/v1/profile_details/profiles?fields=address,affiliation,loyalty
+[HTTP/2 200  166ms]
+
+14:03:55.268 GET
+https://96dd48c82498c11af47ddea2f6fefb9a.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html
+[HTTP/2 200  0ms]
+
+14:03:55.900 GET
+https://96dd48c82498c11af47ddea2f6fefb9a.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html
+[HTTP/2 200  0ms]
+
+14:03:56.120 GET
+https://tpc.googlesyndication.com/safeframe/1-0-40/js/ext.js
+[HTTP/2 200  0ms]
+
+14:03:56.164 Request to access cookie or storage on “<URL>” was blocked because it came from a tracker and content blocking is enabled. 5
+14:03:56.165 GET
+https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js
+[HTTP/3 200  0ms]
+
+14:03:56.170 GET
+https://cdn.doubleverify.com/dvtp_src.js?t2te=0&seltag=1&adsrv=104&cmp=DV503696&ctx=21728514&sadv=14472926&ord=3267538475&litm=6412093670&scrt=138459828124&splc=/7079046/tgt/homepage&adu=107197886&unit=0x0&dvp_qtpid=2762719f-87ee-4b58-94cf-c5a5b951006f&dvp_qtsid=7bbf4ced-1320-42ba-b050-180c30a15819&btreg=6412093670138459828124&btadsrv=6412093670138459828124&spos=clpu&c1=home&c2=&c3=homeclpu&c4=
+[HTTP/1.1 200 OK 292ms]
+
+14:03:56.894 GET
+https://tpc.googlesyndication.com/safeframe/1-0-40/js/ext.js
+[HTTP/2 200  0ms]
+
+14:03:57.030 GET
+https://pixel.adsafeprotected.com/rjss/st/2010921/78908114/skeleton.js
+[HTTP/2 200  3013ms]
+
+14:03:57.033 GET
+https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js
+[HTTP/3 200  0ms]
+
+14:03:57.035 GET
+https://cdn.doubleverify.com/dvtp_src.js?t2te=0&seltag=1&adsrv=104&cmp=DV503696&ctx=21728514&sadv=5360576125&ord=3336712068&litm=6488243955&scrt=138467778310&splc=/7079046/tgt/homepage&adu=107197886&unit=0x0&dvp_qtpid=2762719f-87ee-4b58-94cf-c5a5b951006f&dvp_qtsid=7bbf4ced-1320-42ba-b050-180c30a15819&btreg=6488243955138467778310&btadsrv=6488243955138467778310&spos=mega&c1=home&c2=&c3=homemega&c4=
+[HTTP/1.1 200 OK 53ms]
+
+14:03:57.163 GET
+https://tpc.googlesyndication.com/simgad/1087784099226444704?
+
+14:03:57.165 GET
+https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjss1m31vrk-cPyHDSHxujnvUNpwor7OIXlPdAKkNnwvCBEZzmR48SCJAznDGxKeUCYfo0-ycTrgLQgEI1DWeEmRVrUh7QcXPxLidB2ZBF19kq-xzejRoGePOHi-37iMcH92xgu1nIA3xHyibRmEYT4XDVhGXa3RvGc_HuTRUd8eto0VgIhd5Ub7lBVacFO1MF4xym3iqTM61YNCh43H9EMAumV-z9Pzp2LwqsgNS3N4fXzBGAsba6C2xBy-YpjpFdhktY5p4AoFWN7eoqSBstQZtxqIzhQJOwTkjdtZdMuIkTi6iQCpzOVD-QwKLUySneftppSDo1_kzXmKMcyv-ztvdn_Bn7sMBxF6hpAvVc5pG_IeDojvJZaMZ5jPe-O8&sai=AMfl-YRrqQ0q_gLHoHI2QuGg15cfzhbVfj6S3QNyJCDEWlKJdZJBWU4kM4vjV_8N8qPiQR4sNq0H07dvrrUNiLZYDhYyonvLiZnAJ9YXMdDnZQoyB3L976vnE9jHhPyRcPJxMcbiCPQc-aJAGFonMDJzuMrlgf1EtmEszOOBoh4EwDA4xpv2kQvJACSvRM0iLF7sPy4-YLE_2CANGNi_a7jKejNL8h6u6MZQa6AvNfkaDZeKFQ&sig=Cg0ArKJSzFvYZXF5bCA0EAE&uach_m=[UACH]&urlfix=1&adurl=
+
+14:03:57.167 GET
+https://ad.doubleclick.net/ddm/trackimp/N6733.3773TARGETCORPORATION/B31143381.382384697;dc_trk_aid=574395268;dc_trk_cid=206342233;ord=671411300;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=;gdpr_consent=;ltd=;dc_tdv=1?
+[HTTP/3 200  156ms]
+
+14:03:57.194 Request to access cookie or storage on “<URL>” was blocked because it came from a tracker and content blocking is enabled. 5
+14:03:57.340 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. dvtp_src.js:2:3917
+14:03:57.433 An unbalanced tree was written using document.write() causing data from the network to be reparsed. More information: https://developer.mozilla.org/en-US/docs/Glossary/speculative_parsing container.html:17:13
+14:03:57.445 A resource is blocked by OpaqueResponseBlocking, please check browser console for details. view
+14:03:57.830 GET
+https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html
+[HTTP/2 200  0ms]
+
+14:03:57.915 GET
+https://tpc.googlesyndication.com/simgad/1800733447272221795?
+[HTTP/2 200  566ms]
+
+14:03:58.068 GET
+https://www.google.com/recaptcha/api2/aframe
+[HTTP/2 200  811ms]
+
+14:03:58.107 Request to access cookie or storage on “https://tpc.googlesyndication.com/sodar/sodar2/225/runner.html” was blocked because it came from a tracker and content blocking is enabled.
+14:03:58.199 GET
+https://cdn.doubleverify.com/dv-measurements5633.js
+[HTTP/1.1 200 OK 0ms]
+
+14:03:58.356 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/ad_impression?_debugEvent=adimp
+[HTTP/2 200  99ms]
+
+14:03:58.356 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/ad_impression?_debugEvent=adimp
+[HTTP/2 200  111ms]
+
+14:03:58.481 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/ad_impression?_debugEvent=adimp
+[HTTP/2 201  115ms]
+
+14:03:58.497 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/ad_impression?_debugEvent=adimp
+[HTTP/2 201  110ms]
+
+14:03:58.622 XHROPTIONS
+https://api.target.com/post_order_modifications/v1/shipt/orders/pending
+[HTTP/2 200  99ms]
+
+14:03:58.775 XHRGET
+https://api.target.com/post_order_modifications/v1/shipt/orders/pending
+[HTTP/2 200  593ms]
+
+14:03:58.887 XHRGET
+https://sapphire-api.target.com/sapphire/runtime/api/v1/qualified-experiments?service=digital-web,redoak,r2d2&source=top-of-funnel&app_installed=true&base_membership=false&card_membership=false&channel=web&context=geo,95110|37.328846|-121.898591|CA|US&loyalty_id=tly.7dbefdf8b41c4e53b4f48b223b71670c&member_id=20068476159&paid_membership=false&redcard_holder=false&state=CA&store_id=1984&tm=false&visitor_id=018E3EBDF092020190B32E0CCCE42AF0&zip=95110
+[HTTP/2 200  141ms]
+
+14:03:58.902 GET
+https://tps.doubleverify.com/visit.js?gdpr=&gdpr_consent=&flvr=0&ttmms=1157&ttfrms=441&bridua=2&tstype=128&eparams=DC4FC=l9EEADTbpTauTauHHH]E2C86E]4@>Tau&srcurlD=0&aUrlD=0&ssl=https:&dfs=1407&ddur=184&uid=1710450238866333&jsCallback=dvCallback_1710450238866627&dvtagver=6.1.src&navUa=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0&htmlmsging=1&chro=0&hist=5&winh=0&winw=1093&wouh=581&wouw=1107&scah=566&scaw=1093&jsver=5633&tgjsver=5633&lvvn=28&m1=13&refD=1&sfe=1&fcifrms=6&brh=5&dvp_epl=48&noc=4&nav_pltfrm=Win32&ctx=21728514&cmp=DV503696&btreg=6412093670138459828124&btadsrv=6412093670138459828124&adsrv=104&unit=0x0&seltag=1&sadv=14472926&ord=3267538475&litm=6412093670&scrt=138459828124&splc=/7079046/tgt/homepage&adu=107197886&spos=clpu&c1=home&c3=homeclpu&errorURL=https://tps.doubleverify.com/visit.jpg&mib=0&t2te=0&dvp_qtpid=2762719f-87ee-4b58-94cf-c5a5b951006f&dvp_qtsid=7bbf4ced-1320-42ba-b050-180c30a15819&dvp_rcp=2&dvp_htec=2&dvp_seem=2&dvp_tuk=1&dvp_sukv=85859425700.55325&ee_dp_sukv=85859425700.55325&dvp_tukv=575291241594.3776&ee_dp_tukv=575291241594.3776&dvp_strhd=2&dvpx_strhd=2&dvp_tuid=455999054770&jurtd=665737642
+[HTTP/1.1 200 OK 347ms]
+
+14:03:59.012 GET
+https://www.target.com/icons/assets/glyph/TrackLocation.svg
+[HTTP/2 304  63ms]
+
+14:03:59.169 XHRGET
+https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjssWN1E9Y9wbrevqwOELozmlExOQNqSxXkR7ijlkQh55_pevzcZAn4W6tgcXqf5A-l9x4msyMc2CA7M9EURr79ny6LIkHPWhcQjFGxy225OMNb1Zthq5JW9qEI3CRCCi6Dc42dsmCn6gTZpMK_AQIR2uRU3ABmsMKrC66BWMqIz7_vb1-ohsBFBYuCYOnZKeNMx9msx7f4kO7rKqBh_eij0j_l64B5nJTuwv-jVa_SxfwnwhAifzMw-doCRfdlzieKkqgxDIa-AzjvVmEvdaOoMlIzaOewrWqmTxdl6AK7gP34r1UHKwUM1dDrBBkARnGi-J-gVdgnRHwuR7T6sx-hIZ-jt9RjhYuM81krcqkseUMy2Znp1tLa2b6_5x-iodPw&sai=AMfl-YQO_W257WL5qADGUJu3lNkIDMkE6qABtvnMNk_jrOGtE1az-1oMSM5ZCJlWYMcAE7t9hQzGHVzJLQkd4o0TiDFoRvY-5PQz65eIBr3PUulKEDW7cdL3zqh429Kdhbm6bB9gVFJn5RT8SIqQDvEW911Cr5-6-iVcPjb6csNvJpiAD3Yj1lVwO3F_seqfmqDqNNMQ92CzeTGcQ24XkZfADhVshSilIVZ-oD1VbSyLFXy26g&sig=Cg0ArKJSzH2zBSA_BPZrEAE&uach_m=[UACH]&urlfix=1&adurl=
+[HTTP/2 200  62ms]
+
+14:03:59.403 Content-Security-Policy warnings 4
+14:03:59.787 XHRGET
+https://redsky.target.com/redsky_aggregations/v1/web/store_location_v1?store_id=1984&key=9f36aeafbe60771e321a7cc95a78140772ab3e96&visitor_id=018E3EBDF092020190B32E0CCCE42AF0&channel=WEB&page=/c/root
+[HTTP/2 200  226ms]
+
+14:03:59.800 XHRGET
+https://redsky.target.com/redsky_aggregations/v1/web/store_location_v1?store_id=2088&key=9f36aeafbe60771e321a7cc95a78140772ab3e96&visitor_id=018E3EBDF092020190B32E0CCCE42AF0&channel=WEB&page=/c/root
+[HTTP/2 200  410ms]
+
+14:03:59.804 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. dvtp_src.js:2:3917
+14:03:59.843 GET
+https://tpc.googlesyndication.com/simgad/15804283637378286316?
+
+14:03:59.986 An unbalanced tree was written using document.write() causing data from the network to be reparsed. More information: https://developer.mozilla.org/en-US/docs/Glossary/speculative_parsing container.html:17:13
+14:04:00.025 GET
+https://cdn.doubleverify.com/dv-measurements5633.js
+[HTTP/1.1 200 OK 0ms]
+
+14:04:00.062 Partitioned cookie or storage access was provided to “https://www.google.com/recaptcha/api2/aframe” because it is loaded in the third-party context and dynamic state partitioning is enabled.
+14:04:00.070 GET
+https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsu-1TYRbb82i399ATOkT44g_W7RGkq5eo0OoEg1GAnQ358VEK7sFVuqhJ2J3hExM_dysAfHmpQDzR47zlh3gVBVZfGh2hMn_mKyr58troBQLSA3W6ZgrOrDlfQSmwpIeEfLEhipKlRxC9xAlACa6Yf9BR1Q3Gj-Qdvq5gBEKPa_tHMVzemDANdOLEwTzJRrYicp4Z8r3nk_l9-Yy8nvl_jguWfcnsmgPL7hwiLmrhxr93AP4Ms8gZ_I92TCgobNxZD85dcb6KfkfZwk_rU1HdsCFw7PQpvzwnK7u-Gdzq98KTPnjWVJlfLbpZwBSAT0s3pUulBo1Dt86AAdbUMrzLA7iXCTjD0f2OHCES2rFB34u7LhBOroxCaNiytwvug&sai=AMfl-YThKmkJ0YaCGXasfNVRe-ijqGZTeO7CdD3p54fcjhSODvh452Wm7Et9ynyjnFk59kQc-aLIKi4_uyUgkGdZg3aB6MPvfIq-3amUkszcLWH28y1cXt9kxLQBQqcTQPMFFkkoQKUTVd0lCf-C7NQeNbfyLZsqp7CK2G-GLOK2TpRkc_DkLw8L02YmfQFMVIM6hBiH88aQ0CzlSscz5C_ksoLmB_wzWKJnCx1oirdasNrIuw&sig=Cg0ArKJSzC6nToCbDK_5EAE&uach_m=[UACH]&urlfix=1&adurl=
+
+14:04:00.070 GET
+https://static.adsafeprotected.com/main.19.8.489.js
+[HTTP/2 200  1540ms]
+
+14:04:00.070 GET
+https://ad.doubleclick.net/ddm/trackimp/N448205.3773TARGETCORPORATION/B31520401.390184776;dc_trk_aid=581408459;dc_trk_cid=211646123;ord=896556028;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=;gdpr_consent=;ltd=;dc_tdv=1?
+[HTTP/3 200  66ms]
+
+14:04:00.078 GET
+https://tpc.googlesyndication.com/simgad/1626841244473887727?
+[HTTP/2 200  2600ms]
+
+14:04:00.248 A resource is blocked by OpaqueResponseBlocking, please check browser console for details. view
+14:04:00.475 POST
+https://api.target.com/telemetry_data/v1/traces?key=5622b71fe94d55e17b492fa9e2b07dbc69f68c4f
+[HTTP/2 200  1084ms]
+
+14:04:00.640 GET
+https://pagead2.googlesyndication.com/bg/J7jMHEcdr0lVSatsUU1en4le0CiJfA3--2xrJ7e0v4U.js
+[HTTP/3 200  0ms]
+
+14:04:00.742 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  864ms]
+
+14:04:01.025 GET
+https://tps.doubleverify.com/visit.js?gdpr=&gdpr_consent=&flvr=0&ttmms=1247&ttfrms=40&bridua=2&tstype=128&eparams=DC4FC=l9EEADTbpTauTauHHH]E2C86E]4@>Tau&srcurlD=0&aUrlD=0&ssl=https:&dfs=1567&ddur=256&uid=1710450241022246&jsCallback=dvCallback_1710450241022495&dvtagver=6.1.src&navUa=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0&htmlmsging=1&chro=0&hist=5&winh=0&winw=1093&wouh=581&wouw=1107&scah=566&scaw=1093&jsver=5633&tgjsver=5633&lvvn=28&m1=13&refD=1&sfe=1&fcifrms=6&brh=5&dvp_epl=48&noc=4&nav_pltfrm=Win32&ctx=21728514&cmp=DV503696&btreg=6488243955138467778310&btadsrv=6488243955138467778310&adsrv=104&unit=0x0&seltag=1&sadv=5360576125&ord=3336712068&litm=6488243955&scrt=138467778310&splc=/7079046/tgt/homepage&adu=107197886&spos=mega&c1=home&c3=homemega&errorURL=https://tps.doubleverify.com/visit.jpg&mib=0&t2te=0&dvp_qtpid=2762719f-87ee-4b58-94cf-c5a5b951006f&dvp_qtsid=7bbf4ced-1320-42ba-b050-180c30a15819&dvp_rcp=2&dvp_htec=2&dvp_seem=2&dvp_tuk=1&dvp_sukv=56535545.36817521&ee_dp_sukv=56535545.36817521&dvp_tukv=210100433.6899022&ee_dp_tukv=210100433.6899022&dvp_tuid=155533811414&jurtd=2156089373
+[HTTP/1.1 200 OK 1269ms]
+
+14:04:01.339 GET
+https://pagead2.googlesyndication.com/pagead/sodar?id=sodar2&v=225&li=gpt_m202403130101&jk=2445339140146062&rc=
+
+14:04:01.559 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  110ms]
+
+14:04:01.590 XHRGET
+https://redoak.target.com/content-publish/pages/v1?url=/c/-/-/N-4nav&shallow=true
+[HTTP/2 200  345ms]
+
+14:04:01.590 XHROPTIONS
+https://redoak.target.com/content-publish/pages/v1?url=/&visitor_id=018E3EBDF092020190B32E0CCCE42AF0&children=true&breadcrumbs=true&pageId=/c/root&attr_member_id=20068476159&platform=desktop
+[HTTP/2 204  329ms]
+
+14:04:01.956 A resource is blocked by OpaqueResponseBlocking, please check browser console for details. sodar
+14:04:01.966 XHRGET
+https://redoak.target.com/content-publish/pages/v1?url=/&visitor_id=018E3EBDF092020190B32E0CCCE42AF0&children=true&breadcrumbs=true&pageId=/c/root&attr_member_id=20068476159&platform=desktop
+[HTTP/2 200  738ms]
+
+14:04:02.193 GET
+https://tpc.googlesyndication.com/generate_204?9ti-Jg
+[HTTP/2 204  520ms]
+
+14:04:02.291 GET
+https://www.target.com/icons/assets/glyph/Store.svg
+[HTTP/2 304  419ms]
+
+14:04:02.456 WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER. J7jMHEcdr0lVSatsUU1en4le0CiJfA3--2xrJ7e0v4U.js line 2 > eval line 7175 > eval line 1 > eval line 1 > eval:1:121
+14:04:02.769 XHRGET
+https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjssXvsg_xngNX5PenniRBZslSaYiBDH0QF4umStuvRq9iSymQyhWOKEoPkEzgg4HP7BsciBzrggp7sH9ihznzVJkOkWeEAYOkBDQ9YgGK5LkLInCYqhvvposRGXzZdKRFEjwusYWJ7mESEyE3Nu-OVjEYIjpEytuDrdOwnFdeU9_gcCI7pmOI4NHFMPuTJcv37_ZmrGmXTC_7KY8FP7WXmPNuIdT7j8V5PxWuMpThVVYTZhIx2Ae_RJN89mLqq3q_ZKR2BHWOAZyW7w_XtR8PsYLG0PFSdcn6pBfnRskMbKH25l8utAJ6N0kHjEpGOpOkxWQHbqT0SwbFrhoWcDNtCmSc2ZqmBWXt6YPJCIYdkZWw2jLqwHEizPSOOt6SKhSwA&sai=AMfl-YTUgjFK49onBxKxkSZa0JqXELJaPptvFS6pYVDw8wBNjJ4Mw6J5BnuuXbXQhlXWkb6rn4U9kohwUu5E112J-AM7ZwAEZYlpfuwltNAE9PxzQ8Mj7trodtn5SkBNnXOeXDD4Yc2WJWL-jnrBGDI33kXgblA_GQoBTlbRdghHPNEVzGVIZ6LY_wFUhUvd-BkMyGnTQ5WqkPL7xea76-Xm5kvCzr_bqwe5x9hoEy2KkAop3w&sig=Cg0ArKJSzMn21cBs6UNPEAE&uach_m=[UACH]&urlfix=1&adurl=
+[HTTP/2 200  110ms]
+
+14:04:03.007 POST
+https://tpsc-uw1.doubleverify.com/event.png?impid=f0b9ae77eef64cf9a065e7d08707775b&flavor=0&gdpr=&gdpr_consent=&ee_dp_omvk=doubleverify.com-omid&ee_dp_isom=1&ee_dp_cadl=2&dvp_gdpr_Error=3&dvp_gdv2_Error=3&vdur=254&eoid=24&te_strt=1&te_init=7&te_sup=0&te_exec=0&msrjs=5633&sdf=67108868&vit=2&rmi=16&tltms=184&tetms=27&msltms=845&vltms=254&sei=145&vetms=107&tuviims=1599&tuviems=1960&engms=1&engisel=1&ee_dp_ddtes=1&dvp_dtcov=2&sim=3&ee_dp_csc=1&ee_dp_cspf=1&ee_dp_asmm=1&msrcanlm=262408&msrcannum=3&ee_dp_tmads=3624&ee_dp_gmrd=1&ee_dp_gmamr=1&ismms=1283&isumms=1283&nvr=2&isgmmims=1283&isgmv4mims=1283&elmtp=3&isbxdms=3624&b0=2441&adhgt=93&adwdth=1077&dvp_vsosnmr=1&lftb=2441&sftb=2441&msrdp=1&naral=262144&vct=512&vphgt=581&vpwdth=1107&chgt=93&cwdth=1093&scrhgt=614&scrwdth=1093&strp=0&advisonl=false&engalms=1282&dvp_dpr=1.25&vstsz=704&ee_dp_cvcmeeid=1&metp=1&meeid=1&ttfurm=3911
+[HTTP/1.1 204 No Content 511ms]
+
+14:04:03.085 This page is in Quirks Mode. Page layout may be impacted. For Standards Mode use “<!DOCTYPE html>”. main.19.8.489.js:1:215736
+14:04:03.305 XHRGET
+https://redsky.target.com/redsky_aggregations/v1/web/nearby_stores_v1?limit=5&within=100&place=95122&key=9f36aeafbe60771e321a7cc95a78140772ab3e96&visitor_id=018E3EBDF092020190B32E0CCCE42AF0&channel=WEB&page=/c/root
+[HTTP/2 200  201ms]
+
+14:04:03.311 GET
+https://pixel.adsafeprotected.com/rfw/st/2010921/78908114/skeleton.js?adsafe_url=https://www.target.com/&adsafe_type=e&adsafe_url=https://96dd48c82498c11af47ddea2f6fefb9a.safeframe.googlesyndication.com/&adsafe_type=f&adsafe_url=https://96dd48c82498c11af47ddea2f6fefb9a.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html&adsafe_type=d&adsafe_jsinfo=,id:7396b1b5-10d4-67ca-9610-26dc909b7401,c:6W1KSR,sl:outOfView,em:true,fr:false,thd:1,mn:jsserver-primary-76fd75d69d-lbhtq,rg:or,pt:1-5-15,wc:-7.-7.1107.581,ac:0.0.1093.0,am:i,cc:0.0.1093.0,piv:0,obst:0,th:0,reas:l,mu:10000,br:g,bru:g,an:n,oam:0,scm:grpm1,mtim:3811,mot:0,app:0,maw:0,tdt:s,fm:u722Tgs+11|12|131|14*.2010921-78908114|141|151|16,idMap:14*,pl:CV8L.CV8L.CV8L.CV8L.CV8L,rmeas:1,rend:1,renddet:IMG.qs,es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,intblk:1,gm:1,tt:rjss,et:3927,oid:5fab64c9-e246-11ee-b7da-eef9312ea2dd,v:19.8.489,sp:1,st:0,fwm:1,wr:1107.581,sr:1093.614,ov:0
+[HTTP/2 302  130ms]
+
+14:04:03.354 GET
+https://static.adsafeprotected.com/sca.17.6.2.js
+[HTTP/2 200  423ms]
+
+14:04:03.784 GET
+https://dt.adsafeprotected.com/dt?advEntityId=2010921&asId=7396b1b5-10d4-67ca-9610-26dc909b7401&tv={c:6W1L35,time:4555,type:e,sca:{ha1:{res1:0,ps:0,ts:1710450243497,psfr:na}},es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,intblk:1,gm:1,slTimes:{i:297,o:4258,n:0,pp:0,pm:0},slEvents:[{sl:o,t:3919,wc:-7.-7.1107.581,ac:0.0.1093.0,am:i,cc:0.0.1093.0,piv:0,obst:0,th:0,reas:l,bkn:{piv:[432~0],as:[432~1093.0]}},{sl:i,t:4258,wc:-7.-7.1107.581,ac:0.0.1093.409,am:i,cc:0.0.1093.409,piv:100,obst:0,th:0,reas:,bkn:{piv:[297~100],as:[297~1093.409]}}],slEventCount:2,em:true,fr:false,e:,tt:rjss,dtt:0,fm:u722Tgs+11|12|131|14*.2010921-78908114|141|151|16,idMap:14*,rmeas:1,rend:1,renddet:IMG.qs,siq:3930}&br=g
+[HTTP/2 200  576ms]
+
+14:04:03.786 GET
+https://dt.adsafeprotected.com/dt?advEntityId=2010921&asId=7396b1b5-10d4-67ca-9610-26dc909b7401&tv={c:6W1KWT,pingTime:-2,time:4171,type:a,im:{sf:1,pom:1,prf:{bdA:1565,bdZ:3367,beA:3860,beZ:3863,mfA:7672,cmA:7681,inA:7681,inZ:7701,prA:7702,prZ:7735,si:7787,poA:7798,poZ:7880,cmZ:7880,mfZ:7880,loA:7970,loZ:8000,ltA:8030,ltZ:8030,mdA:3864,mdZ:6567}},sca:{dfp:{df:4,sz:1076.408,dom:div},ha1:{res1:1,ps:1,ts:1710450243243,psfr:1}},env:{gca:false,cca:false,gca2:false},clog:[{piv:0,vs:o,r:l,w:1093,h:0,t:3919}],es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,intblk:1,gm:1,slTimes:{i:0,o:4172,n:0,pp:0,pm:0},slEvents:[{sl:o,t:3919,wc:-7.-7.1107.581,ac:0.0.1093.0,am:i,cc:0.0.1093.0,piv:0,obst:0,th:0,reas:l,bkn:{piv:[346~0],as:[346~1093.0]}}],slEventCount:1,em:true,fr:false,e:,tt:rjss,dtt:0,fm:u722Tgs+11|12|131|14*.2010921-78908114|141|151|16,idMap:14*,pd:CV8L.internal-pdf-viewer,rmeas:1,rend:1,renddet:IMG.qs,siq:3930,sinceFw:231,readyFired:true}&br=g
+[HTTP/2 200  884ms]
+
+14:04:03.790 GET
+https://dt.adsafeprotected.com/dt?advEntityId=2010921&asId=7396b1b5-10d4-67ca-9610-26dc909b7401&tv={c:6W1KYi,pingTime:0,time:4258,type:pf,clog:[{piv:0,vs:o,r:l,w:1093,h:0,t:3919},{piv:100,vs:i,r:,h:409,t:4258}],es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,intblk:1,gm:1,slTimes:{i:0,o:4258,n:0,pp:0,pm:0},slEvents:[{sl:o,t:3919,wc:-7.-7.1107.581,ac:0.0.1093.0,am:i,cc:0.0.1093.0,piv:0,obst:0,th:0,reas:l,bkn:{piv:[432~0],as:[432~1093.0]}},{sl:i,t:4258,wc:-7.-7.1107.581,ac:0.0.1093.409,am:i,cc:0.0.1093.409,piv:100,obst:0,th:0,reas:,bkn:{piv:[0~100],as:[0~1093.409]}}],slEventCount:2,em:true,fr:false,e:,tt:rjss,dtt:0,fm:u722Tgs+11|12|131|14*.2010921-78908114|141|151|16,idMap:14*,rmeas:1,rend:1,renddet:IMG.qs,siq:3930}&br=g
+[HTTP/2 200  575ms]
+
+14:04:03.804 GET
+https://static.adsafeprotected.com/skeleton.js
+[HTTP/2 200  18ms]
+
+14:04:04.017 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  99ms]
+
+14:04:04.059 GET
+https://dt.adsafeprotected.com/dt?advEntityId=2010921&asId=7396b1b5-10d4-67ca-9610-26dc909b7401&tv={c:6W1L7A,time:4834,type:e,im:{imprf:{ttecl:7024,ecd:588,tsecr:19}},es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,intblk:1,gm:1,slTimes:{i:576,o:4258,n:0,pp:0,pm:0},slEvents:[{sl:o,t:3919,wc:-7.-7.1107.581,ac:0.0.1093.0,am:i,cc:0.0.1093.0,piv:0,obst:0,th:0,reas:l,bkn:{piv:[432~0],as:[432~1093.0]}},{sl:i,t:4258,wc:-7.-7.1107.581,ac:0.0.1093.409,am:i,cc:0.0.1093.409,piv:100,obst:0,th:0,reas:,bkn:{piv:[577~100],as:[577~1093.409]}}],slEventCount:2,em:true,fr:false,e:,tt:rjss,dtt:0,fm:u722Tgs+11|12|131|14*.2010921-78908114|141|151|16,idMap:14*,rmeas:1,rend:1,renddet:IMG.qs,siq:3930,sis:4729}&br=g
+[HTTP/2 200  47ms]
+
+14:04:04.067 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://pagead2.googlesyndication.com/pagead/sodar?id=sodar2&v=225&t=2&li=gpt_m202403130101&jk=2445339140146062&bg=!ODulO3TNAAY_ejuoH3o7ADQBe5WfOMLf8ZIie0puE-BnN-_W5oTsdUUwhYE1QcJ-w1JT_X6Qsun_pE7nfTFl-InAoO9VAgAACO5SAAAAD2gBB5kCz9z10Efe9fHKEAvOm09H4WWWm1E6nQZzkGlJzwMdeIXm1grI9NCU2gUL_zpDNRw-7QRapnLrf8kqJI17iIPJqd-3--zKFH5Svb-0POrs6b_EEuouHx9Hys9u8up7-zReCtIEdg4Yao9xe4Ahc2Y-9hHmtAhiOJLRBQNvL921ZisITuQLh96fZuA-S5D4OS46lw3xKlzNMWx9sv4mCcBURpvE4Kqtl3AXdIAviBv0ZfdxC28toGhY7vcsyb71J_wiC0STDqTxA-dx7IAs8oBm9UFpytz8tdphpV-K-t2hHs3ZrJ2xFL3YKxL_EO59Hs7-rEMy1PT0dr93BiCOcvwxEyfPBSZXBr26oWst_12_1dVfkIDyHaJl3oA98z2zOapGyOCNXrDfswXDtSLJ_UGUrkqH-yJMbT-VavNv_gKQlUVTaIbrn0g3r0yKv_AFq5fkWN5JGy2ipEl7VCxXYWzcdPFivo0nEX8jkIPCcIj_QbFmnDh4JG1u58wF9D8-wuiH6G9za7BBNusKMrpQPTPyBnM2kyedqHnRFo36q67txoOgo8Ac6z-B-kF-u7tcDVHFzgI6qQqyTJllK7uzcJ5NloaYne-RBV_EVdrkHQD86HajzhKtuYw7xNLOTvVImcmGv744zgmyOUcEjFWnrcqI4-z4_Ebh0T68nYBaD50uI7myrqfesT-wcvOe9rSGxLYvNRe5T4lMgYghUcL5X4IHMx-7iV9r6-FcIKX4-w-I0f7yg-R7QujPfrZnOwrtw4Qopc4EXhvOQNzU9d0_E6VKyK-TsXuQ9o2_xxH-hTLPqofq6j1QbqasheJ1uqMIqDTP49fw6GLK66JiqAtDBsF8lNoOTNhuXQ1FP5dn5VydL1stOml7MDObK2pLvDninaR853fXbUUGTM23i-q-d_9p4Nhd8p4GNuzGoPNc-EQP8xZ5yy6XSh-CH8DcIMVDhCbp sodar2.js:36:828
+14:04:04.152 a: 1ms - timer ended sca.17.6.2.js:32:17740
+14:04:04.320 GET
+https://pagead2.googlesyndication.com/pagead/sodar?id=sodar2&v=225&t=2&li=gpt_m202403130101&jk=2445339140146062&bg=!ODulO3TNAAY_ejuoH3o7ADQBe5WfOMLf8ZIie0puE-BnN-_W5oTsdUUwhYE1QcJ-w1JT_X6Qsun_pE7nfTFl-InAoO9VAgAACO5SAAAAD2gBB5kCz9z10Efe9fHKEAvOm09H4WWWm1E6nQZzkGlJzwMdeIXm1grI9NCU2gUL_zpDNRw-7QRapnLrf8kqJI17iIPJqd-3--zKFH5Svb-0POrs6b_EEuouHx9Hys9u8up7-zReCtIEdg4Yao9xe4Ahc2Y-9hHmtAhiOJLRBQNvL921ZisITuQLh96fZuA-S5D4OS46lw3xKlzNMWx9sv4mCcBURpvE4Kqtl3AXdIAviBv0ZfdxC28toGhY7vcsyb71J_wiC0STDqTxA-dx7IAs8oBm9UFpytz8tdphpV-K-t2hHs3ZrJ2xFL3YKxL_EO59Hs7-rEMy1PT0dr93BiCOcvwxEyfPBSZXBr26oWst_12_1dVfkIDyHaJl3oA98z2zOapGyOCNXrDfswXDtSLJ_UGUrkqH-yJMbT-VavNv_gKQlUVTaIbrn0g3r0yKv_AFq5fkWN5JGy2ipEl7VCxXYWzcdPFivo0nEX8jkIPCcIj_QbFmnDh4JG1u58wF9D8-wuiH6G9za7BBNusKMrpQPTPyBnM2kyedqHnRFo36q67txoOgo8Ac6z-B-kF-u7tcDVHFzgI6qQqyTJllK7uzcJ5NloaYne-RBV_EVdrkHQD86HajzhKtuYw7xNLOTvVImcmGv744zgmyOUcEjFWnrcqI4-z4_Ebh0T68nYBaD50uI7myrqfesT-wcvOe9rSGxLYvNRe5T4lMgYghUcL5X4IHMx-7iV9r6-FcIKX4-w-I0f7yg-R7QujPfrZnOwrtw4Qopc4EXhvOQNzU9d0_E6VKyK-TsXuQ9o2_xxH-hTLPqofq6j1QbqasheJ1uqMIqDTP49fw6GLK66JiqAtDBsF8lNoOTNhuXQ1FP5dn5VydL1stOml7MDObK2pLvDninaR853fXbUUGTM23i-q-d_9p4Nhd8p4GNuzGoPNc-EQP8xZ5yy6XSh-CH8DcIMVDhCbp
+
+14:04:04.349 InstallTrigger is deprecated and will be removed in the future. sca.17.6.2.js:33:6865
+14:04:04.419 onmozfullscreenerror is deprecated. sca.17.6.2.js:33:14927
+14:04:04.568 GET
+https://dt.adsafeprotected.com/dt?advEntityId=2010921&asId=7396b1b5-10d4-67ca-9610-26dc909b7401&tv={c:6W1Lf7,pingTime:1,time:5301,type:c,clog:[{piv:0,vs:o,r:l,w:1093,h:0,t:3919},{piv:100,vs:i,r:,h:409,t:4258}],es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,intblk:1,gm:1,slTimes:{i:1043,o:4258,n:0,pp:0,pm:0},slEvents:[{sl:o,t:3919,wc:-7.-7.1107.581,ac:0.0.1093.0,am:i,cc:0.0.1093.0,piv:0,obst:0,th:0,reas:l,bkn:{piv:[432~0],as:[432~1093.0]}},{sl:i,t:4258,wc:-7.-7.1107.581,ac:0.0.1093.409,am:i,cc:0.0.1093.409,piv:100,obst:0,th:0,reas:,bkn:{piv:[1043~100],as:[1043~1093.409]}}],slEventCount:2,em:true,fr:false,e:,tt:rjss,dtt:300,fm:u722Tgs+11|12|131|14*.2010921-78908114|141|151|16,idMap:14*,rmeas:1,rend:1,renddet:IMG.qs,siq:3930,sis:4729,metricId:grpm1,cmr:t}&br=g
+[HTTP/2 200  42ms]
+
+14:04:04.580 GET
+https://dt.adsafeprotected.com/dt?advEntityId=2010921&asId=7396b1b5-10d4-67ca-9610-26dc909b7401&tv={c:6W1LeZ,pingTime:1,time:5293,type:p,clog:[{piv:0,vs:o,r:l,w:1093,h:0,t:3919},{piv:100,vs:i,r:,h:409,t:4258}],es:0,sc:1,ha:1,fgad:1,fif:0,gmnp:0,for:1,b11:1,cnod:1,intblk:1,gm:1,slTimes:{i:1035,o:4258,n:0,pp:0,pm:0},slEvents:[{sl:o,t:3919,wc:-7.-7.1107.581,ac:0.0.1093.0,am:i,cc:0.0.1093.0,piv:0,obst:0,th:0,reas:l,bkn:{piv:[432~0],as:[432~1093.0]}},{sl:i,t:4258,wc:-7.-7.1107.581,ac:0.0.1093.409,am:i,cc:0.0.1093.409,piv:100,obst:0,th:0,reas:,bkn:{piv:[1035~100],as:[1035~1093.409]}}],slEventCount:2,em:true,fr:false,e:,tt:rjss,dtt:300,fm:u722Tgs+11|12|131|14*.2010921-78908114|141|151|16,idMap:14*,rmeas:1,rend:1,renddet:IMG.qs,siq:3930,sis:4729}&br=g
+[HTTP/2 200  42ms]
+
+14:04:04.718 A resource is blocked by OpaqueResponseBlocking, please check browser console for details. sodar
+14:04:04.852 GET
+https://dt.adsafeprotected.com/dt?advEntityId=2010921&asId=7396b1b5-10d4-67ca-9610-26dc909b7401&tv={c:6W1Ljb,pingTime:-10,time:5553,type:s,mvn:ZnNjPTEzLHNkPTMsbm89OCxhc3A9MQ--,sd:MTcuNi4ydjU2Nnx8MTA5M3x8MXx8MXx8MjR8fDYxNHx8MHx8MHx8MXx8bGFuZHNjYXBlLXByaW1hcnl8fDI0fHw2ODMvMzg0fHwxMDkzLzYxNHx8MHx8MTA5Mw--,no:MTcuNi4ydk1vemlsbGF8fE5ldHNjYXBlfHxufHxufHwwfHxufHxXaW4zMnx8R2Vja298fDIwMTAwMTAxfHw0MjB8fE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQ7IHJ2OjEyMy4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzEyMy4wfHwxfHwxfHxufHxu,ch:n,fsc:17.6.2v222220222000022202222200220022002220002002220222222202000022000220200002220000222202200002202222222000022222220000000022222000022222222200000222202022220002020222002222202202222202022222022220000220200000022222222220222222222222202222222222222222222222222222222222222200000022022020020200222222202002022022222222000000000020222202022222222002220022020000220200000000020022202220000022200222202220022000200222022220220022220222200222222020002200200022222222202222002002022002222200000000020200000000000000202222,asp:1710450244664||a705325536ed96744d6c4f1fde43b305||e0be51c185514f140af5d7a802dffb26||7702bea8368119c70dac83aceb028df6||075df419840bea97f19123be8c24b01b||ac00cc345ee908bbf4e256f59f2e0324||a6e417050045512ffee2272125cd80c6||ca6c1b09334446845a8252d0e183ad13||1663701684}
+[HTTP/2 200  94ms]
+
+14:04:05.597 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_9e4fe4fc-ee38-4a81-a376-a8b3550b6310?wid=668&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:05.609 GET
+https://target.scene7.com/is/image/Target/GUEST_9e4fe4fc-ee38-4a81-a376-a8b3550b6310?wid=668&qlt=80&fmt=webp
+
+14:04:05.668 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_2ee548cf-4620-482b-bfb3-8bc144a9d110?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:05.676 GET
+https://target.scene7.com/is/image/Target/GUEST_2ee548cf-4620-482b-bfb3-8bc144a9d110?wid=521&qlt=80&fmt=webp
+
+14:04:05.686 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_dd75f142-2eae-40b9-b096-f9a062343948?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:05.692 GET
+https://target.scene7.com/is/image/Target/GUEST_dd75f142-2eae-40b9-b096-f9a062343948?wid=521&qlt=80&fmt=webp
+
+14:04:05.706 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_d5ec5a83-8efe-40c5-b4ad-068ec8327162?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:05.710 GET
+https://target.scene7.com/is/image/Target/GUEST_d5ec5a83-8efe-40c5-b4ad-068ec8327162?wid=521&qlt=80&fmt=webp
+
+14:04:05.731 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_4e4183b4-04fe-4f86-b0f8-c9c1327a73c9?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:05.739 GET
+https://target.scene7.com/is/image/Target/GUEST_4e4183b4-04fe-4f86-b0f8-c9c1327a73c9?wid=521&qlt=80&fmt=webp
+
+14:04:05.792 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_c3a20cd6-3fdc-48d9-af0a-58499f0fa466?wid=668&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:05.797 GET
+https://target.scene7.com/is/image/Target/GUEST_96d36380-30c6-463a-a9c0-e651505cd985?wid=1200&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:04:05.822 GET
+https://target.scene7.com/is/image/Target/GUEST_c3a20cd6-3fdc-48d9-af0a-58499f0fa466?wid=668&qlt=80&fmt=webp
+
+14:04:05.836 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_08128ab1-29af-4fde-834d-80b1173075ae?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:05.841 GET
+https://target.scene7.com/is/image/Target/GUEST_08128ab1-29af-4fde-834d-80b1173075ae?wid=500&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:04:05.842 GET
+https://target.scene7.com/is/image/Target/GUEST_08128ab1-29af-4fde-834d-80b1173075ae?wid=521&qlt=80&fmt=webp
+
+14:04:05.860 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_652c79fa-f63b-4fd7-b6c9-8dd87a6d5c7e?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:05.864 GET
+https://target.scene7.com/is/image/Target/GUEST_652c79fa-f63b-4fd7-b6c9-8dd87a6d5c7e?wid=500&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:04:05.872 GET
+https://target.scene7.com/is/image/Target/GUEST_652c79fa-f63b-4fd7-b6c9-8dd87a6d5c7e?wid=521&qlt=80&fmt=webp
+
+14:04:05.976 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_15894353-292b-45e9-9f78-ed97850c2e51?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:05.981 GET
+https://target.scene7.com/is/image/Target/GUEST_15894353-292b-45e9-9f78-ed97850c2e51?wid=521&qlt=80&fmt=webp
+
+14:04:05.981 GET
+https://target.scene7.com/is/image/Target/GUEST_15894353-292b-45e9-9f78-ed97850c2e51?wid=500&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:04:06.012 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_2ab385d1-886a-45f3-84ba-a281c084b43e?wid=521&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:06.018 GET
+https://target.scene7.com/is/image/Target/GUEST_2ab385d1-886a-45f3-84ba-a281c084b43e?wid=500&qlt=80&fmt=webp
+[HTTP/1.1 200 OK 0ms]
+
+14:04:06.067 GET
+https://target.scene7.com/is/image/Target/GUEST_2ab385d1-886a-45f3-84ba-a281c084b43e?wid=521&qlt=80&fmt=webp
+
+14:04:06.067 GET
+https://target.scene7.com/is/image/Target/GUEST_59d37725-43ce-4378-a549-2001828b3b2e?fmt=webp&qlt=80&wid=2400
+[HTTP/1.1 200 OK 0ms]
+
+14:04:06.100 POST
+https://tpsc-uw1.doubleverify.com/event.png?impid=e15cb6f23a504d8abd0924991845ff36&flavor=0&gdpr=&gdpr_consent=&ee_dp_omvk=doubleverify.com-omid&ee_dp_isom=1&dvp_gdpr_Error=3&dvp_gdv2_Error=3&ee_dp_btreg=6488243955138467778310&ee_dp_btros_64=3&ee_dp_csc=1&ee_dp_cspf=1&ee_dp_btros_8192=3&vdur=1270&eoid=24&te_strt=1&te_init=7&te_sup=0&te_exec=0&msrjs=5633&sdf=67108868&vit=2&rmi=16&tltms=256&tetms=16&msltms=207&vltms=1270&sei=145&vetms=104&tuviims=1288&tuviems=2662&engms=1&engisel=1&ee_dp_ddtes=1&dvp_dtcov=2&sim=3&ee_dp_asmm=1&msrcanlm=328&msrcannum=3&ee_dp_tmads=3187&ee_dp_gmrd=1&ee_dp_gm3avr=1&ismms=378&isumms=378&nvr=2&isgmmims=379&isgmv4mims=378&elmtp=2&isbxdms=3142&b0=2864&adhgt=409&adwdth=1077&dvp_vsosnmr=1&lftb=2864&sftb=2864&msrdp=0&naral=64&vct=512&vphgt=581&vpwdth=1107&chgt=409&cwdth=1093&scrhgt=614&scrwdth=1093&strp=0&advisonl=false&isgmpims=378&engalms=377&dvp_dpr=1.25&vstsz=701&ee_dp_cvcmeeid=1&metp=1&meeid=1&ttfurm=4436
+[HTTP/1.1 204 No Content 82ms]
+
+14:04:06.295 XHRGET
+https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsv-LO7faiInbArNIIUfkWgBdTeiMPOAFl0eqnWqsdsN3QDu3iKm5z0bjfSZDHWL5tymOS00plYsByDqh0yEfbSrUme0AIIudUr5U54jtvbIu5J7ldYgvha5VFNZHj8Pk99-oQob4_LtAY-tZajZFyTpszI7zwOCZXA&sig=Cg0ArKJSzETy5wN2b1-AEAE&id=lidartos&mcvt=0&p=2135,0,2135,0&mtos=0,0,0,0,0&tos=0,0,0,0,0&v=20240313&bin=7&avms=nio&bs=0,0&mc=0&if=1&vu=1&app=0&itpl=7&adk=3192776667&rs=4&la=0&cr=0&vs=3&r=b&co=638303700&rst=1710450234744&rpt=4283&isd=0&lsd=0&ec=1&met=mue&wmsd=0&pbe=0&vae=0&spb=0&sfl=0&ffslot=0&reach=8&io2=0
+
+14:04:06.314 The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettings() instead. pubads_impl.js:10:171246
+14:04:06.370 XHRGET
+https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsvWy6WiQaylftMcOXrYYsBM5hKsUmjPMb7YEGJW17px4jsFupHVH49Ekk2ZcoMvL8JDeNrB0TMMNWyc13HppG7hX2gvzaSW4LEqveKpRyr7s1rIMpXK0cToBtpia2qIZdZ4p2m8pR5o7EqGkuAKFpuoOnECs8U6zlE&sig=Cg0ArKJSzNun-wu1LMdOEAE&id=lidartos&mcvt=0&p=6811,0,6811,0&mtos=0,0,0,0,0&tos=0,0,0,0,0&v=20240313&bin=7&avms=nio&bs=0,0&mc=0&if=1&vu=1&app=0&itpl=7&adk=3192686890&rs=4&la=0&cr=0&vs=3&r=b&co=638303900&rst=1710450235250&rpt=7453&isd=0&lsd=0&ec=1&met=mue&wmsd=0&pbe=0&vae=0&spb=0&sfl=0&ffslot=0&reach=8&io2=0
+
+14:04:06.659 XHRGET
+https://redsky.target.com/redsky_aggregations/v1/web/general_recommendations_placement_v1?category_id=5cgh5&channel=WEB&include_sponsored_recommendations=true&key=9f36aeafbe60771e321a7cc95a78140772ab3e96&member_id=20068476159&page=/c/root&placement_id=adapt_primary_top_sellers&pricing_store_id=1984&purchasable_store_ids=1984,2238,2281,1426,2088&visitor_id=018E3EBDF092020190B32E0CCCE42AF0&resolve_to_first_variation_child=false&slingshot_component_id=WEB-395093&platform=desktop
+[HTTP/2 200  232ms]
+
+14:04:06.778 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  572ms]
+
+14:04:06.808 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  543ms]
+
+14:04:06.862 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  489ms]
+
+14:04:06.870 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  483ms]
+
+14:04:06.886 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  530ms]
+
+14:04:06.903 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  587ms]
+
+14:04:06.920 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=componentload
+[HTTP/2 201  628ms]
+
+14:04:07.006 XHRPOST
+https://api.target.com/firefly_events/v1/events/page_view
+[HTTP/2 201  554ms]
+
+14:04:07.680 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_0793603f-b1d3-453f-98e9-ef2aaeec45a0?wid=668&qlt=80&fmt=webp framework-314c182fa7e2bf37.js:9:3480
+14:04:07.702 GET
+https://target.scene7.com/is/image/Target/GUEST_0793603f-b1d3-453f-98e9-ef2aaeec45a0?wid=668&qlt=80&fmt=webp
+
+14:04:08.018 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=pageload
+[HTTP/2 201  111ms]
+
+14:04:08.025 POST
+https://api.target.com/telemetry_data/v1/traces?key=5622b71fe94d55e17b492fa9e2b07dbc69f68c4f
+[HTTP/2 200  212ms]
+
+14:04:08.067 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_ebd6ba91-fbdd-4e43-b521-f681e0a3cb71 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.115 GET
+https://target.scene7.com/is/image/Target/GUEST_ebd6ba91-fbdd-4e43-b521-f681e0a3cb71
+[HTTP/2 200  0ms]
+
+14:04:08.169 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_6b760ce8-1279-4dee-8398-c41609723d44 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.180 GET
+https://target.scene7.com/is/image/Target/GUEST_6b760ce8-1279-4dee-8398-c41609723d44
+[HTTP/2 200  0ms]
+
+14:04:08.197 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_7d582eae-1c55-4b7a-b6e6-64ba44fdc3e8 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.219 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_0dfa5ddd-e9f1-4b03-9012-58619c33e87c framework-314c182fa7e2bf37.js:9:3480
+14:04:08.249 GET
+https://target.scene7.com/is/image/Target/GUEST_7d582eae-1c55-4b7a-b6e6-64ba44fdc3e8
+[HTTP/2 200  0ms]
+
+14:04:08.255 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_67fa8e20-e8e9-4a75-bee2-6dab90f6b840 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.257 GET
+https://target.scene7.com/is/image/Target/GUEST_0dfa5ddd-e9f1-4b03-9012-58619c33e87c
+[HTTP/2 200  0ms]
+
+14:04:08.273 GET
+https://target.scene7.com/is/image/Target/GUEST_67fa8e20-e8e9-4a75-bee2-6dab90f6b840
+[HTTP/2 200  0ms]
+
+14:04:08.285 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_34c883ea-1ef5-46fa-91fc-2006aaf81c7e framework-314c182fa7e2bf37.js:9:3480
+14:04:08.335 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_f0bd1289-ecb5-4eb4-8155-aa9c0cf4cd90 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.365 GET
+https://target.scene7.com/is/image/Target/GUEST_34c883ea-1ef5-46fa-91fc-2006aaf81c7e
+[HTTP/2 200  0ms]
+
+14:04:08.370 GET
+https://target.scene7.com/is/image/Target/GUEST_f0bd1289-ecb5-4eb4-8155-aa9c0cf4cd90
+[HTTP/2 200  0ms]
+
+14:04:08.379 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_93b4c5b3-9368-4f44-ab63-433454a52b92 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.418 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_f4127df4-a493-409d-a5d4-3583d9138143 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.474 GET
+https://target.scene7.com/is/image/Target/GUEST_93b4c5b3-9368-4f44-ab63-433454a52b92
+[HTTP/2 304  76ms]
+
+14:04:08.484 GET
+https://target.scene7.com/is/image/Target/GUEST_f4127df4-a493-409d-a5d4-3583d9138143
+[HTTP/2 200  0ms]
+
+14:04:08.500 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_451db6c3-ca83-479e-9d2b-13e5101e20b4 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.529 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_1da2b299-b5bd-4d9e-ad99-81af02ed0c5c framework-314c182fa7e2bf37.js:9:3480
+14:04:08.559 GET
+https://target.scene7.com/is/image/Target/GUEST_451db6c3-ca83-479e-9d2b-13e5101e20b4
+[HTTP/2 200  0ms]
+
+14:04:08.561 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_cc8367da-3dbc-4d27-86d9-9b68ce80bf99 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.584 GET
+https://target.scene7.com/is/image/Target/GUEST_1da2b299-b5bd-4d9e-ad99-81af02ed0c5c
+[HTTP/2 200  0ms]
+
+14:04:08.592 GET
+https://target.scene7.com/is/image/Target/GUEST_cc8367da-3dbc-4d27-86d9-9b68ce80bf99
+[HTTP/2 200  0ms]
+
+14:04:08.595 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_c36cff77-569c-4574-84e0-6e418b862ab2 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.608 GET
+https://target.scene7.com/is/image/Target/GUEST_c36cff77-569c-4574-84e0-6e418b862ab2
+[HTTP/2 200  0ms]
+
+14:04:08.643 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_85a8e4db-5083-46ee-9d99-9bc322d262cb framework-314c182fa7e2bf37.js:9:3480
+14:04:08.666 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_1e735724-9179-4c72-a44b-17199208c1ee framework-314c182fa7e2bf37.js:9:3480
+14:04:08.684 GET
+https://target.scene7.com/is/image/Target/GUEST_85a8e4db-5083-46ee-9d99-9bc322d262cb
+[HTTP/2 200  0ms]
+
+14:04:08.692 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_5e59ef9e-0465-4611-985e-4fda1c3053b3 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.702 GET
+https://target.scene7.com/is/image/Target/GUEST_1e735724-9179-4c72-a44b-17199208c1ee
+[HTTP/2 200  0ms]
+
+14:04:08.717 GET
+https://target.scene7.com/is/image/Target/GUEST_5e59ef9e-0465-4611-985e-4fda1c3053b3
+[HTTP/2 200  0ms]
+
+14:04:08.723 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_60427107-c18e-4fe9-88e5-93880508110c framework-314c182fa7e2bf37.js:9:3480
+14:04:08.756 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_c2673ca9-18a3-44b1-b9f1-92cc7778f3df framework-314c182fa7e2bf37.js:9:3480
+14:04:08.775 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_6f7a2410-14ff-4fec-9da0-72c4115472d6 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.786 GET
+https://target.scene7.com/is/image/Target/GUEST_60427107-c18e-4fe9-88e5-93880508110c
+[HTTP/2 200  0ms]
+
+14:04:08.793 GET
+https://target.scene7.com/is/image/Target/GUEST_c2673ca9-18a3-44b1-b9f1-92cc7778f3df
+[HTTP/2 200  0ms]
+
+14:04:08.802 GET
+https://target.scene7.com/is/image/Target/GUEST_6f7a2410-14ff-4fec-9da0-72c4115472d6
+[HTTP/2 200  0ms]
+
+14:04:08.813 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_80083729-0b5c-48bc-b6e3-c2f2c94f269d framework-314c182fa7e2bf37.js:9:3480
+14:04:08.842 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_5823f06a-10d5-4868-9712-ae152d880058 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.870 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_06070e7f-3473-43c2-8e1f-809dfd329b9f framework-314c182fa7e2bf37.js:9:3480
+14:04:08.905 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_42cb4853-f8c9-480a-92b8-1d3829f15282 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.937 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_be3b19b9-23af-4b89-90ca-300615074349 framework-314c182fa7e2bf37.js:9:3480
+14:04:08.954 GET
+https://target.scene7.com/is/image/Target/GUEST_80083729-0b5c-48bc-b6e3-c2f2c94f269d
+[HTTP/2 200  0ms]
+
+14:04:09.003 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_ebd6ba91-fbdd-4e43-b521-f681e0a3cb71 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.010 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_6b760ce8-1279-4dee-8398-c41609723d44 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.015 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_7d582eae-1c55-4b7a-b6e6-64ba44fdc3e8 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.020 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_0dfa5ddd-e9f1-4b03-9012-58619c33e87c framework-314c182fa7e2bf37.js:9:91099
+14:04:09.025 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_67fa8e20-e8e9-4a75-bee2-6dab90f6b840 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.029 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_34c883ea-1ef5-46fa-91fc-2006aaf81c7e framework-314c182fa7e2bf37.js:9:91099
+14:04:09.034 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_f0bd1289-ecb5-4eb4-8155-aa9c0cf4cd90 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.038 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_93b4c5b3-9368-4f44-ab63-433454a52b92 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.042 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_f4127df4-a493-409d-a5d4-3583d9138143 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.047 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_451db6c3-ca83-479e-9d2b-13e5101e20b4 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.053 GET
+https://target.scene7.com/is/image/Target/GUEST_5823f06a-10d5-4868-9712-ae152d880058
+[HTTP/2 200  0ms]
+
+14:04:09.055 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_1da2b299-b5bd-4d9e-ad99-81af02ed0c5c framework-314c182fa7e2bf37.js:9:91099
+14:04:09.065 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_cc8367da-3dbc-4d27-86d9-9b68ce80bf99 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.068 GET
+https://target.scene7.com/is/image/Target/GUEST_06070e7f-3473-43c2-8e1f-809dfd329b9f
+[HTTP/2 200  0ms]
+
+14:04:09.069 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_c36cff77-569c-4574-84e0-6e418b862ab2 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.074 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_85a8e4db-5083-46ee-9d99-9bc322d262cb framework-314c182fa7e2bf37.js:9:91099
+14:04:09.078 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_1e735724-9179-4c72-a44b-17199208c1ee framework-314c182fa7e2bf37.js:9:91099
+14:04:09.082 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_5e59ef9e-0465-4611-985e-4fda1c3053b3 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.086 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_60427107-c18e-4fe9-88e5-93880508110c framework-314c182fa7e2bf37.js:9:91099
+14:04:09.091 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_c2673ca9-18a3-44b1-b9f1-92cc7778f3df framework-314c182fa7e2bf37.js:9:91099
+14:04:09.098 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_6f7a2410-14ff-4fec-9da0-72c4115472d6 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.103 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_80083729-0b5c-48bc-b6e3-c2f2c94f269d framework-314c182fa7e2bf37.js:9:91099
+14:04:09.109 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_5823f06a-10d5-4868-9712-ae152d880058 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.113 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_06070e7f-3473-43c2-8e1f-809dfd329b9f framework-314c182fa7e2bf37.js:9:91099
+14:04:09.118 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_42cb4853-f8c9-480a-92b8-1d3829f15282 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.124 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_be3b19b9-23af-4b89-90ca-300615074349 framework-314c182fa7e2bf37.js:9:91099
+14:04:09.338 GET
+https://target.scene7.com/is/image/Target/GUEST_42cb4853-f8c9-480a-92b8-1d3829f15282
+
+14:04:09.354 GET
+https://target.scene7.com/is/image/Target/GUEST_be3b19b9-23af-4b89-90ca-300615074349
+
+14:04:09.397 GET
+https://target.scene7.com/is/image/Target/GUEST_ebd6ba91-fbdd-4e43-b521-f681e0a3cb71
+[HTTP/2 200  0ms]
+
+14:04:09.402 GET
+https://target.scene7.com/is/image/Target/GUEST_6b760ce8-1279-4dee-8398-c41609723d44
+[HTTP/2 200  0ms]
+
+14:04:09.406 GET
+https://target.scene7.com/is/image/Target/GUEST_7d582eae-1c55-4b7a-b6e6-64ba44fdc3e8
+[HTTP/2 200  0ms]
+
+14:04:09.415 GET
+https://target.scene7.com/is/image/Target/GUEST_0dfa5ddd-e9f1-4b03-9012-58619c33e87c
+[HTTP/2 200  0ms]
+
+14:04:09.426 GET
+https://target.scene7.com/is/image/Target/GUEST_67fa8e20-e8e9-4a75-bee2-6dab90f6b840
+[HTTP/2 200  0ms]
+
+14:04:09.435 GET
+https://target.scene7.com/is/image/Target/GUEST_34c883ea-1ef5-46fa-91fc-2006aaf81c7e
+[HTTP/2 200  0ms]
+
+14:04:09.442 GET
+https://target.scene7.com/is/image/Target/GUEST_f0bd1289-ecb5-4eb4-8155-aa9c0cf4cd90
+[HTTP/2 200  0ms]
+
+14:04:09.451 GET
+https://target.scene7.com/is/image/Target/GUEST_93b4c5b3-9368-4f44-ab63-433454a52b92
+[HTTP/2 200  0ms]
+
+14:04:09.455 GET
+https://target.scene7.com/is/image/Target/GUEST_f4127df4-a493-409d-a5d4-3583d9138143
+[HTTP/2 200  0ms]
+
+14:04:09.461 GET
+https://target.scene7.com/is/image/Target/GUEST_451db6c3-ca83-479e-9d2b-13e5101e20b4
+[HTTP/2 200  0ms]
+
+14:04:09.468 GET
+https://target.scene7.com/is/image/Target/GUEST_1da2b299-b5bd-4d9e-ad99-81af02ed0c5c
+[HTTP/2 200  0ms]
+
+14:04:09.471 GET
+https://target.scene7.com/is/image/Target/GUEST_cc8367da-3dbc-4d27-86d9-9b68ce80bf99
+[HTTP/2 200  0ms]
+
+14:04:09.477 GET
+https://target.scene7.com/is/image/Target/GUEST_c36cff77-569c-4574-84e0-6e418b862ab2
+[HTTP/2 200  0ms]
+
+14:04:09.482 GET
+https://target.scene7.com/is/image/Target/GUEST_85a8e4db-5083-46ee-9d99-9bc322d262cb
+[HTTP/2 200  0ms]
+
+14:04:09.487 GET
+https://target.scene7.com/is/image/Target/GUEST_1e735724-9179-4c72-a44b-17199208c1ee
+[HTTP/2 200  0ms]
+
+14:04:09.499 GET
+https://target.scene7.com/is/image/Target/GUEST_5e59ef9e-0465-4611-985e-4fda1c3053b3
+[HTTP/2 200  0ms]
+
+14:04:09.504 GET
+https://target.scene7.com/is/image/Target/GUEST_60427107-c18e-4fe9-88e5-93880508110c
+[HTTP/2 200  0ms]
+
+14:04:09.508 GET
+https://target.scene7.com/is/image/Target/GUEST_c2673ca9-18a3-44b1-b9f1-92cc7778f3df
+[HTTP/2 200  0ms]
+
+14:04:09.517 GET
+https://target.scene7.com/is/image/Target/GUEST_6f7a2410-14ff-4fec-9da0-72c4115472d6
+[HTTP/2 200  0ms]
+
+14:04:09.526 GET
+https://target.scene7.com/is/image/Target/GUEST_80083729-0b5c-48bc-b6e3-c2f2c94f269d
+[HTTP/2 200  0ms]
+
+14:04:09.533 GET
+https://target.scene7.com/is/image/Target/GUEST_5823f06a-10d5-4868-9712-ae152d880058
+[HTTP/2 200  0ms]
+
+14:04:09.538 GET
+https://target.scene7.com/is/image/Target/GUEST_06070e7f-3473-43c2-8e1f-809dfd329b9f
+[HTTP/2 200  0ms]
+
+14:04:09.646 GET
+https://target.scene7.com/is/image/Target/GUEST_42cb4853-f8c9-480a-92b8-1d3829f15282
+[HTTP/2 200  0ms]
+
+14:04:09.652 GET
+https://target.scene7.com/is/image/Target/GUEST_be3b19b9-23af-4b89-90ca-300615074349
+[HTTP/2 200  0ms]
+
+14:04:09.687 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/eventstream?_debugEvent=recommendations
+[HTTP/2 201  187ms]
+
+	
+Connection:	
+Protocol version:	"TLSv1.2"
+Cipher suite:	"TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+Key Exchange Group:	"none"
+Signature Scheme:	"RSA-PSS-SHA256"
+Host api.target.com:	
+HTTP Strict Transport Security:	"Enabled"
+Public Key Pinning:	"Disabled"
+Certificate:	
+Issued To	
+Common Name (CN):	"opus.target.com"
+Organization (O):	"Target Corporation"
+Organizational Unit (OU):	"<Not Available>"
+Issued By	
+Common Name (CN):	"GlobalSign Atlas R3 OV TLS CA 2023 Q4"
+Organization (O):	"GlobalSign nv-sa"
+Organizational Unit (OU):	"<Not Available>"
+Period of Validity	
+Begins On:	"Sun, 24 Dec 2023 01:20:53 GMT"
+Expires On:	"Fri, 24 Jan 2025 01:20:52 GMT"
+Fingerprints	
+SHA-256 Fingerprint:	"3A:EF:93:DF:AA:57:B1:51:11:6C…5:F6:75:88:57:55:6A:80:0B:C5"
+SHA1 Fingerprint:	"B1:74:C1:00:18:5A:D9:14:78:93:F4:E5:4E:A7:B1:41:51:92:8A:B7"
+Transparency:	"<Not Available>"
+14:04:09.809 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  99ms]
+
+14:04:09.817 XHRGET
+https://taglocker.target.com/tag-locker-config/rules-react.json
+[HTTP/2 200  0ms]
+
+14:04:14.729 POST
+https://api.target.com/telemetry_data/v1/traces?key=5622b71fe94d55e17b492fa9e2b07dbc69f68c4f
+[HTTP/2 200  598ms]
+
+14:04:38.265 POST
+https://api.target.com/consumers/v1?applicationName=adaptive&eventType=web-vitals
+[HTTP/2 201  545ms]
+
+14:04:38.322 POST
+https://api.target.com/telemetry_data/v1/traces?key=5622b71fe94d55e17b492fa9e2b07dbc69f68c4f
+[HTTP/2 200  519ms]
+
+14:04:39.359 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  141ms]
+
+14:04:58.487 Empty string passed to getElementById(). 4 www.target.com
+14:12:13.424 POST
+https://api.target.com/consumers/v1?applicationName=adaptive&eventType=web-vitals
+[HTTP/2 201  12123ms]
+
+14:12:14.384 XHROPTIONS
+https://typeahead.target.com/search_box/v3/suggestions?channel=web&ctgryVal=0|ALL|matchallpartial|all+categories&q=&key=9f36aeafbe60771e321a7cc95a78140772ab3e96&visitor_id=018E3EBDF092020190B32E0CCCE42AF0
+
+14:12:14.986 XHRGET
+https://redsky.target.com/redsky_aggregations/v1/web/general_recommendations_placement_v1?channel=WEB&include_sponsored_recommendations=true&key=9f36aeafbe60771e321a7cc95a78140772ab3e96&member_id=20068476159&page=/c/root&placement_id=adaptive_searchbox_01&pricing_store_id=1984&purchasable_store_ids=1984,2238,2281,1426,2088&visitor_id=018E3EBDF092020190B32E0CCCE42AF0&platform=desktop
+[HTTP/2 200  6078ms]
+
+14:12:17.378 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/custom_interaction?_debugEvent=customInteraction
+[HTTP/2 200  5035ms]
+
+14:12:19.389 XHRGET
+https://typeahead.target.com/search_box/v3/suggestions?channel=web&ctgryVal=0|ALL|matchallpartial|all+categories&q=&key=9f36aeafbe60771e321a7cc95a78140772ab3e96&visitor_id=018E3EBDF092020190B32E0CCCE42AF0
+
+14:12:19.576 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  1410ms]
+
+14:12:21.317 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_dc12bfca-a6ef-4107-9620-4112e5013a1e framework-314c182fa7e2bf37.js:9:3480
+14:12:21.331 GET
+https://target.scene7.com/is/image/Target/GUEST_dc12bfca-a6ef-4107-9620-4112e5013a1e
+
+14:12:21.337 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_a6f6e109-7353-4620-ab2f-acf1f4f12b34 framework-314c182fa7e2bf37.js:9:3480
+14:12:21.354 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_053912e1-b3bf-424c-9407-181ae2553ce1 framework-314c182fa7e2bf37.js:9:3480
+14:12:21.358 GET
+https://target.scene7.com/is/image/Target/GUEST_a6f6e109-7353-4620-ab2f-acf1f4f12b34
+
+14:12:21.361 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_cb5bfedc-f207-4147-9756-146ced537fea framework-314c182fa7e2bf37.js:9:3480
+14:12:21.363 GET
+https://target.scene7.com/is/image/Target/GUEST_053912e1-b3bf-424c-9407-181ae2553ce1
+
+14:12:21.367 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_9d535365-974a-4d53-83e6-117ad8f34728 framework-314c182fa7e2bf37.js:9:3480
+14:12:21.373 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_cafb9a05-b20b-4a3a-a174-f2d65b4d4b50 framework-314c182fa7e2bf37.js:9:3480
+14:12:21.378 GET
+https://target.scene7.com/is/image/Target/GUEST_cb5bfedc-f207-4147-9756-146ced537fea
+
+14:12:21.441 GET
+https://target.scene7.com/is/image/Target/GUEST_9d535365-974a-4d53-83e6-117ad8f34728
+
+14:12:21.457 GET
+https://target.scene7.com/is/image/Target/GUEST_cafb9a05-b20b-4a3a-a174-f2d65b4d4b50
+
+14:12:21.521 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_9870856a-ec3f-482e-8bd0-3e3dc6b66875 framework-314c182fa7e2bf37.js:9:3480
+14:12:21.527 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_1f09c7cc-d26b-4e09-a188-35f7d77f99df framework-314c182fa7e2bf37.js:9:3480
+14:12:21.531 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_001c9f3a-cb7e-49dd-8705-d9e453a96c80 framework-314c182fa7e2bf37.js:9:3480
+14:12:21.537 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_51911c15-106c-4f23-a0d7-45417cde1b86 framework-314c182fa7e2bf37.js:9:3480
+14:12:21.549 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_c305efff-4e48-440b-a4ca-b348364c4bac framework-314c182fa7e2bf37.js:9:3480
+14:12:21.582 GET
+https://target.scene7.com/is/image/Target/GUEST_9870856a-ec3f-482e-8bd0-3e3dc6b66875
+
+14:12:21.598 GET
+https://target.scene7.com/is/image/Target/GUEST_001c9f3a-cb7e-49dd-8705-d9e453a96c80
+
+14:12:21.598 GET
+https://target.scene7.com/is/image/Target/GUEST_1f09c7cc-d26b-4e09-a188-35f7d77f99df
+
+14:12:21.614 GET
+https://target.scene7.com/is/image/Target/GUEST_c305efff-4e48-440b-a4ca-b348364c4bac
+
+14:12:21.614 GET
+https://target.scene7.com/is/image/Target/GUEST_51911c15-106c-4f23-a0d7-45417cde1b86
+
+14:12:21.649 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_dc12bfca-a6ef-4107-9620-4112e5013a1e GUEST_dc12bfca-a6ef-4107-9620-4112e5013a1e
+14:12:21.650 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_a6f6e109-7353-4620-ab2f-acf1f4f12b34 GUEST_a6f6e109-7353-4620-ab2f-acf1f4f12b34
+14:12:21.651 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_053912e1-b3bf-424c-9407-181ae2553ce1 GUEST_053912e1-b3bf-424c-9407-181ae2553ce1
+14:12:21.651 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_cb5bfedc-f207-4147-9756-146ced537fea GUEST_cb5bfedc-f207-4147-9756-146ced537fea
+14:12:21.653 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_9d535365-974a-4d53-83e6-117ad8f34728 GUEST_9d535365-974a-4d53-83e6-117ad8f34728
+14:12:21.654 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_cafb9a05-b20b-4a3a-a174-f2d65b4d4b50 GUEST_cafb9a05-b20b-4a3a-a174-f2d65b4d4b50
+14:12:21.655 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_9870856a-ec3f-482e-8bd0-3e3dc6b66875 GUEST_9870856a-ec3f-482e-8bd0-3e3dc6b66875
+14:12:21.655 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_1f09c7cc-d26b-4e09-a188-35f7d77f99df GUEST_1f09c7cc-d26b-4e09-a188-35f7d77f99df
+14:12:21.656 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_001c9f3a-cb7e-49dd-8705-d9e453a96c80 GUEST_001c9f3a-cb7e-49dd-8705-d9e453a96c80
+14:12:21.659 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_51911c15-106c-4f23-a0d7-45417cde1b86 GUEST_51911c15-106c-4f23-a0d7-45417cde1b86
+14:12:21.660 Referrer Policy: Ignoring the less restricted referrer policy “no-referrer-when-downgrade” for the cross-site request: https://target.scene7.com/is/image/Target/GUEST_c305efff-4e48-440b-a4ca-b348364c4bac GUEST_c305efff-4e48-440b-a4ca-b348364c4bac
+14:12:21.927 GET
+https://target.scene7.com/is/image/Target/GUEST_dc12bfca-a6ef-4107-9620-4112e5013a1e
+[HTTP/2 200  17565ms]
+
+14:12:21.927 GET
+https://target.scene7.com/is/image/Target/GUEST_053912e1-b3bf-424c-9407-181ae2553ce1
+[HTTP/2 200  3672ms]
+
+14:12:21.927 GET
+https://target.scene7.com/is/image/Target/GUEST_a6f6e109-7353-4620-ab2f-acf1f4f12b34
+[HTTP/2 200  15843ms]
+
+14:12:21.943 GET
+https://target.scene7.com/is/image/Target/GUEST_1f09c7cc-d26b-4e09-a188-35f7d77f99df
+[HTTP/2 200  15875ms]
+
+14:12:21.943 GET
+https://target.scene7.com/is/image/Target/GUEST_9870856a-ec3f-482e-8bd0-3e3dc6b66875
+[HTTP/2 200  11113ms]
+
+14:12:21.943 GET
+https://target.scene7.com/is/image/Target/GUEST_cafb9a05-b20b-4a3a-a174-f2d65b4d4b50
+[HTTP/2 200  13847ms]
+
+14:12:21.943 GET
+https://target.scene7.com/is/image/Target/GUEST_9d535365-974a-4d53-83e6-117ad8f34728
+[HTTP/2 200  3278ms]
+
+14:12:21.943 GET
+https://target.scene7.com/is/image/Target/GUEST_cb5bfedc-f207-4147-9756-146ced537fea
+[HTTP/2 200  4126ms]
+
+14:12:21.959 GET
+https://target.scene7.com/is/image/Target/GUEST_001c9f3a-cb7e-49dd-8705-d9e453a96c80
+[HTTP/2 200  7202ms]
+
+14:12:22.059 GET
+https://target.scene7.com/is/image/Target/GUEST_c305efff-4e48-440b-a4ca-b348364c4bac
+[HTTP/2 200  14800ms]
+
+14:12:22.059 GET
+https://target.scene7.com/is/image/Target/GUEST_51911c15-106c-4f23-a0d7-45417cde1b86
+[HTTP/2 200  15149ms]
+
+	
+Connection:	
+Protocol version:	"TLSv1.3"
+Cipher suite:	"TLS_AES_256_GCM_SHA384"
+Key Exchange Group:	"x25519"
+Signature Scheme:	"ECDSA-P256-SHA256"
+Host target.scene7.com:	
+HTTP Strict Transport Security:	"Disabled"
+Public Key Pinning:	"Disabled"
+Certificate:	
+Issued To	
+Common Name (CN):	"*.scene7.com"
+Organization (O):	"Adobe Inc"
+Organizational Unit (OU):	"<Not Available>"
+Issued By	
+Common Name (CN):	"DigiCert TLS RSA SHA256 2020 CA1"
+Organization (O):	"DigiCert Inc"
+Organizational Unit (OU):	"<Not Available>"
+Period of Validity	
+Begins On:	"Sat, 11 Nov 2023 00:00:00 GMT"
+Expires On:	"Wed, 13 Nov 2024 23:59:59 GMT"
+Fingerprints	
+SHA-256 Fingerprint:	"43:98:10:34:CB:98:99:0D:61:50…2:71:1D:F1:0E:F5:2C:60:3A:9D"
+SHA1 Fingerprint:	"81:79:04:0C:EB:9D:D8:2C:75:AC:CD:61:30:D1:ED:33:99:2F:AB:16"
+Transparency:	"<Not Available>"
+14:12:22.084 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  564ms]
+
+14:12:22.439 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/custom_interaction?_debugEvent=customInteraction
+[HTTP/2 201  683ms]
+
+14:12:24.734 POST
+https://api.target.com/telemetry_data/v1/traces?key=5622b71fe94d55e17b492fa9e2b07dbc69f68c4f
+[HTTP/2 200  4050ms]
+
+14:12:26.383 POST
+https://api.target.com/telemetry_data/v1/traces?key=5622b71fe94d55e17b492fa9e2b07dbc69f68c4f
+[HTTP/2 200  2401ms]
+
+14:12:27.340 XHRPOST
+https://api.target.com/rum_analytics/v1
+[HTTP/2 201  1733ms]
+
+15:42:47.186 XHROPTIONS
+https://api.target.com/consumers/v1/ingest/web/custom_interaction?_debugEvent=customInteraction
+[HTTP/2 200  3114ms]
+
+15:42:48.902 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/custom_interaction?_debugEvent=customInteraction
+[HTTP/2 201  125ms]
+
+15:45:22.504 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/custom_interaction?_debugEvent=customInteraction
+[HTTP/2 201  2071ms]
+
+15:45:50.449 Error: Failed to lookup route: /gift-registry
+    NextJS 52
+vendor-0e28b3137c6b7747.js:20:14139
+15:46:05.868 XHRPOST
+https://api.target.com/consumers/v1/ingest/web/custom_interaction?_debugEvent=customInteraction
+[HTTP/2 201  110ms]
+
