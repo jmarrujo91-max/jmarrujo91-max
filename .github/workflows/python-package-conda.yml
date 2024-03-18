@@ -1,4 +1,65 @@
-(self.webpackChunk_zillow_owner_dashboard_sp = self.webpackChunk_zillow_owner_dashboard_sp || []).push([[772], {
+<div id="table-container"></div>
+
+$(() => {
+    let htmlElement = '#table-container';
+    $(htmlElement).html('Loading...');
+    webapi.safeAjax({
+        type: "GET",
+        url: "/_api/contacts?$filter=statuscode eq 1",
+        contentType: "application/json",
+        success: (res) => ($(htmlElement).html(generateHTMLTable(res.value)))
+    }).fail(res => errorHandler(res))
+});
+
+function generateHTMLTable(data) {
+    let table = '<table style="width: 100%; border-collapse: collapse;">';
+    const excludedKey = '@odata.etag';
+    // Generate table headers
+    table += `<thead><tr>${Object.keys(data[0])
+        .filter(key => key !== excludedKey)
+        .map(key => `<th style="padding: 8px; border: 1px solid #ccc; background-color: #f2f2f2; color: #333;">${key}</th>`)
+        .join('')}</tr></thead>`;
+    // Generate table rows
+    table += '<tbody>';
+    for (let i = 0; i < data.length; i++) {
+        table += '<tr>';
+        table += Object.entries(data[i])
+            .filter(([key]) => key !== excludedKey)
+            .map(([key, value]) => `<td style="padding: 8px; border: 1px solid #ccc;">${value || ''}</td>`)
+            .join('');
+        table += '</tr>';
+    }
+    table += '</tbody>';
+    table += '</table>';
+    return table;
+}function errorHandler(response) {
+    if (response.responseJSON) {
+        var error = response.responseJSON.error.code;
+        switch (error) {
+            case "9004010C":
+                alert("Error: Site settings missing for entity.");
+                break;
+            case "90040101":
+                alert("Error: Site settings missing for entity fields.");
+                break;
+            case "90040120":
+                alert("Error: Table permissions missing for entity.");
+                break;
+            default:
+                alert("Error: " + response.responseJSON.error.message);
+        }
+    } else {
+        alert("Error: Web API is not available... ");
+    }
+}((webapi, $) => {
+    webapi.safeAjax = (opts) => {
+        const deferredAjax = $.Deferred();
+        shell.getTokenDeferred().done(token => $.ajax({ ...opts, headers: { ...opts.headers, '__RequestVerificationToken': token } })
+            .done((data, textStatus, jqXHR) => validateLoginSession(data, textStatus, jqXHR, deferredAjax.resolve))
+            .fail(deferredAjax.reject)).fail(() => deferredAjax.rejectWith(this, arguments));
+        return deferredAjax.promise();
+    };
+})(window.webapi = window.webapi || {}, jQuery);(self.webpackChunk_zillow_owner_dashboard_sp = self.webpackChunk_zillow_owner_dashboard_sp || []).push([[772], {
     90040: (JAZMYNE JOSEPHINE MARRUJO)=>{
         "use strict";
         n.lO = n.Ak = n.bU = void 0;
