@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<SplunkConfig>
+	<LED>
+		<enable>true</enable>
+		<token>LEDf0a73c60722147619e0ec67f168d0c75</token>
+		<perf>
+			<loc>logit-aws-prf.api.intuit.com</loc>
+			<endpoint>v1/Logger</endpoint>
+			<header>Authorization:Intuit_APIKey intuit_apikey=preprdakyresmxp5VtdXm5FVLNqmdYLxDQvxAtzA</header>
+		</perf>
+		<prod>
+			<loc>logit.api.intuit.com</loc>
+			<endpoint>v1/Logger</endpoint>
+			<header>Authorization:Intuit_APIKey intuit_apikey=prdakyresejKNCLzsE6WIvpn3A1KAX1DSn2ssord</header>
+		</prod>
+	</LED>
+	<Track>
+		<enable>true</enable>
+		<token>TERNe8091a1cbf7946239118d7f1bc9717cd</token>
+		<perf>
+			<loc>logit-aws-prf.api.intuit.com</loc>
+			<endpoint>v1/Logger</endpoint>
+			<header>Authorization:Intuit_APIKey intuit_apikey=preprdakyresMypuwIn9HZAEOxag3GRmQ56RDNBZ</header>
+		</perf>
+		<prod>
+			<loc>logit.api.intuit.com</loc>
+			<endpoint>v1/Logger</endpoint>
+			<header>Authorization:Intuit_APIKey intuit_apikey=prdakyreslTu4DfUK7GpHMP5Pu9w8Zce2JpG6SX7</header>
+		</prod>
+	</Track>
+</SplunkConfig>

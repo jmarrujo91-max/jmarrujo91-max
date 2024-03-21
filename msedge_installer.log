@@ -1,0 +1,886 @@
+[11160:11164:0309/130807.313:1765421:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[11160:11164:0309/130807.313:1765421:VERBOSE1:setup_main.cc(2940)] Command Line: "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.80\Installer\setup.exe" --rename-msedge-exe --system-level --verbose-logging --msedge --channel=stable
+[11160:11164:0309/130807.313:1765421:VERBOSE1:setup_main.cc(2946)] system install is 1
+[11160:11164:0309/130807.329:1765437:VERBOSE1:installer_state.cc(95)] Install
+[11160:11164:0309/130807.407:1765515:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[11160:11164:0309/130807.422:1765531:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 0
+[11160:11164:0309/130807.422:1765531:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[11160:11164:0309/130807.422:1765531:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[11160:11164:0309/130807.422:1765531:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[11160:11164:0309/130807.422:1765531:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[11160:11164:0309/130807.422:1765531:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[11160:11164:0309/130807.422:1765531:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[11160:11164:0309/130807.422:1765531:VERBOSE1:installer_state.cc(95)] Install
+[11160:11164:0309/130807.422:1765531:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list 
+[11160:11164:0309/130807.422:1765531:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\old_msedge.exe
+[11160:11164:0309/130807.422:1765531:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\new_msedge.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[11160:11164:0309/130807.422:1765531:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating ExistingProxyRenameItemList condition...
+[11160:11164:0309/130807.422:1765531:VERBOSE1:conditional_work_item_list.cc(18)] Beginning conditional work item list
+[11160:11164:0309/130807.422:1765531:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list ExistingProxyRenameItemList
+[11160:11164:0309/130807.422:1765531:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\old_edge_proxy.exe
+[11160:11164:0309/130807.422:1765531:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list ExistingProxyRenameItemList
+[11160:11164:0309/130807.422:1765531:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\new_edge_proxy.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe
+[11160:11164:0309/130807.422:1765531:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\Windows Error Reporting\RuntimeExceptionHelperModules
+[11160:11164:0309/130807.438:1765546:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.80\Installer\setup.exe" --cleanup-for-downgrade-version=$1 --cleanup-for-downgrade-operation=$2 --msedge --channel=stable --system-level --verbose-logging into Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[11160:11164:0309/130807.438:1765546:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 85.0.4169.0 into Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[11160:11164:0309/130807.438:1765546:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\ClientStateMedium\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} or Value: experiment_labels does not exist.
+[11160:11164:0309/130807.438:1765546:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating ExistingPwaHelperRenameItemList condition...
+[11160:11164:0309/130807.438:1765546:VERBOSE1:conditional_work_item_list.cc(18)] Beginning conditional work item list
+[11160:11164:0309/130807.438:1765546:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list ExistingPwaHelperRenameItemList
+[11160:11164:0309/130807.438:1765546:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\pwahelper.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\old_pwahelper.exe
+[11160:11164:0309/130807.438:1765546:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list ExistingPwaHelperRenameItemList
+[11160:11164:0309/130807.438:1765546:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\new_pwahelper.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\pwahelper.exe
+[11160:11164:0309/130807.438:1765546:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating ExistingUrlHandlingCustomCapSccdRenameItemList condition...
+[11160:11164:0309/130807.438:1765546:VERBOSE1:conditional_work_item_list.cc(18)] Beginning conditional work item list
+[11160:11164:0309/130807.438:1765546:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list ExistingUrlHandlingCustomCapSccdRenameItemList
+[11160:11164:0309/130807.438:1765546:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\delegatedWebFeatures.sccd to destination C:\Program Files (x86)\Microsoft\Edge\Application\old_delegatedWebFeatures.sccd
+[11160:11164:0309/130807.438:1765546:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list ExistingUrlHandlingCustomCapSccdRenameItemList
+[11160:11164:0309/130807.438:1765546:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\new_delegatedWebFeatures.sccd to destination C:\Program Files (x86)\Microsoft\Edge\Application\delegatedWebFeatures.sccd
+[11160:11164:0309/130807.438:1765546:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} or Value: cpv does not exist.
+[11160:11164:0309/130807.438:1765546:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd
+[11160:11164:0309/130807.438:1765546:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe
+[11160:11164:0309/130807.438:1765546:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value stable into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[11160:11164:0309/130807.438:1765546:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list 
+[11160:11164:0309/130807.438:1765546:VERBOSE1:setup_main.cc(1016)] Deleting temporary directory C:\Program Files (x86)\Microsoft\Edge\Temp
+[11160:11164:0309/130807.438:1765546:WARNING:self_cleaning_temp_dir.cc(87)] Failed to delete temporary directory C:\Program Files (x86)\Microsoft\Edge\Temp. Scheduling for deletion at reboot.
+[11160:11164:0309/130807.438:1765546:VERBOSE1:delete_after_reboot_helper.cc(100)] Scheduled for deletion: C:\Program Files (x86)\Microsoft\Edge\Temp\scoped_dir11160_1430861160\old_msedge.exe
+[11160:11164:0309/130807.454:1765562:VERBOSE1:delete_after_reboot_helper.cc(100)] Scheduled for deletion: C:\Program Files (x86)\Microsoft\Edge\Temp\scoped_dir11160_1430861160
+[11160:11164:0309/130807.454:1765562:VERBOSE1:delete_after_reboot_helper.cc(100)] Scheduled for deletion: C:\Program Files (x86)\Microsoft\Edge\Temp
+[11160:11164:0309/130807.454:1765562:VERBOSE1:install_util.cc(274)] Existing version found: 122.0.2365.80
+[11160:11164:0309/130807.454:1765562:VERBOSE1:install.cc(1038)] Launching ""C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.80\Installer\setup.exe" --msedge --channel=stable --delete-old-versions --system-level --verbose-logging" to delete old versions.
+[11160:11164:0309/130807.469:1765578:VERBOSE1:install.cc(1234)] Launching ""C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.80\Installer\setup.exe" --msedge --channel=stable --register-package-identity --verbose-logging --system-level" to register package identity.
+[11228:11232:0309/130807.485:1765593:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[11228:11232:0309/130807.485:1765593:VERBOSE1:setup_main.cc(2940)] Command Line: "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.80\Installer\setup.exe" --msedge --channel=stable --delete-old-versions --system-level --verbose-logging
+[11228:11232:0309/130807.485:1765593:VERBOSE1:setup_main.cc(2946)] system install is 1
+[11160:11164:0309/130807.485:1765593:VERBOSE1:setup_main.cc(3154)] NonInstall operation completed. Exit code: 23
+[11228:11232:0309/130807.485:1765593:VERBOSE1:installer_state.cc(95)] Install
+[11236:11240:0309/130807.501:1765609:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[11236:11240:0309/130807.501:1765609:VERBOSE1:setup_main.cc(2940)] Command Line: "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.80\Installer\setup.exe" --msedge --channel=stable --register-package-identity --verbose-logging --system-level
+[11236:11240:0309/130807.501:1765609:VERBOSE1:setup_main.cc(2946)] system install is 1
+[11236:11240:0309/130807.516:1765625:VERBOSE1:installer_state.cc(95)] Install
+[11228:11232:0309/130807.547:1765656:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 2
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 0
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[11228:11232:0309/130807.547:1765656:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[11228:11232:0309/130807.563:1765671:VERBOSE1:installer_state.cc(95)] Install
+[11228:11232:0309/130807.563:1765671:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (15000)
+[11236:11240:0309/130807.579:1765687:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[11236:11240:0309/130807.579:1765687:VERBOSE1:setup_util.cc(245)] Looking for Edge version folder under C:\Program Files (x86)\Microsoft\Edge\Application
+[11236:11240:0309/130807.579:1765687:VERBOSE1:setup_util.cc(257)] directory found: 122.0.2365.66
+[11236:11240:0309/130807.579:1765687:VERBOSE1:setup_util.cc(257)] directory found: 122.0.2365.80
+[11236:11240:0309/130807.579:1765687:VERBOSE1:setup_util.cc(257)] directory found: SetupMetrics
+[11236:11240:0309/130818.310:1776421:INFO:edge_register_sparse_msix.cc(68)] MSIX Succeeded: Install MSIX package: C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.80\identity_proxy\win11\identity_helper.sparse.stable.msix
+[11236:11240:0309/130818.326:1776437:VERBOSE1:appx_package_installer.cc(1033)] CreatePackageManager hr: 0
+[11236:11240:0309/130818.326:1776437:VERBOSE1:appx_package_installer.cc(105)] IsPackageProvisioned: Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe - Switch to IPackageManager9: hr: 0
+[11236:11240:0309/130818.950:1777062:VERBOSE1:appx_package_installer.cc(141)] Package is provisioned: Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe
+[11236:11240:0309/130818.950:1777062:VERBOSE1:appx_package_installer.cc(1041)] IsPackageProvisioned hr: 0 1
+[11236:11240:0309/130818.950:1777062:VERBOSE1:appx_package_installer.cc(1045)] Package Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe is already provisioned, register app to active user instead.
+[11236:11240:0309/130821.405:1779515:INFO:edge_register_sparse_msix.cc(68)] MSIX Succeeded: Apply provisions for all users
+[11236:11240:0309/130821.405:1779515:VERBOSE1:setup_main.cc(3154)] NonInstall operation completed. Exit code: 0
+[11228:11232:0309/130822.566:1780671:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[11228:11232:0309/130822.566:1780671:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.66
+[11228:11232:0309/130823.081:1781187:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\Edge\Application
+[11228:11232:0309/130823.128:1781234:VERBOSE1:setup_main.cc(825)] Successfully deleted all old files from --delete-old-versions process.
+[11228:11232:0309/130823.191:1781296:VERBOSE1:delete_old_versions.cc(525)] Version directories count: 1, full version directories count: 1
+[11228:11232:0309/130823.191:1781296:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.144
+[11228:11232:0309/130823.191:1781296:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[11228:11232:0309/130823.191:1781296:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[11228:11232:0309/130823.206:1781312:VERBOSE1:setup_main.cc(1353)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[11228:11232:0309/130823.206:1781312:VERBOSE1:setup_main.cc(1353)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[11228:11232:0309/130823.206:1781312:VERBOSE1:setup_main.cc(1396)] PruneUnusedCoreVersions count=5
+[11228:11232:0309/130823.206:1781312:VERBOSE1:install_util.cc(274)] Existing version found: 122.0.2365.80
+[11228:11232:0309/130823.206:1781312:VERBOSE1:setup_main.cc(3154)] NonInstall operation completed. Exit code: 62
+[3944:7976:0311/101551.264:60648750:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[3944:7976:0311/101551.264:60648750:VERBOSE1:setup_main.cc(2940)] Command Line: "C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{EEF79A4E-9EAB-4B48-8652-095D9112EFC7}\EDGEMITMP_A406C.tmp\setup.exe" --install-archive="C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{EEF79A4E-9EAB-4B48-8652-095D9112EFC7}\MicrosoftEdge_X64_122.0.2365.80_122.0.2365.66.exe" --previous-version=122.0.2365.66 --msedgewebview --verbose-logging --do-not-launch-msedge --system-level
+[3944:7976:0311/101551.264:60648750:VERBOSE1:setup_main.cc(2946)] system install is 1
+[3944:7976:0311/101551.296:60648781:VERBOSE1:installer_state.cc(95)] Install
+[3944:7976:0311/101551.397:60648875:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 2
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 1
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[3944:7976:0311/101551.397:60648875:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[3944:7976:0311/101551.397:60648875:VERBOSE1:installer_state.cc(95)] Install
+[3944:7976:0311/101551.414:60648890:VERBOSE1:setup_main.cc(1490)] Entered background processing mode.
+[3944:7976:0311/101551.414:60648890:VERBOSE1:setup_main.cc(1500)] Installing to C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[3944:7976:0311/101551.414:60648890:VERBOSE1:setup_main.cc(2493)] version to install: 122.0.2365.80
+[3944:7976:0311/101551.414:60648890:VERBOSE1:setup_main.cc(1185)] Created path C:\Program Files (x86)\Microsoft\EdgeWebView\Temp
+[3944:7976:0311/101551.414:60648890:VERBOSE1:setup_main.cc(1207)] Temp dir's size in bytes: 0, in MB: 0
+[3944:7976:0311/101551.414:60648890:VERBOSE1:setup_main.cc(1270)] Found 0 directories in C:\Program Files (x86)\Microsoft\Temp
+[3944:7976:0311/101551.414:60648890:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.144
+[3944:7976:0311/101551.414:60648890:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[3944:7976:0311/101551.414:60648890:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[3944:7976:0311/101551.430:60648906:VERBOSE1:setup_main.cc(1353)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[3944:7976:0311/101551.447:60648921:VERBOSE1:setup_main.cc(1353)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[3944:7976:0311/101551.447:60648921:VERBOSE1:setup_main.cc(1396)] PruneUnusedCoreVersions count=5
+[3944:7976:0311/101551.447:60648921:VERBOSE1:rebuild7z.cc(513)] Getting content info to validate install. Level: 3
+[3944:7976:0311/101551.480:60648953:VERBOSE1:rebuild7z.cc(526)] ValidateInstalledFiles. Elements: 227, file infos: 205
+[3944:7976:0311/101600.728:60658203:VERBOSE1:rebuild7z.cc(76)] ValidateInstalledFiles stats: Total files: 205, open failures: 0, missing files:: 0, wrong sizes: 0, wrong crcs: 0
+[3944:7976:0311/101600.728:60658203:VERBOSE1:setup_main.cc(1307)] Created path C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80
+[3944:7976:0311/101600.728:60658203:VERBOSE1:install_worker.cc(437)] Will link files from: C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80 to: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80
+[3944:7976:0311/101600.728:60658203:VERBOSE1:install_worker.cc(295)] AddFireWallRuleWorkItem C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\msedgewebview2.exe
+[3944:7976:0311/101600.728:60658203:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list 
+[3944:7976:0311/101600.728:60658203:VERBOSE1:create_dir_work_item.cc(33)] creating directory C:\Program Files (x86)\Microsoft\EdgeWebView\Temp
+[3944:7976:0311/101600.744:60658218:VERBOSE1:create_dir_work_item.cc(33)] creating directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[3944:7976:0311/101600.745:60658218:VERBOSE1:install_worker.cc(520)] AddAppContainerFoldersAclWorkItems callback C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[3944:7976:0311/101600.995:60658468:VERBOSE1:install_worker.cc(527)] AddAppContainerFoldersAclWorkItems callback C:\Program Files (x86)\Microsoft\EdgeCore
+[3944:7976:0311/101601.178:60658656:VERBOSE1:create_dir_work_item.cc(33)] creating directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\SetupMetrics
+[3944:7976:0311/101601.178:60658656:VERBOSE1:copy_tree_work_item.cc(87)] Moved destination C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80 to backup path C:\Program Files (x86)\Microsoft\EdgeWebView\Temp\scoped_dir3944_566224022\122.0.2365.80
+[3944:7976:0311/101601.328:60658812:VERBOSE1:copy_tree_work_item.cc(107)] Copied source C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80 to destination C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80
+[3944:7976:0311/101601.328:60658812:VERBOSE1:system_restore_resiliency.cc(228)] TryWinResiliencyLinkTree under path: 'C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80'.
+[3944:7976:0311/101601.445:60658921:VERBOSE1:system_restore_resiliency.cc(257)] TryWinResiliencyLinkTree completed.  Files: 207, Processed: 146, Failed: 0, Ignored: 61.
+[3944:7976:0311/101601.445:60658921:VERBOSE1:install_worker.cc(222)] Milliseconds spent on Resiliency Linking: 113. Is background: 1
+[3944:7976:0311/101601.538:60659015:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\Installer\setup.exe into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101601.538:60659015:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value  --uninstall --msedgewebview --system-level --verbose-logging into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Edge WebView2 Runtime into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /install appguid={F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}&appname=Microsoft%20Edge%20WebView&needsadmin=true&repairtype=windowsonlinerepair /installsource windows into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\Installer\setup.exe" --uninstall --msedgewebview --system-level --verbose-logging into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\msedgewebview2.exe,0 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView or Value: NoModify does not exist.
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Corporation into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.80 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.80 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 20240311 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.545:60659031:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.578:60659062:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[3944:7976:0311/101601.578:60659062:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Edge WebView2 Runtime into Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101601.578:60659062:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5} or Value: oopcrashes does not exist.
+[3944:7976:0311/101601.628:60659109:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application into Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101601.628:60659109:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.80 into Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101601.645:60659125:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80 into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101601.681:60659156:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\Installer\setup.exe" --force-uninstall --uninstall --msedgewebview --system-level --verbose-logging into Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101601.763:60659250:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list 
+[3944:7976:0311/101602.093:60659578:VERBOSE1:install.cc(491)] Version updated to 122.0.2365.80
+[3944:7976:0311/101602.095:60659578:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66
+[3944:7976:0311/101602.144:60659625:WARNING:delete_old_versions.cc(172)] Failed to delete old executable (using disposition flags) on C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66\msedgewebview2.exe: Access is denied. (0x5)
+[3944:7976:0311/101602.144:60659625:WARNING:delete_old_versions.cc(273)] Failed to delete stray directory due to exe in use C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66: Access is denied. (0x5)
+[3944:7976:0311/101602.144:60659625:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[3944:7976:0311/101602.161:60659640:VERBOSE1:install.cc(1038)] Launching ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\Installer\setup.exe" --msedgewebview --delete-old-versions --system-level --verbose-logging" to delete old versions.
+[3944:7976:0311/101602.244:60659718:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.144
+[3944:7976:0311/101602.244:60659718:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[3944:7976:0311/101602.244:60659718:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[3944:7976:0311/101602.244:60659718:VERBOSE1:setup_main.cc(1353)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[3944:7976:0311/101602.244:60659718:VERBOSE1:setup_main.cc(1353)] PruneUnusedCoreVersions keep(3) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[3944:7976:0311/101602.244:60659718:VERBOSE1:setup_main.cc(1396)] PruneUnusedCoreVersions count=5
+[3944:7976:0311/101602.261:60659734:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list Write Installer Result
+[3944:7976:0311/101602.328:60659812:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101602.328:60659812:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101602.328:60659812:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5} or Value: InstallerResultUIString does not exist.
+[3944:7976:0311/101602.328:60659812:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\msedge.exe" --from-installer into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[3944:7976:0311/101602.328:60659812:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list Write Installer Result
+[3944:7976:0311/101602.328:60659812:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\ChromiumExt
+[3944:7976:0311/101602.328:60659812:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\.crx
+[3944:7976:0311/101602.328:60659812:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\ChromiumExt
+[3944:7976:0311/101602.328:60659812:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\.crx
+[3944:7976:0311/101602.328:60659812:VERBOSE1:setup_main.cc(2837)] Deleting temporary directory C:\Program Files (x86)\Microsoft\EdgeWebView\Temp
+[3944:7976:0311/101602.328:60659812:VERBOSE1:google_update_settings.cc(804)] Installer result: 0. Removing -full AP hint. New AP hint: 
+[3944:7976:0311/101602.328:60659812:VERBOSE1:setup_main.cc(1535)] Milliseconds spent on install: 10921. Is background: 1
+[3944:7976:0311/101602.343:60659828:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{00000000-0000-0000-0000-000000000000}
+[3944:7976:0311/101602.410:60659890:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{00000000-0000-0000-0000-000000000000}
+[3944:7976:0311/101602.411:60659890:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Chromium Binaries
+[3944:7976:0311/101602.611:60660093:VERBOSE1:setup_main.cc(3316)] Peak pagefile (MB): 5
+[3944:7976:0311/101602.611:60660093:VERBOSE1:setup_main.cc(3317)] Peak working-set (MB): 184
+[3944:7976:0311/101602.611:60660093:VERBOSE1:setup_main.cc(3319)] Installer disk usage (MB): 1
+[3944:7976:0311/101602.711:60660187:VERBOSE1:setup_main.cc(3320)] Free disk space (MB): 7805
+[3944:7976:0311/101602.777:60660250:VERBOSE1:setup_main.cc(3333)] Installation complete, returning: 0
+[3944:7976:0311/101602.877:60660359:WARNING:setup_util.cc(1418)] Repeated failure count: 0
+[3944:7976:0311/101603.155:60660640:VERBOSE1:trace_logging.cc(28)] Unregister TraceLogging provider
+[14716:16156:0311/101604.577:60662062:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[14716:16156:0311/101604.677:60662156:VERBOSE1:setup_main.cc(2940)] Command Line: "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\Installer\setup.exe" --msedgewebview --delete-old-versions --system-level --verbose-logging
+[14716:16156:0311/101604.728:60662203:VERBOSE1:setup_main.cc(2946)] system install is 1
+[14716:16156:0311/101604.794:60662281:VERBOSE1:installer_state.cc(95)] Install
+[14716:16156:0311/101605.061:60662546:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 2
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 1
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (4999)
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (4999)
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[14716:16156:0311/101605.061:60662546:VERBOSE1:installer_state.cc(95)] Install
+[14716:16156:0311/101605.061:60662546:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (15000)
+[14716:16156:0311/101620.091:60677578:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[14716:16156:0311/101620.107:60677593:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66
+[14716:16156:0311/101620.323:60677796:VERBOSE1:delete_old_versions.cc(185)] Removing Firewall rules for old version C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66\msedgewebview2.exe
+[14716:16156:0311/101620.708:60678187:ERROR:delete_old_versions.cc(280)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66. Will try with EvenIfInUse.: The process cannot access the file because it is being used by another process. (0x20)
+[14716:16156:0311/101620.723:60678203:ERROR:delete_old_versions.cc(288)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66: The process cannot access the file because it is being used by another process. (0x20)
+[14716:16156:0311/101620.724:60678203:WARNING:delete_old_versions.cc(205)] Path failed to delete: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66\icudtl.dat
+[14716:16156:0311/101620.724:60678203:VERBOSE1:delete_old_versions.cc(209)] RmRegisterResources returned 0
+[14716:16156:0311/101621.174:60678656:WARNING:delete_old_versions.cc(240)] Friendly name of process using one of the remaining files: Widgets
+[14716:16156:0311/101621.174:60678656:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[14716:16156:0311/101621.207:60678687:VERBOSE1:setup_main.cc(831)] Failed to delete all old files from --delete-old-versions process. Will retry every five minutes.
+[14716:16156:0311/101621.225:60678703:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (300000)
+[14716:16156:0311/102121.254:60978734:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[14716:16156:0311/102121.285:60978765:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66
+[14716:16156:0311/102121.301:60978781:ERROR:delete_old_versions.cc(280)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66. Will try with EvenIfInUse.: The process cannot access the file because it is being used by another process. (0x20)
+[14716:16156:0311/102121.317:60978796:ERROR:delete_old_versions.cc(288)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66: The process cannot access the file because it is being used by another process. (0x20)
+[14716:16156:0311/102121.333:60978812:WARNING:delete_old_versions.cc(205)] Path failed to delete: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66\icudtl.dat
+[14716:16156:0311/102121.348:60978828:VERBOSE1:delete_old_versions.cc(209)] RmRegisterResources returned 0
+[14716:16156:0311/102121.726:60979203:WARNING:delete_old_versions.cc(240)] Friendly name of process using one of the remaining files: Widgets
+[14716:16156:0311/102121.852:60979328:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[14716:16156:0311/102121.910:60979390:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (300000)
+[14716:16156:0311/102622.009:61279484:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[14716:16156:0311/102622.025:61279500:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66
+[14716:16156:0311/102622.025:61279500:ERROR:delete_old_versions.cc(280)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66. Will try with EvenIfInUse.: The process cannot access the file because it is being used by another process. (0x20)
+[14716:16156:0311/102622.025:61279500:ERROR:delete_old_versions.cc(288)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66: The process cannot access the file because it is being used by another process. (0x20)
+[14716:16156:0311/102622.040:61279515:WARNING:delete_old_versions.cc(205)] Path failed to delete: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.66\icudtl.dat
+[14716:16156:0311/102622.040:61279515:VERBOSE1:delete_old_versions.cc(209)] RmRegisterResources returned 0
+[14716:16156:0311/102622.338:61279812:WARNING:delete_old_versions.cc(240)] Friendly name of process using one of the remaining files: Widgets
+[14716:16156:0311/102622.354:61279828:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[14716:16156:0311/102622.417:61279890:VERBOSE1:delete_old_versions.cc(525)] Version directories count: 2, full version directories count: 1
+[14716:16156:0311/102622.417:61279890:VERBOSE1:setup_main.cc(839)] Try to schedule deletion of old versions
+[14716:16156:0311/102622.432:61279906:VERBOSE1:setup_main.cc(841)] Successfully scheduled deletion of all old files from --delete-old-versions process.
+[14716:16156:0311/102622.511:61279984:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.144
+[14716:16156:0311/102622.511:61279984:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[14716:16156:0311/102622.511:61279984:VERBOSE1:setup_main.cc(1345)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[14716:16156:0311/102622.511:61279984:VERBOSE1:setup_main.cc(1369)] PruneUnusedCoreVersions prune(1) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[14716:16156:0311/102622.511:61279984:VERBOSE1:uninstall.cc(1431)] Changing current directory to: C:\WINDOWS\TEMP
+[14716:16156:0311/102622.542:61280015:VERBOSE1:uninstall.cc(1444)] Attempting to move setup.exe to: C:\Windows\Temp\5e74538e-a984-42c6-bf44-6c2fca10cc8b.tmp
+[14716:16156:0311/102623.478:61280953:VERBOSE1:setup_main.cc(1353)] PruneUnusedCoreVersions keep(3) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[14716:16156:0311/102623.478:61280953:VERBOSE1:setup_main.cc(1396)] PruneUnusedCoreVersions count=5
+[14716:16156:0311/102623.484:61280968:VERBOSE1:install_util.cc(274)] Existing version found: 122.0.2365.80
+[14716:16156:0311/102623.499:61280984:VERBOSE1:setup_main.cc(3154)] NonInstall operation completed. Exit code: 62
+[27372:14640:0316/170105.399:78119468:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[27372:14640:0316/170105.399:78119468:VERBOSE1:setup_main.cc(2945)] Command Line: "C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{5488CAEF-0C4A-4D60-9ACA-93A3EE1AAAEC}\EDGEMITMP_D553A.tmp\setup.exe" --install-archive="C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{5488CAEF-0C4A-4D60-9ACA-93A3EE1AAAEC}\MicrosoftEdge_X64_122.0.2365.92_122.0.2365.80.exe" --previous-version=122.0.2365.80 --msedge --verbose-logging --do-not-launch-msedge --system-level --channel=stable
+[27372:14640:0316/170105.399:78119468:VERBOSE1:setup_main.cc(2951)] system install is 1
+[27372:14640:0316/170105.415:78119484:VERBOSE1:installer_state.cc(95)] Install
+[27372:14640:0316/170105.462:78119531:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 2
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 0
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[27372:14640:0316/170105.477:78119546:VERBOSE1:installer_state.cc(95)] Install
+[27372:14640:0316/170105.477:78119546:VERBOSE1:setup_main.cc(1491)] Entered background processing mode.
+[27372:14640:0316/170105.540:78119609:VERBOSE1:setup_main.cc(1501)] Installing to C:\Program Files (x86)\Microsoft\Edge\Application
+[27372:14640:0316/170105.555:78119625:VERBOSE1:setup_main.cc(2494)] version to install: 122.0.2365.92
+[27372:14640:0316/170105.587:78119656:VERBOSE1:setup_main.cc(1186)] Created path C:\Program Files (x86)\Microsoft\Edge\Temp
+[27372:14640:0316/170105.602:78119671:VERBOSE1:setup_main.cc(1208)] Temp dir's size in bytes: 0, in MB: 0
+[27372:14640:0316/170105.634:78119703:VERBOSE1:setup_main.cc(1271)] Found 0 directories in C:\Program Files (x86)\Microsoft\Temp
+[27372:14640:0316/170105.774:78119843:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.144
+[27372:14640:0316/170105.805:78119875:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[27372:14640:0316/170105.837:78119906:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[27372:14640:0316/170105.961:78120031:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[27372:14640:0316/170106.040:78120109:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(3) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[27372:14640:0316/170106.071:78120140:VERBOSE1:setup_main.cc(1397)] PruneUnusedCoreVersions count=5
+[27372:14640:0316/170106.102:78120171:VERBOSE1:setup_main.cc(2245)] Installing Edge from compressed archive C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{5488CAEF-0C4A-4D60-9ACA-93A3EE1AAAEC}\MicrosoftEdge_X64_122.0.2365.92_122.0.2365.80.exe
+[27372:14640:0316/170106.102:78120171:VERBOSE1:lzma_util.cc(332)] Opening archive C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{5488CAEF-0C4A-4D60-9ACA-93A3EE1AAAEC}\MicrosoftEdge_X64_122.0.2365.92_122.0.2365.80.exe
+[27372:14640:0316/170106.118:78120187:VERBOSE1:lzma_util.cc(339)] Uncompressing archive to path C:\Program Files (x86)\Microsoft\Edge\Temp\source27372_386369266
+[27372:14640:0316/170106.118:78120187:VERBOSE1:lzma_util.cc(425)] Unpack options. Soft-Reserve: 1, WOF: 0, Signature cache: 0
+[27372:14640:0316/170106.118:78120187:VERBOSE1:lzma_util.cc(542)] Marking target file as a storage soft-reserve candidate: C:\Program Files (x86)\Microsoft\Edge\Temp\source27372_386369266\msedge_patch.diff
+[27372:14640:0316/170107.071:78121140:VERBOSE1:lzma_util.cc(753)] Unpack completed. Size: 38607617
+[27372:14640:0316/170107.117:78121187:VERBOSE1:setup_util.cc(276)] Looking for archive to patch using desired version: 122.0.2365.80
+[27372:14640:0316/170107.117:78121187:VERBOSE1:setup_util.cc(383)] Using archive metadata and baseline from EdgeCore: C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80\Installer\msedge_7z.data
+[27372:14640:0316/170107.117:78121187:VERBOSE1:archive_patch_helper.cc(168)] Found archive metadata: C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80\Installer\msedge_7z.data. Attempting to patch using it.
+[27372:14640:0316/170107.117:78121187:VERBOSE1:archive_patch_helper.cc(197)] Marking temporal archive as a storage soft-reserve candidate.
+[27372:14640:0316/170107.117:78121187:VERBOSE1:archive_patch_helper.cc(201)] Reconstructing baseline archive.
+[27372:14640:0316/170218.698:78192765:VERBOSE1:archive_patch_helper.cc(212)] Archive reconstructed successfully.
+[27372:14640:0316/170218.791:78192859:VERBOSE1:archive_patch_helper.cc(227)] Marking target archive as a storage soft-reserve candidate.
+[27372:14640:0316/170442.613:78336687:WARNING:disassembler_win32.cc(343)] Removed 10 untranslatable abs32 references.
+[27372:14640:0316/170453.784:78347859:WARNING:disassembler_win32.cc(343)] Removed 26 untranslatable abs32 references.
+[27372:14640:0316/171020.474:78674546:VERBOSE1:setup_main.cc(2257)] ArchiveUncompressAndPatch success.
+[27372:14640:0316/171020.592:78674656:VERBOSE1:setup_main.cc(2640)] Unpacking to EdgeCore: C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[27372:14640:0316/171020.719:78674781:VERBOSE1:setup_main.cc(1308)] Created path C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[27372:14640:0316/171020.862:78674937:VERBOSE1:lzma_util.cc(332)] Opening archive C:\Program Files (x86)\Microsoft\Edge\Temp\source27372_386369266\msedge.7z
+[27372:14640:0316/171021.114:78675187:VERBOSE1:lzma_util.cc(339)] Uncompressing archive to path C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[27372:14640:0316/171021.114:78675187:VERBOSE1:lzma_util.cc(425)] Unpack options. Soft-Reserve: 0, WOF: 1, Signature cache: 1
+[27372:14640:0316/171021.306:78675375:VERBOSE1:lzma_util.cc(436)] Unpack will WOF compress target files with algorithm: 2, at: C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[27372:14640:0316/171301.144:78835218:VERBOSE1:lzma_util.cc(753)] Unpack completed. Size: 572645687
+[27372:14640:0316/171301.250:78835312:VERBOSE1:setup_main.cc(2442)] Unpacked archive to: C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[27372:14640:0316/171301.265:78835328:VERBOSE1:setup_main.cc(2443)] Created archive metadata: C:\Program Files (x86)\Microsoft\Edge\Temp\source27372_386369266\msedge_7z.data
+[27372:14640:0316/171301.265:78835328:VERBOSE1:setup_main.cc(1308)] Created path C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92\Installer
+[27372:14640:0316/171302.126:78836187:VERBOSE1:setup_main.cc(1308)] Created path C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92
+[27372:14640:0316/171302.173:78836234:VERBOSE1:install_worker.cc(437)] Will link files from: C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92 to: C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92
+[27372:14640:0316/171302.173:78836234:VERBOSE1:install_worker.cc(295)] AddFireWallRuleWorkItem C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[27372:14640:0316/171302.517:78836578:VERBOSE1:shell_util.cc(4206)] Stable: didn't check uninstall policy, or policy disabled
+[27372:14640:0316/171302.517:78836578:VERBOSE1:install_worker.cc(1690)] Adding registration items for Active Setup.
+[27372:14640:0316/171302.517:78836578:VERBOSE1:install_worker.cc(295)] AddFireWallRuleWorkItem C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[27372:14640:0316/171302.564:78836625:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list 
+[27372:14640:0316/171302.579:78836640:VERBOSE1:create_dir_work_item.cc(33)] creating directory C:\Program Files (x86)\Microsoft\Edge\Temp
+[27372:14640:0316/171302.579:78836640:VERBOSE1:create_dir_work_item.cc(33)] creating directory C:\Program Files (x86)\Microsoft\Edge\Application
+[27372:14640:0316/171302.579:78836640:VERBOSE1:install_worker.cc(520)] AddAppContainerFoldersAclWorkItems callback C:\Program Files (x86)\Microsoft\Edge\Application
+[27372:14640:0316/171303.282:78837343:VERBOSE1:install_worker.cc(527)] AddAppContainerFoldersAclWorkItems callback C:\Program Files (x86)\Microsoft\EdgeCore
+[27372:14640:0316/171303.548:78837609:VERBOSE1:create_dir_work_item.cc(33)] creating directory C:\Program Files (x86)\Microsoft\Edge\Application\SetupMetrics
+[27372:14640:0316/171303.579:78837640:VERBOSE1:copy_tree_work_item.cc(87)] Moved destination C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92 to backup path C:\Program Files (x86)\Microsoft\Edge\Temp\scoped_dir27372_1696338950\122.0.2365.92
+[27372:14640:0316/171303.830:78837906:VERBOSE1:copy_tree_work_item.cc(107)] Copied source C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92 to destination C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92
+[27372:14640:0316/171303.846:78837921:VERBOSE1:system_restore_resiliency.cc(228)] TryWinResiliencyLinkTree under path: 'C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92'.
+[27372:14640:0316/171304.112:78838187:VERBOSE1:system_restore_resiliency.cc(257)] TryWinResiliencyLinkTree completed.  Files: 207, Processed: 146, Failed: 0, Ignored: 61.
+[27372:14640:0316/171304.112:78838187:VERBOSE1:install_worker.cc(222)] Milliseconds spent on Resiliency Linking: 274. Is background: 1
+[27372:14640:0316/171304.127:78838203:VERBOSE1:install.cc(583)] Successfully wrote msedge.VisualElementsManifest.xml to C:\Program Files (x86)\Microsoft\Edge\Application
+[27372:14640:0316/171304.174:78838250:VERBOSE1:copy_tree_work_item.cc(64)] Copied source file C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\msedge.exe to alternative path C:\Program Files (x86)\Microsoft\Edge\Application\new_msedge.exe
+[27372:14640:0316/171304.846:78838921:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe into Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[27372:14640:0316/171304.846:78838921:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value  --uninstall --msedge --channel=stable --system-level --verbose-logging into Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[27372:14640:0316/171304.846:78838921:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Edge into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.862:78838937:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /install appguid={56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}&appname=Microsoft%20Edge&needsadmin=true&repairtype=windowsonlinerepair /installsource windows into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.862:78838937:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --uninstall --msedge --channel=stable --system-level --verbose-logging into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.862:78838937:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.908:78838984:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,0 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.908:78838984:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge or Value: NoModify does not exist.
+[27372:14640:0316/171304.908:78838984:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.908:78838984:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.908:78838984:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Corporation into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.908:78838984:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.92 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.908:78838984:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.92 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.908:78838984:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 20240316 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.908:78838984:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.924:78839000:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft Edge
+[27372:14640:0316/171304.924:78839000:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Edge into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[27372:14640:0316/171304.924:78839000:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} or Value: oopcrashes does not exist.
+[27372:14640:0316/171304.924:78839000:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[27372:14640:0316/171304.924:78839000:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.92 into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[27372:14640:0316/171304.924:78839000:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Edge into Software\Microsoft\Active Setup\Installed Components\{9459C573-B17A-45AE-9F64-1857B5D58CEE}
+[27372:14640:0316/171304.940:78839015:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --configure-user-settings --verbose-logging --system-level --msedge --channel=stable into Software\Microsoft\Active Setup\Installed Components\{9459C573-B17A-45AE-9F64-1857B5D58CEE}
+[27372:14640:0316/171305.034:78839109:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Edge into Software\Microsoft\Active Setup\Installed Components\{9459C573-B17A-45AE-9F64-1857B5D58CEE}
+[27372:14640:0316/171305.049:78839125:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Active Setup\Installed Components\{9459C573-B17A-45AE-9F64-1857B5D58CEE}
+[27372:14640:0316/171305.049:78839125:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 43,0,0,0 into Software\Microsoft\Active Setup\Installed Components\{9459C573-B17A-45AE-9F64-1857B5D58CEE}
+[27372:14640:0316/171305.065:78839140:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --on-os-upgrade --msedge --channel=stable --system-level --verbose-logging into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-os-upgrade
+[27372:14640:0316/171305.096:78839171:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-os-upgrade or Value: SendsPings does not exist.
+[27372:14640:0316/171305.096:78839171:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-os-upgrade or Value: WebAccessible does not exist.
+[27372:14640:0316/171305.096:78839171:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-os-upgrade
+[27372:14640:0316/171305.096:78839171:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-os-upgrade or Value: RunAsUser does not exist.
+[27372:14640:0316/171305.096:78839171:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-os-upgrade or Value: FinishBrowserReplacement does not exist.
+[27372:14640:0316/171305.096:78839171:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-os-upgrade or Value: AutoRunOnLogon does not exist.
+[27372:14640:0316/171305.284:78839359:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}
+[27372:14640:0316/171305.299:78839375:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}
+[27372:14640:0316/171305.315:78839390:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\AppID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}
+[27372:14640:0316/171305.456:78839531:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\AppID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}
+[27372:14640:0316/171305.471:78839546:VERBOSE1:create_reg_key_work_item.cc(73)] created Software\Classes\CLSID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}
+[27372:14640:0316/171305.674:78839750:VERBOSE1:create_reg_key_work_item.cc(73)] created Software\Classes\CLSID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}\LocalServer32
+[27372:14640:0316/171306.262:78840328:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\notification_helper.exe" into Software\Classes\CLSID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}\LocalServer32
+[27372:14640:0316/171306.293:78840359:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\notification_helper.exe into Software\Classes\CLSID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}\LocalServer32
+[27372:14640:0316/171306.293:78840359:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {628ACE20-B77A-456F-A88D-547DB6CEEDD5} into Software\Classes\CLSID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}
+[27372:14640:0316/171306.308:78840375:VERBOSE1:create_reg_key_work_item.cc(73)] created Software\Classes\AppID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}
+[27372:14640:0316/171306.325:78840390:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Classes\AppID\{628ACE20-B77A-456F-A88D-547DB6CEEDD5}
+[27372:14640:0316/171306.365:78840437:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list 
+[27372:14640:0316/171306.367:78840437:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {1FCBE96C-1697-43AF-9140-2897C7C69767} into Software\Classes\CLSID\{1FCBE96C-1697-43AF-9140-2897C7C69767}
+[27372:14640:0316/171306.369:78840437:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value MicrosoftEdgeElevationService into Software\Classes\AppID\{1FCBE96C-1697-43AF-9140-2897C7C69767}
+[27372:14640:0316/171306.371:78840437:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Classes\AppID\{1FCBE96C-1697-43AF-9140-2897C7C69767} or Value: ServiceParameters does not exist.
+[27372:14640:0316/171306.373:78840437:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {00020424-0000-0000-C000-000000000046} into Software\Classes\Interface\{C9C2B807-7731-4F34-81B7-44FF7779522B}\ProxyStubClsid32
+[27372:14640:0316/171306.375:78840437:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {C9C2B807-7731-4F34-81B7-44FF7779522B} into Software\Classes\Interface\{C9C2B807-7731-4F34-81B7-44FF7779522B}\TypeLib
+[27372:14640:0316/171306.376:78840437:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 1.0 into Software\Classes\Interface\{C9C2B807-7731-4F34-81B7-44FF7779522B}\TypeLib
+[27372:14640:0316/171306.377:78840453:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Interface {C9C2B807-7731-4F34-81B7-44FF7779522B} into Software\Classes\Interface\{C9C2B807-7731-4F34-81B7-44FF7779522B}
+[27372:14640:0316/171306.379:78840453:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {00020424-0000-0000-C000-000000000046} into Software\Classes\Interface\{C9C2B807-7731-4F34-81B7-44FF7779522B}\ProxyStubClsid32
+[27372:14640:0316/171306.382:78840453:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {C9C2B807-7731-4F34-81B7-44FF7779522B} into Software\Classes\Interface\{C9C2B807-7731-4F34-81B7-44FF7779522B}\TypeLib
+[27372:14640:0316/171306.384:78840453:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 1.0 into Software\Classes\Interface\{C9C2B807-7731-4F34-81B7-44FF7779522B}\TypeLib
+[27372:14640:0316/171306.386:78840453:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Interface {C9C2B807-7731-4F34-81B7-44FF7779522B} into Software\Classes\Interface\{C9C2B807-7731-4F34-81B7-44FF7779522B}
+[27372:14640:0316/171306.386:78840453:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\elevation_service.exe into Software\Classes\TypeLib\{C9C2B807-7731-4F34-81B7-44FF7779522B}\1.0\0\win32
+[27372:14640:0316/171306.386:78840453:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\elevation_service.exe into Software\Classes\TypeLib\{C9C2B807-7731-4F34-81B7-44FF7779522B}\1.0\0\win64
+[27372:14640:0316/171306.386:78840453:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value TypeLib for Interface {C9C2B807-7731-4F34-81B7-44FF7779522B} into Software\Classes\TypeLib\{C9C2B807-7731-4F34-81B7-44FF7779522B}\1.0
+[27372:14640:0316/171306.386:78840453:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list 
+[27372:14640:0316/171306.396:78840468:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} or Value: DowngradeVersion does not exist.
+[27372:14640:0316/171306.396:78840468:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application into Software\Microsoft\Internet Explorer\Main\EnterpriseMode
+[27372:14640:0316/171306.412:78840484:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list 
+[27372:14640:0316/171306.412:78840484:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {31575964-95F7-414B-85E4-0E9A93699E13} into AppID\ie_to_edge_bho.dll\
+[27372:14640:0316/171306.412:78840484:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {31575964-95F7-414B-85E4-0E9A93699E13} into AppID\ie_to_edge_bho.dll\
+[27372:14640:0316/171306.412:78840484:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_bho into AppID\{31575964-95F7-414B-85E4-0E9A93699E13}
+[27372:14640:0316/171306.412:78840484:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_bho into AppID\{31575964-95F7-414B-85E4-0E9A93699E13}
+[27372:14640:0316/171306.412:78840484:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdge BHO into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\
+[27372:14640:0316/171306.412:78840484:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdge BHO into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\
+[27372:14640:0316/171306.412:78840484:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Apartment into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\InprocServer32\
+[27372:14640:0316/171306.412:78840484:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Apartment into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\InprocServer32\
+[27372:14640:0316/171306.412:78840484:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\BHO\ie_to_edge_bho_64.dll into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\InprocServer32\
+[27372:14640:0316/171306.427:78840500:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\BHO\ie_to_edge_bho.dll into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\InprocServer32\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_bho.IEToEdgeBHO.1 into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\ProgID\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_bho.IEToEdgeBHO.1 into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\ProgID\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {2397ECFE-3237-400F-AE51-62B25B3F15B5} into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\TypeLib\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {2397ECFE-3237-400F-AE51-62B25B3F15B5} into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\TypeLib\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_bho.IEToEdgeBHO into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\VersionIndependentProgID\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_bho.IEToEdgeBHO into CLSID\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\VersionIndependentProgID\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdgeBHO Class into ie_to_edge_bho.IEToEdgeBHO\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdgeBHO Class into ie_to_edge_bho.IEToEdgeBHO\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {1FD49718-1D00-4B19-AF5F-070AF6D5D54C} into ie_to_edge_bho.IEToEdgeBHO\CLSID\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {1FD49718-1D00-4B19-AF5F-070AF6D5D54C} into ie_to_edge_bho.IEToEdgeBHO\CLSID\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_bho.IEToEdgeBHO.1 into ie_to_edge_bho.IEToEdgeBHO\CurVer\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_bho.IEToEdgeBHO.1 into ie_to_edge_bho.IEToEdgeBHO\CurVer\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdgeBHO Class into ie_to_edge_bho.IEToEdgeBHO.1\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdgeBHO Class into ie_to_edge_bho.IEToEdgeBHO.1\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {1FD49718-1D00-4B19-AF5F-070AF6D5D54C} into ie_to_edge_bho.IEToEdgeBHO.1\CLSID\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {1FD49718-1D00-4B19-AF5F-070AF6D5D54C} into ie_to_edge_bho.IEToEdgeBHO.1\CLSID\
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdge Handler into SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{c9abcf16-8dc2-4a95-bae3-24fd98f2ed29}
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdge Handler into SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{c9abcf16-8dc2-4a95-bae3-24fd98f2ed29}
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_stub.exe into SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{c9abcf16-8dc2-4a95-bae3-24fd98f2ed29}
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value ie_to_edge_stub.exe into SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{c9abcf16-8dc2-4a95-bae3-24fd98f2ed29}
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{c9abcf16-8dc2-4a95-bae3-24fd98f2ed29}
+[27372:14640:0316/171306.443:78840515:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{c9abcf16-8dc2-4a95-bae3-24fd98f2ed29}
+[27372:14640:0316/171306.459:78840531:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\BHO into SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{c9abcf16-8dc2-4a95-bae3-24fd98f2ed29}
+[27372:14640:0316/171306.459:78840531:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\BHO into SOFTWARE\Microsoft\Internet Explorer\Low Rights\ElevationPolicy\{c9abcf16-8dc2-4a95-bae3-24fd98f2ed29}
+[27372:14640:0316/171306.490:78840562:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdge BHO into SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\
+[27372:14640:0316/171306.490:78840562:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value IEToEdge BHO into SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\
+[27372:14640:0316/171306.490:78840562:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 1 into SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\
+[27372:14640:0316/171306.490:78840562:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 1 into SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{1FD49718-1D00-4B19-AF5F-070AF6D5D54C}\
+[27372:14640:0316/171306.490:78840562:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 1 into SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Ext\CLSID\
+[27372:14640:0316/171306.490:78840562:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 1 into SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Ext\CLSID\
+[27372:14640:0316/171306.490:78840562:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list 
+[27372:14640:0316/171306.490:78840562:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list 
+[27372:14640:0316/171306.490:78840562:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value PDF Preview Handler into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}
+[27372:14640:0316/171306.490:78840562:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value PDF Preview Handler into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}
+[27372:14640:0316/171306.490:78840562:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value PDF Preview Handler into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value PDF Preview Handler into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {6d2b5079-2f0b-48dd-ab7f-97cec514d30b} into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {6d2b5079-2f0b-48dd-ab7f-97cec514d30b} into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\PdfPreview\PdfPreviewHandler.dll into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}\InProcServer32
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\PdfPreview\PdfPreviewHandler.dll into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}\InProcServer32
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Apartment into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}\InProcServer32
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Apartment into CLSID\{3A84F9C2-6164-485C-A7D9-4B27F8AC009E}\InProcServer32
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft PDF Previewer into Software\Microsoft\Windows\CurrentVersion\PreviewHandlers
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft PDF Previewer into Software\Microsoft\Windows\CurrentVersion\PreviewHandlers
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {3A84F9C2-6164-485C-A7D9-4B27F8AC009E} into .pdf\ShellEx\{8895b1c6-b41f-4c1c-a562-0d564250836f}
+[27372:14640:0316/171306.506:78840578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value {3A84F9C2-6164-485C-A7D9-4B27F8AC009E} into .pdf\ShellEx\{8895b1c6-b41f-4c1c-a562-0d564250836f}
+[27372:14640:0316/171306.506:78840578:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list 
+[27372:14640:0316/171306.506:78840578:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{4A749F25-A9E2-4CBE-9859-CF7B15255E14}
+[27372:14640:0316/171306.506:78840578:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{4A749F25-A9E2-4CBE-9859-CF7B15255E14}
+[27372:14640:0316/171306.506:78840578:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\AppID\{4A749F25-A9E2-4CBE-9859-CF7B15255E14}
+[27372:14640:0316/171306.521:78840593:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\AppID\{4A749F25-A9E2-4CBE-9859-CF7B15255E14}
+[27372:14640:0316/171306.521:78840593:VERBOSE1:create_reg_key_work_item.cc(73)] created Software\Classes\CLSID\{4A749F25-A9E2-4CBE-9859-CF7B15255E14}
+[27372:14640:0316/171306.537:78840609:VERBOSE1:create_reg_key_work_item.cc(73)] created Software\Classes\CLSID\{4A749F25-A9E2-4CBE-9859-CF7B15255E14}\LocalServer32
+[27372:14640:0316/171306.537:78840609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\notification_click_helper.exe" into Software\Classes\CLSID\{4A749F25-A9E2-4CBE-9859-CF7B15255E14}\LocalServer32
+[27372:14640:0316/171306.537:78840609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\notification_click_helper.exe into Software\Classes\CLSID\{4A749F25-A9E2-4CBE-9859-CF7B15255E14}\LocalServer32
+[27372:14640:0316/171306.537:78840609:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{B54934CD-71A6-4698-BDC2-AFEA5B86504C}
+[27372:14640:0316/171306.537:78840609:VERBOSE1:create_reg_key_work_item.cc(73)] created Software\Classes\CLSID\{B54934CD-71A6-4698-BDC2-AFEA5B86504C}
+[27372:14640:0316/171306.537:78840609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Copilot Provider into Software\Classes\CLSID\{B54934CD-71A6-4698-BDC2-AFEA5B86504C}
+[27372:14640:0316/171306.537:78840609:VERBOSE1:create_reg_key_work_item.cc(73)] created Software\Classes\CLSID\{B54934CD-71A6-4698-BDC2-AFEA5B86504C}\InprocServer32
+[27372:14640:0316/171306.537:78840609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\EBWebView\x64\EmbeddedBrowserWebView.dll into Software\Classes\CLSID\{B54934CD-71A6-4698-BDC2-AFEA5B86504C}\InprocServer32
+[27372:14640:0316/171306.537:78840609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Apartment into Software\Classes\CLSID\{B54934CD-71A6-4698-BDC2-AFEA5B86504C}\InprocServer32
+[27372:14640:0316/171306.537:78840609:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Internet Explorer\EdgeIntegration\AdapterLocations
+[27372:14640:0316/171306.537:78840609:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate or Value: IsEdgeStableUninstalled does not exist.
+[27372:14640:0316/171306.537:78840609:VERBOSE1:edge_install_worker.cc(1563)] Created SOFTWARE\CLASSES\MIME\Database\Content Type\application/pdf pointing to .pdf
+[27372:14640:0316/171306.537:78840609:VERBOSE1:edge_install_worker.cc(1563)] Created SOFTWARE\CLASSES\MIME\Database\Content Type\image/svg+xml pointing to .svg
+[27372:14640:0316/171306.552:78840625:VERBOSE1:edge_install_worker.cc(1563)] Created SOFTWARE\CLASSES\MIME\Database\Content Type\text/html pointing to .htm
+[27372:14640:0316/171306.584:78840656:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msedge.exe or Value: MaxLoaderThreads does not exist.
+[27372:14640:0316/171306.584:78840656:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msedgewebview2.exe or Value: MaxLoaderThreads does not exist.
+[27372:14640:0316/171306.584:78840656:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\identity_helper.exe or Value: MaxLoaderThreads does not exist.
+[27372:14640:0316/171306.584:78840656:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --launcher=on_logon_windows into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch
+[27372:14640:0316/171306.584:78840656:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch or Value: SendsPings does not exist.
+[27372:14640:0316/171306.584:78840656:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch or Value: WebAccessible does not exist.
+[27372:14640:0316/171306.584:78840656:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch or Value: AutoRunOnOSUpgrade does not exist.
+[27372:14640:0316/171306.584:78840656:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch or Value: RunAsUser does not exist.
+[27372:14640:0316/171306.584:78840656:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch or Value: FinishBrowserReplacement does not exist.
+[27372:14640:0316/171306.584:78840656:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-autolaunch or Value: AutoRunOnLogon does not exist.
+[27372:14640:0316/171306.599:78840671:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --no-startup-window into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-startup-boost
+[27372:14640:0316/171306.599:78840671:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-startup-boost or Value: SendsPings does not exist.
+[27372:14640:0316/171306.599:78840671:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-startup-boost or Value: WebAccessible does not exist.
+[27372:14640:0316/171306.599:78840671:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-startup-boost or Value: AutoRunOnOSUpgrade does not exist.
+[27372:14640:0316/171306.599:78840671:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-startup-boost or Value: RunAsUser does not exist.
+[27372:14640:0316/171306.599:78840671:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-startup-boost or Value: FinishBrowserReplacement does not exist.
+[27372:14640:0316/171306.599:78840671:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\on-logon-startup-boost
+[27372:14640:0316/171306.599:78840671:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating InUseUpdateWorkItemList condition...
+[27372:14640:0316/171306.599:78840671:VERBOSE1:conditional_work_item_list.cc(18)] Beginning conditional work item list
+[27372:14640:0316/171306.599:78840671:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list InUseUpdateWorkItemList
+[27372:14640:0316/171306.599:78840671:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.80 into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[27372:14640:0316/171306.599:78840671:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} or Value: cpv does not exist.
+[27372:14640:0316/171306.599:78840671:VERBOSE1:create_reg_key_work_item.cc(73)] created Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd
+[27372:14640:0316/171306.646:78840718:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --rename-msedge-exe --system-level --verbose-logging --msedge --channel=stable into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd
+[27372:14640:0316/171306.646:78840718:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd or Value: SendsPings does not exist.
+[27372:14640:0316/171306.646:78840718:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd or Value: WebAccessible does not exist.
+[27372:14640:0316/171306.662:78840734:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd or Value: AutoRunOnOSUpgrade does not exist.
+[27372:14640:0316/171306.662:78840734:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd or Value: RunAsUser does not exist.
+[27372:14640:0316/171306.662:78840734:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd or Value: FinishBrowserReplacement does not exist.
+[27372:14640:0316/171306.662:78840734:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd or Value: AutoRunOnLogon does not exist.
+[27372:14640:0316/171306.662:78840734:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --rename-msedge-exe --system-level --verbose-logging --msedge --channel=stable into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[27372:14640:0316/171306.662:78840734:VERBOSE1:create_reg_key_work_item.cc(73)] created Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe
+[27372:14640:0316/171306.662:78840734:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --rename-msedge-exe --system-level --verbose-logging --msedge --channel=stable into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe
+[27372:14640:0316/171306.678:78840750:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe or Value: SendsPings does not exist.
+[27372:14640:0316/171306.678:78840750:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe or Value: WebAccessible does not exist.
+[27372:14640:0316/171306.693:78840765:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe or Value: AutoRunOnOSUpgrade does not exist.
+[27372:14640:0316/171306.709:78840781:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe or Value: RunAsUser does not exist.
+[27372:14640:0316/171306.740:78840812:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe or Value: FinishBrowserReplacement does not exist.
+[27372:14640:0316/171306.762:78840828:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe or Value: AutoRunOnLogon does not exist.
+[27372:14640:0316/171306.782:78840843:VERBOSE1:copy_tree_work_item.cc(107)] Copied source C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\msedge_proxy.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\new_edge_proxy.exe
+[27372:14640:0316/171306.833:78840906:VERBOSE1:copy_tree_work_item.cc(107)] Copied source C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\pwahelper.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\new_pwahelper.exe
+[27372:14640:0316/171306.833:78840906:VERBOSE1:copy_tree_work_item.cc(107)] Copied source C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\delegatedWebFeatures.sccd to destination C:\Program Files (x86)\Microsoft\Edge\Application\new_delegatedWebFeatures.sccd
+[27372:14640:0316/171307.687:78841750:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list InUseUpdateWorkItemList
+[27372:14640:0316/171307.687:78841750:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating RegularUpdateWorkItemList condition...
+[27372:14640:0316/171307.687:78841750:VERBOSE1:conditional_work_item_list.cc(21)] No work to do in condition work item list RegularUpdateWorkItemList
+[27372:14640:0316/171307.701:78841765:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --edge-vbs-disable --system-level --verbose-logging --msedge --channel=stable into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-disable
+[27372:14640:0316/171307.703:78841765:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-disable or Value: SendsPings does not exist.
+[27372:14640:0316/171307.703:78841765:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-disable or Value: WebAccessible does not exist.
+[27372:14640:0316/171307.703:78841765:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-disable or Value: AutoRunOnOSUpgrade does not exist.
+[27372:14640:0316/171307.703:78841765:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-disable or Value: RunAsUser does not exist.
+[27372:14640:0316/171307.718:78841781:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-disable or Value: FinishBrowserReplacement does not exist.
+[27372:14640:0316/171307.718:78841781:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-disable or Value: AutoRunOnLogon does not exist.
+[27372:14640:0316/171307.721:78841796:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --edge-vbs-enable --system-level --verbose-logging --msedge --channel=stable into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable
+[27372:14640:0316/171307.721:78841796:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable or Value: SendsPings does not exist.
+[27372:14640:0316/171307.721:78841796:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable or Value: WebAccessible does not exist.
+[27372:14640:0316/171307.721:78841796:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable or Value: AutoRunOnOSUpgrade does not exist.
+[27372:14640:0316/171307.721:78841796:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable or Value: RunAsUser does not exist.
+[27372:14640:0316/171307.721:78841796:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable or Value: FinishBrowserReplacement does not exist.
+[27372:14640:0316/171307.721:78841796:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable or Value: AutoRunOnLogon does not exist.
+[27372:14640:0316/171307.721:78841796:VERBOSE1:install.cc(283)] Success copying manifest C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\identity_proxy\stable.identity_helper.exe.manifest to C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92
+[27372:14640:0316/171307.721:78841796:VERBOSE1:install.cc(312)] Success copying notification_helper manifest C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\identity_helper.exe.manifest to C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\notification_helper.exe.manifest
+[27372:14640:0316/171307.721:78841796:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list 
+[27372:14640:0316/171307.721:78841796:VERBOSE1:install.cc(487)] Version updated to 122.0.2365.92 while running 122.0.2365.80
+[27372:14640:0316/171307.782:78841843:VERBOSE1:install.cc(839)] Launching ""C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{5488CAEF-0C4A-4D60-9ACA-93A3EE1AAAEC}\EDGEMITMP_D553A.tmp\setup.exe" --msedge --channel=stable --system-level --verbose-logging --create-shortcuts=2 --install-level=1" to create shortcuts
+[9860:14832:0316/171307.965:78842031:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[9860:14832:0316/171307.966:78842031:VERBOSE1:setup_main.cc(2945)] Command Line: "C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{5488CAEF-0C4A-4D60-9ACA-93A3EE1AAAEC}\EDGEMITMP_D553A.tmp\setup.exe" --msedge --channel=stable --system-level --verbose-logging --create-shortcuts=2 --install-level=1
+[9860:14832:0316/171307.968:78842031:VERBOSE1:setup_main.cc(2951)] system install is 1
+[9860:14832:0316/171307.984:78842046:VERBOSE1:installer_state.cc(95)] Install
+[9860:14832:0316/171308.272:78842343:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[9860:14832:0316/171308.337:78842406:VERBOSE1:shell_util.cc(4288)] IsEnterpriseDevice() returning false
+[9860:14832:0316/171308.337:78842406:VERBOSE1:shell_util.cc(2841)] ShouldCreateDesktopShortcut() returning true
+[9860:14832:0316/171308.337:78842406:VERBOSE1:install.cc(188)] Overwriting all-users Desktop "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[9860:14832:0316/171308.490:78842562:VERBOSE1:shell_util.cc(4206)] Stable: didn't check uninstall policy, or policy disabled
+[9860:14832:0316/171308.562:78842625:VERBOSE1:install.cc(188)] Overwriting per-user Quick Launch "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[9860:14832:0316/171308.593:78842656:VERBOSE1:shell_util.cc(4206)] Stable: didn't check uninstall policy, or policy disabled
+[9860:14832:0316/171308.593:78842656:WARNING:install.cc(186)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Quick Launch "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[9860:14832:0316/171308.593:78842656:VERBOSE1:install.cc(188)] Overwriting all-users Start menu "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[9860:14832:0316/171308.718:78842781:VERBOSE1:shell_util.cc(4206)] Stable: didn't check uninstall policy, or policy disabled
+[9860:14832:0316/171308.766:78842828:VERBOSE1:shell_util.cc(2710)] [LnS] Create Migration Shortcut success!
+[9860:14832:0316/171318.545:78852609:VERBOSE1:setup_main.cc(3159)] NonInstall operation completed. Exit code: 99
+[27372:14640:0316/171318.814:78852875:VERBOSE1:install.cc(855)] Shortcut creation process succeeded.
+[27372:14640:0316/171318.880:78852953:VERBOSE1:install.cc(215)] Adding Edge to Media player list at Software\Microsoft\MediaPlayer\ShimInclusionList\msedge.exe
+[27372:14640:0316/171318.897:78852968:VERBOSE1:setup_util.cc(971)] Registering Edge's event log provider at SYSTEM\CurrentControlSet\Services\EventLog\Application\Edge
+[27372:14640:0316/171319.428:78853500:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list Register event log provider
+[27372:14640:0316/171319.479:78853546:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into SYSTEM\CurrentControlSet\Services\EventLog\Application\Edge
+[27372:14640:0316/171319.479:78853546:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into SYSTEM\CurrentControlSet\Services\EventLog\Application\Edge
+[27372:14640:0316/171319.512:78853578:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\eventlog_provider.dll into SYSTEM\CurrentControlSet\Services\EventLog\Application\Edge
+[27372:14640:0316/171319.529:78853593:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\eventlog_provider.dll into SYSTEM\CurrentControlSet\Services\EventLog\Application\Edge
+[27372:14640:0316/171319.562:78853625:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\eventlog_provider.dll into SYSTEM\CurrentControlSet\Services\EventLog\Application\Edge
+[27372:14640:0316/171319.579:78853640:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list Register event log provider
+[27372:14640:0316/171319.596:78853671:VERBOSE1:install.cc(765)] Registering Edge as browser: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[27372:14640:0316/171319.629:78853703:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\MSEdge\.exe\shell\run
+[27372:14640:0316/171319.812:78853875:VERBOSE1:shell_util.cc(4394)] The product primary ProgId is registered on the machine. We will remove unexpected user level registrations if encountered.
+[27372:14640:0316/171319.812:78853875:VERBOSE1:registry_util.cc(24)] Deleting registry key S-1-5-21-3438543534-1658685103-787813694-1001\Software\Classes\MSEdgeHTM
+[27372:14640:0316/171319.862:78853937:VERBOSE1:shell_util.cc(4473)] microsoft-edge handler matched mode: {56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}, suffix: , target: C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[27372:14640:0316/171319.862:78853937:VERBOSE1:shell_util.cc(4515)] microsoft-edge seems correctly registered.
+[27372:14640:0316/171320.029:78854093:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\Edge\Application
+[27372:14640:0316/171320.096:78854171:VERBOSE1:delete_old_versions.cc(525)] Version directories count: 2, full version directories count: 2
+[27372:14640:0316/171320.096:78854171:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.144
+[27372:14640:0316/171320.216:78854281:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[27372:14640:0316/171320.231:78854296:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[27372:14640:0316/171320.512:78854578:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[27372:14640:0316/171320.531:78854593:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(3) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[27372:14640:0316/171320.531:78854593:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[27372:14640:0316/171320.579:78854640:VERBOSE1:setup_main.cc(1383)] PruneUnusedCoreVersions prune(L) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.144
+[27372:14640:0316/171320.579:78854640:VERBOSE1:setup_main.cc(1397)] PruneUnusedCoreVersions count=5
+[27372:14640:0316/171320.579:78854640:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list Write Installer Result
+[27372:14640:0316/171320.596:78854671:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[27372:14640:0316/171320.596:78854671:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[27372:14640:0316/171320.596:78854671:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} or Value: InstallerResultUIString does not exist.
+[27372:14640:0316/171320.596:78854671:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list Write Installer Result
+[27372:14640:0316/171320.596:78854671:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\ChromiumExt
+[27372:14640:0316/171320.596:78854671:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\.crx
+[27372:14640:0316/171320.596:78854671:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\ChromiumExt
+[27372:14640:0316/171320.596:78854671:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\.crx
+[27372:14640:0316/171320.596:78854671:VERBOSE1:edge_install_first_run_trace_logging.cc(121)] First run has not been seen yet. Skip sending trace logging after first run.
+[27372:14640:0316/171320.611:78854687:VERBOSE1:setup_main.cc(2842)] Deleting temporary directory C:\Program Files (x86)\Microsoft\Edge\Temp
+[27372:14640:0316/171321.029:78855093:VERBOSE1:google_update_settings.cc(804)] Installer result: 0. Removing -full AP hint. New AP hint: 
+[27372:14640:0316/171321.029:78855093:VERBOSE1:setup_main.cc(1536)] Milliseconds spent on install: 735556. Is background: 1
+[27372:14640:0316/171321.096:78855171:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{931A0B81-1FA6-45EC-BD59-915C75D9D307}
+[27372:14640:0316/171321.096:78855171:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{931A0B81-1FA6-45EC-BD59-915C75D9D307}
+[27372:14640:0316/171321.096:78855171:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Chromium Binaries
+[27372:14640:0316/171321.112:78855187:VERBOSE1:setup_main.cc(3321)] Peak pagefile (MB): 74
+[27372:14640:0316/171321.112:78855187:VERBOSE1:setup_main.cc(3322)] Peak working-set (MB): 339
+[27372:14640:0316/171321.112:78855187:VERBOSE1:setup_main.cc(3324)] Installer disk usage (MB): 573
+[27372:14640:0316/171321.128:78855203:VERBOSE1:setup_main.cc(3325)] Free disk space (MB): 14485
+[27372:14640:0316/171321.129:78855203:VERBOSE1:setup_main.cc(3338)] Installation complete, returning: 0
+[27372:14640:0316/171321.129:78855203:WARNING:setup_util.cc(1418)] Repeated failure count: 0
+[27372:14640:0316/171321.129:78855203:VERBOSE1:trace_logging.cc(28)] Unregister TraceLogging provider
+5:43 PM 3/16/2024[5876:13604:0316/175412.113:81306187:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[5876:13604:0316/175412.115:81306187:VERBOSE1:setup_main.cc(2945)] Command Line: "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --rename-msedge-exe --system-level --verbose-logging --msedge --channel=stable
+[5876:13604:0316/175412.127:81306203:VERBOSE1:setup_main.cc(2951)] system install is 1
+[5876:13604:0316/175412.169:81306234:VERBOSE1:installer_state.cc(95)] Install
+[5876:13604:0316/175412.327:81306390:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[5876:13604:0316/175412.328:81306390:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 0
+[5876:13604:0316/175412.328:81306390:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[5876:13604:0316/175412.328:81306390:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[5876:13604:0316/175412.328:81306390:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[5876:13604:0316/175412.328:81306390:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[5876:13604:0316/175412.328:81306390:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[5876:13604:0316/175412.328:81306390:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[5876:13604:0316/175412.328:81306390:VERBOSE1:installer_state.cc(95)] Install
+[5876:13604:0316/175412.328:81306390:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list 
+[5876:13604:0316/175412.328:81306390:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\old_msedge.exe
+[5876:13604:0316/175412.341:81306406:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\new_msedge.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+[5876:13604:0316/175412.341:81306406:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating ExistingProxyRenameItemList condition...
+[5876:13604:0316/175412.345:81306421:VERBOSE1:conditional_work_item_list.cc(18)] Beginning conditional work item list
+[5876:13604:0316/175412.345:81306421:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list ExistingProxyRenameItemList
+[5876:13604:0316/175412.349:81306421:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\old_edge_proxy.exe
+[5876:13604:0316/175412.350:81306421:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list ExistingProxyRenameItemList
+[5876:13604:0316/175412.353:81306421:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\new_edge_proxy.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe
+[5876:13604:0316/175412.354:81306421:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\Windows Error Reporting\RuntimeExceptionHelperModules
+[5876:13604:0316/175412.355:81306421:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --cleanup-for-downgrade-version=$1 --cleanup-for-downgrade-operation=$2 --msedge --channel=stable --system-level --verbose-logging into Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[5876:13604:0316/175412.355:81306421:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 85.0.4169.0 into Software\Microsoft\EdgeUpdate\ClientState\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[5876:13604:0316/175412.355:81306421:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\ClientStateMedium\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} or Value: experiment_labels does not exist.
+[5876:13604:0316/175412.355:81306421:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating ExistingPwaHelperRenameItemList condition...
+[5876:13604:0316/175412.355:81306421:VERBOSE1:conditional_work_item_list.cc(18)] Beginning conditional work item list
+[5876:13604:0316/175412.355:81306421:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list ExistingPwaHelperRenameItemList
+[5876:13604:0316/175412.357:81306421:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\pwahelper.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\old_pwahelper.exe
+[5876:13604:0316/175412.357:81306421:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list ExistingPwaHelperRenameItemList
+[5876:13604:0316/175412.359:81306421:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\new_pwahelper.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\pwahelper.exe
+[5876:13604:0316/175412.360:81306421:VERBOSE1:conditional_work_item_list.cc(16)] Evaluating ExistingUrlHandlingCustomCapSccdRenameItemList condition...
+[5876:13604:0316/175412.361:81306421:VERBOSE1:conditional_work_item_list.cc(18)] Beginning conditional work item list
+[5876:13604:0316/175412.361:81306421:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list ExistingUrlHandlingCustomCapSccdRenameItemList
+[5876:13604:0316/175412.363:81306437:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\delegatedWebFeatures.sccd to destination C:\Program Files (x86)\Microsoft\Edge\Application\old_delegatedWebFeatures.sccd
+[5876:13604:0316/175412.364:81306437:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list ExistingUrlHandlingCustomCapSccdRenameItemList
+[5876:13604:0316/175412.367:81306437:VERBOSE1:move_tree_work_item.cc(186)] Moved source C:\Program Files (x86)\Microsoft\Edge\Application\new_delegatedWebFeatures.sccd to destination C:\Program Files (x86)\Microsoft\Edge\Application\delegatedWebFeatures.sccd
+[5876:13604:0316/175412.368:81306437:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062} or Value: cpv does not exist.
+[5876:13604:0316/175412.369:81306437:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\cmd
+[5876:13604:0316/175412.372:81306437:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\rename-chrome-exe
+[5876:13604:0316/175412.373:81306437:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value stable into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}
+[5876:13604:0316/175412.386:81306453:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list 
+[5876:13604:0316/175412.386:81306453:VERBOSE1:setup_main.cc(1017)] Deleting temporary directory C:\Program Files (x86)\Microsoft\Edge\Temp
+[5876:13604:0316/175412.394:81306468:WARNING:self_cleaning_temp_dir.cc(87)] Failed to delete temporary directory C:\Program Files (x86)\Microsoft\Edge\Temp. Scheduling for deletion at reboot.
+[5876:13604:0316/175412.399:81306468:VERBOSE1:delete_after_reboot_helper.cc(100)] Scheduled for deletion: C:\Program Files (x86)\Microsoft\Edge\Temp\scoped_dir5876_1411022300\old_msedge.exe
+[5876:13604:0316/175412.400:81306468:VERBOSE1:delete_after_reboot_helper.cc(100)] Scheduled for deletion: C:\Program Files (x86)\Microsoft\Edge\Temp\scoped_dir5876_1411022300
+[5876:13604:0316/175412.403:81306468:VERBOSE1:delete_after_reboot_helper.cc(100)] Scheduled for deletion: C:\Program Files (x86)\Microsoft\Edge\Temp
+[5876:13604:0316/175412.403:81306468:VERBOSE1:install_util.cc(274)] Existing version found: 122.0.2365.92
+[5876:13604:0316/175412.403:81306468:VERBOSE1:install.cc(1038)] Launching ""C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --msedge --channel=stable --delete-old-versions --system-level --verbose-logging" to delete old versions.
+[5876:13604:0316/175412.434:81306500:VERBOSE1:install.cc(1234)] Launching ""C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --msedge --channel=stable --register-package-identity --verbose-logging --system-level" to register package identity.
+[9224:26256:0316/175412.473:81306546:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[5876:13604:0316/175412.481:81306546:VERBOSE1:setup_main.cc(3159)] NonInstall operation completed. Exit code: 23
+[9224:26256:0316/175412.481:81306546:VERBOSE1:setup_main.cc(2945)] Command Line: "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --msedge --channel=stable --delete-old-versions --system-level --verbose-logging
+[9896:20376:0316/175412.575:81306640:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[9896:20376:0316/175412.575:81306640:VERBOSE1:setup_main.cc(2945)] Command Line: "C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\Installer\setup.exe" --msedge --channel=stable --register-package-identity --verbose-logging --system-level
+[9896:20376:0316/175412.575:81306640:VERBOSE1:setup_main.cc(2951)] system install is 1
+[9224:26256:0316/175412.643:81306718:VERBOSE1:setup_main.cc(2951)] system install is 1
+[9896:20376:0316/175412.660:81306734:VERBOSE1:installer_state.cc(95)] Install
+[9224:26256:0316/175412.669:81306734:VERBOSE1:installer_state.cc(95)] Install
+[9896:20376:0316/175435.709:81329781:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[9224:26256:0316/175435.725:81329796:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 2
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 0
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[9224:26256:0316/175435.725:81329796:VERBOSE1:installer_state.cc(95)] Install
+[9224:26256:0316/175435.725:81329796:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (15000)
+[9896:20376:0316/175436.060:81330125:VERBOSE1:setup_util.cc(245)] Looking for Edge version folder under C:\Program Files (x86)\Microsoft\Edge\Application
+[9896:20376:0316/175436.061:81330125:VERBOSE1:setup_util.cc(257)] directory found: 122.0.2365.80
+[9896:20376:0316/175436.061:81330125:VERBOSE1:setup_util.cc(257)] directory found: 122.0.2365.92
+[9896:20376:0316/175436.061:81330125:VERBOSE1:setup_util.cc(257)] directory found: SetupMetrics
+[9224:26256:0316/175450.737:81344812:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[9224:26256:0316/175450.772:81344843:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.80
+[9896:20376:0316/175502.678:81356750:ERROR:appx_package_installer.cc(467)] Failed to wait for deployment operation error code:80010115
+[9896:20376:0316/175502.728:81356796:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[9896:20376:0316/175502.729:81356796:VERBOSE1:trace_logging.cc(28)] Unregister TraceLogging provider
+[9896:20376:0316/175502.729:81356796:WARNING:edge_register_sparse_msix.cc(66)] MSIX Failed: Install MSIX package: C:\Program Files (x86)\Microsoft\Edge\Application\122.0.2365.92\identity_proxy\win11\identity_helper.sparse.stable.msix, Error - hr=80010115
+[9224:26256:0316/175505.665:81359734:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\Edge\Application
+[9896:20376:0316/175506.049:81360125:WARNING:appx_package_installer.cc(1408)] delegatedWebFeatures.sccd file md5 checksum: 7fd9cd05f23d42fb6deda65bd1977ac9
+[9896:20376:0316/175506.059:81360125:VERBOSE1:setup_main.cc(3159)] NonInstall operation completed. Exit code: 0
+[9224:26256:0316/175506.291:81360359:VERBOSE1:setup_main.cc(826)] Successfully deleted all old files from --delete-old-versions process.
+[9224:26256:0316/175506.607:81360671:VERBOSE1:delete_old_versions.cc(525)] Version directories count: 1, full version directories count: 1
+[9224:26256:0316/175506.628:81360703:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[9224:26256:0316/175506.632:81360703:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[9224:26256:0316/175506.638:81360703:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[9224:26256:0316/175506.641:81360703:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[9224:26256:0316/175506.832:81360906:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[9224:26256:0316/175506.832:81360906:VERBOSE1:setup_main.cc(1397)] PruneUnusedCoreVersions count=5
+[9224:26256:0316/175506.832:81360906:VERBOSE1:install_util.cc(274)] Existing version found: 122.0.2365.92
+[9224:26256:0316/175506.832:81360906:VERBOSE1:setup_main.cc(3159)] NonInstall operation completed. Exit code: 62
+[21336:12980:0317/211938.821:92442937:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[21336:12980:0317/211938.821:92442937:VERBOSE1:setup_main.cc(2945)] Command Line: "C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{C2A44D9B-AE41-44E4-8636-EDA648D1F629}\EDGEMITMP_1D363.tmp\setup.exe" --install-archive="C:\Program Files (x86)\Microsoft\EdgeUpdate\Install\{C2A44D9B-AE41-44E4-8636-EDA648D1F629}\MicrosoftEdge_X64_122.0.2365.92_122.0.2365.80.exe" --previous-version=122.0.2365.80 --msedgewebview --verbose-logging --do-not-launch-msedge --system-level
+[21336:12980:0317/211938.821:92442937:VERBOSE1:setup_main.cc(2951)] system install is 1
+[21336:12980:0317/211938.837:92442953:VERBOSE1:installer_state.cc(95)] Install
+[21336:12980:0317/211938.900:92443015:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 2
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 1
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[21336:12980:0317/211938.900:92443015:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[21336:12980:0317/211938.900:92443015:VERBOSE1:installer_state.cc(95)] Install
+[21336:12980:0317/211938.962:92443078:VERBOSE1:setup_main.cc(1491)] Entered background processing mode.
+[21336:12980:0317/211939.150:92443265:VERBOSE1:setup_main.cc(1501)] Installing to C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[21336:12980:0317/211939.213:92443328:VERBOSE1:setup_main.cc(2494)] version to install: 122.0.2365.92
+[21336:12980:0317/211939.373:92443484:VERBOSE1:setup_main.cc(1186)] Created path C:\Program Files (x86)\Microsoft\EdgeWebView\Temp
+[21336:12980:0317/211939.389:92443500:VERBOSE1:setup_main.cc(1208)] Temp dir's size in bytes: 0, in MB: 0
+[21336:12980:0317/211939.420:92443531:VERBOSE1:setup_main.cc(1271)] Found 0 directories in C:\Program Files (x86)\Microsoft\Temp
+[21336:12980:0317/211939.593:92443703:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[21336:12980:0317/211939.703:92443812:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[21336:12980:0317/211939.854:92443968:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[21336:12980:0317/211939.925:92444031:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[21336:12980:0317/211940.160:92444265:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[21336:12980:0317/211940.208:92444312:VERBOSE1:setup_main.cc(1397)] PruneUnusedCoreVersions count=5
+[21336:12980:0317/211940.318:92444421:VERBOSE1:rebuild7z.cc(513)] Getting content info to validate install. Level: 3
+[21336:12980:0317/211940.871:92444984:VERBOSE1:rebuild7z.cc(526)] ValidateInstalledFiles. Elements: 227, file infos: 205
+[21336:12980:0317/212046.729:92510843:VERBOSE1:rebuild7z.cc(76)] ValidateInstalledFiles stats: Total files: 205, open failures: 0, missing files:: 0, wrong sizes: 0, wrong crcs: 0
+[21336:12980:0317/212046.745:92510859:VERBOSE1:setup_main.cc(1308)] Created path C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92
+[21336:12980:0317/212046.855:92510968:VERBOSE1:install_worker.cc(437)] Will link files from: C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92 to: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92
+[21336:12980:0317/212046.855:92510968:VERBOSE1:install_worker.cc(295)] AddFireWallRuleWorkItem C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92\msedgewebview2.exe
+[21336:12980:0317/212046.981:92511093:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list 
+[21336:12980:0317/212046.981:92511093:VERBOSE1:create_dir_work_item.cc(33)] creating directory C:\Program Files (x86)\Microsoft\EdgeWebView\Temp
+[21336:12980:0317/212046.981:92511093:VERBOSE1:create_dir_work_item.cc(33)] creating directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[21336:12980:0317/212046.988:92511093:VERBOSE1:install_worker.cc(520)] AddAppContainerFoldersAclWorkItems callback C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[21336:12980:0317/212047.646:92511750:VERBOSE1:install_worker.cc(527)] AddAppContainerFoldersAclWorkItems callback C:\Program Files (x86)\Microsoft\EdgeCore
+[21336:12980:0317/212047.850:92511953:VERBOSE1:create_dir_work_item.cc(33)] creating directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\SetupMetrics
+[21336:12980:0317/212047.881:92511984:VERBOSE1:copy_tree_work_item.cc(87)] Moved destination C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92 to backup path C:\Program Files (x86)\Microsoft\EdgeWebView\Temp\scoped_dir21336_86595021\122.0.2365.92
+[21336:12980:0317/212048.142:92512250:VERBOSE1:copy_tree_work_item.cc(107)] Copied source C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92 to destination C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92
+[21336:12980:0317/212048.142:92512250:VERBOSE1:system_restore_resiliency.cc(228)] TryWinResiliencyLinkTree under path: 'C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92'.
+[21336:12980:0317/212048.370:92512484:VERBOSE1:system_restore_resiliency.cc(257)] TryWinResiliencyLinkTree completed.  Files: 207, Processed: 146, Failed: 0, Ignored: 61.
+[21336:12980:0317/212048.370:92512484:VERBOSE1:install_worker.cc(222)] Milliseconds spent on Resiliency Linking: 227. Is background: 1
+[21336:12980:0317/212048.495:92512609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92\Installer\setup.exe into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212048.495:92512609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value  --uninstall --msedgewebview --system-level --verbose-logging into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212048.495:92512609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Edge WebView2 Runtime into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.495:92512609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe" /install appguid={F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}&appname=Microsoft%20Edge%20WebView&needsadmin=true&repairtype=windowsonlinerepair /installsource windows into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.495:92512609:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92\Installer\setup.exe" --uninstall --msedgewebview --system-level --verbose-logging into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.527:92512640:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.527:92512640:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92\msedgewebview2.exe,0 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.527:92512640:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView or Value: NoModify does not exist.
+[21336:12980:0317/212048.543:92512656:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.543:92512656:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.543:92512656:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Corporation into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.543:92512656:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.92 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.543:92512656:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.92 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.598:92512703:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 20240317 into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.598:92512703:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.598:92512703:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\Windows\CurrentVersion\Uninstall\Microsoft EdgeWebView
+[21336:12980:0317/212048.606:92512718:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value Microsoft Edge WebView2 Runtime into Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212048.654:92512765:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5} or Value: oopcrashes does not exist.
+[21336:12980:0317/212048.693:92512796:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application into Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212048.693:92512796:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value 122.0.2365.92 into Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212048.693:92512796:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92 into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212048.693:92512796:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92\Installer\setup.exe" --force-uninstall --uninstall --msedgewebview --system-level --verbose-logging into Software\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212049.173:92513281:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list 
+[21336:12980:0317/212049.173:92513281:VERBOSE1:install.cc(491)] Version updated to 122.0.2365.92
+[21336:12980:0317/212049.622:92513734:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80
+[21336:12980:0317/212049.931:92514046:WARNING:delete_old_versions.cc(172)] Failed to delete old executable (using disposition flags) on C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\msedgewebview2.exe: Access is denied. (0x5)
+[21336:12980:0317/212050.198:92514312:WARNING:delete_old_versions.cc(273)] Failed to delete stray directory due to exe in use C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80: Access is denied. (0x5)
+[21336:12980:0317/212050.671:92514781:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[21336:12980:0317/212050.972:92515078:VERBOSE1:install.cc(1038)] Launching ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92\Installer\setup.exe" --msedgewebview --delete-old-versions --system-level --verbose-logging" to delete old versions.
+[21336:12980:0317/212051.191:92515296:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[21336:12980:0317/212051.207:92515312:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[21336:12980:0317/212051.207:92515312:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[21336:12980:0317/212051.350:92515453:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(2) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[21336:12980:0317/212051.460:92515562:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(3) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[21336:12980:0317/212051.460:92515562:VERBOSE1:setup_main.cc(1397)] PruneUnusedCoreVersions count=5
+[21336:12980:0317/212051.460:92515562:VERBOSE1:work_item_list.cc(32)] Beginning execution of work item list Write Installer Result
+[21336:12980:0317/212051.460:92515562:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212051.491:92515593:VERBOSE1:set_reg_value_work_item.cc(203)] Successfully wrote into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212051.491:92515593:VERBOSE1:delete_reg_value_work_item.cc(43)] (delete value) Key: Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5} or Value: InstallerResultUIString does not exist.
+[21336:12980:0317/212051.491:92515593:VERBOSE1:set_reg_value_work_item.cc(199)] Successfully wrote value "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\msedge.exe" --from-installer into Software\Microsoft\EdgeUpdate\ClientState\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}
+[21336:12980:0317/212051.491:92515593:VERBOSE1:work_item_list.cc(53)] Successful execution of work item list Write Installer Result
+[21336:12980:0317/212051.507:92515609:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\ChromiumExt
+[21336:12980:0317/212051.539:92515656:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\.crx
+[21336:12980:0317/212051.539:92515656:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\ChromiumExt
+[21336:12980:0317/212051.539:92515656:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\.crx
+[21336:12980:0317/212051.570:92515687:VERBOSE1:setup_main.cc(2842)] Deleting temporary directory C:\Program Files (x86)\Microsoft\EdgeWebView\Temp
+[21336:12980:0317/212051.570:92515687:VERBOSE1:google_update_settings.cc(804)] Installer result: 0. Removing -full AP hint. New AP hint: 
+[21336:12980:0317/212051.586:92515703:VERBOSE1:setup_main.cc(1536)] Milliseconds spent on install: 72672. Is background: 1
+[21336:12980:0317/212051.649:92515765:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{00000000-0000-0000-0000-000000000000}
+[21336:12980:0317/212051.680:92515796:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Classes\CLSID\{00000000-0000-0000-0000-000000000000}
+[21336:12980:0317/212051.680:92515796:VERBOSE1:registry_util.cc(24)] Deleting registry key Software\Chromium Binaries
+[21336:12980:0317/212051.680:92515796:VERBOSE1:setup_main.cc(3321)] Peak pagefile (MB): 5
+[21336:12980:0317/212051.680:92515796:VERBOSE1:setup_main.cc(3322)] Peak working-set (MB): 102
+[21336:12980:0317/212051.680:92515796:VERBOSE1:setup_main.cc(3324)] Installer disk usage (MB): 1
+[21336:12980:0317/212051.680:92515796:VERBOSE1:setup_main.cc(3325)] Free disk space (MB): 13988
+[21336:12980:0317/212051.680:92515796:VERBOSE1:setup_main.cc(3338)] Installation complete, returning: 0
+[21336:12980:0317/212051.695:92515812:WARNING:setup_util.cc(1418)] Repeated failure count: 0
+[21336:12980:0317/212051.695:92515812:VERBOSE1:trace_logging.cc(28)] Unregister TraceLogging provider
+[3796:14632:0317/212051.774:92515890:VERBOSE1:trace_logging.cc(21)] Register TraceLogging provider
+[3796:14632:0317/212051.774:92515890:VERBOSE1:setup_main.cc(2945)] Command Line: "C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.92\Installer\setup.exe" --msedgewebview --delete-old-versions --system-level --verbose-logging
+[3796:14632:0317/212051.774:92515890:VERBOSE1:setup_main.cc(2951)] system install is 1
+[3796:14632:0317/212051.789:92515906:VERBOSE1:installer_state.cc(95)] Install
+[3796:14632:0317/212051.973:92516078:VERBOSE1:install_util.cc(305)] Windows NT 10.0.22631
+[3796:14632:0317/212051.973:92516078:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 2
+[3796:14632:0317/212051.973:92516078:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (5000)
+[3796:14632:0317/212051.973:92516078:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (5000)
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(67)] SetupSingleton::Acquire entry for 1
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(157)] SetupSingleton exit_event_mutex acquire begin (4992)
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(166)] SetupSingleton exit_event_mutex acquire success
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(171)] SetupSingleton exit_event_mutex signal
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(175)] SetupSingleton setup_mutex acquire begin (4992)
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(184)] SetupSingleton setup_mutex acquire success
+[3796:14632:0317/212051.988:92516093:VERBOSE1:setup_singleton.cc(186)] SetupSingleton exit_event_mutex reset
+[3796:14632:0317/212051.988:92516093:VERBOSE1:installer_state.cc(95)] Install
+[3796:14632:0317/212052.004:92516109:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (15000)
+[3796:14632:0317/212107.057:92531171:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[3796:14632:0317/212107.104:92531218:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80
+[3796:14632:0317/212107.340:92531453:VERBOSE1:delete_old_versions.cc(185)] Removing Firewall rules for old version C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\msedgewebview2.exe
+[3796:14632:0317/212107.491:92531593:ERROR:delete_old_versions.cc(280)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80. Will try with EvenIfInUse.: The process cannot access the file because it is being used by another process. (0x20)
+[3796:14632:0317/212107.499:92531609:ERROR:delete_old_versions.cc(288)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80: The process cannot access the file because it is being used by another process. (0x20)
+[3796:14632:0317/212107.507:92531609:WARNING:delete_old_versions.cc(205)] Path failed to delete: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\icudtl.dat
+[3796:14632:0317/212107.507:92531609:VERBOSE1:delete_old_versions.cc(209)] RmRegisterResources returned 0
+[3796:14632:0317/212107.830:92531937:WARNING:delete_old_versions.cc(240)] Friendly name of process using one of the remaining files: Widgets
+[3796:14632:0317/212107.830:92531937:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[3796:14632:0317/212107.861:92531968:VERBOSE1:setup_main.cc(832)] Failed to delete all old files from --delete-old-versions process. Will retry every five minutes.
+[3796:14632:0317/212107.861:92531968:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (300000)
+[3796:14632:0317/212607.864:92831968:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[3796:14632:0317/212607.911:92832015:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80
+[3796:14632:0317/212607.926:92832031:ERROR:delete_old_versions.cc(280)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80. Will try with EvenIfInUse.: The process cannot access the file because it is being used by another process. (0x20)
+[3796:14632:0317/212607.942:92832046:ERROR:delete_old_versions.cc(288)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80: The process cannot access the file because it is being used by another process. (0x20)
+[3796:14632:0317/212607.957:92832062:WARNING:delete_old_versions.cc(205)] Path failed to delete: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\icudtl.dat
+[3796:14632:0317/212607.957:92832062:VERBOSE1:delete_old_versions.cc(209)] RmRegisterResources returned 0
+[3796:14632:0317/212608.115:92832218:WARNING:delete_old_versions.cc(240)] Friendly name of process using one of the remaining files: Widgets
+[3796:14632:0317/212608.133:92832250:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[3796:14632:0317/212608.162:92832265:VERBOSE1:setup_singleton.cc(340)] CoreAndProductSetupSingleton WaitForInterrupt begin (300000)
+[3796:14632:0317/213724.709:93508812:VERBOSE1:setup_singleton.cc(349)] CoreAndProductSetupSingleton WaitForInterrupt timeout
+[3796:14632:0317/213724.740:93508843:WARNING:delete_old_versions.cc(266)] Attempting to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80
+[3796:14632:0317/213724.756:93508859:ERROR:delete_old_versions.cc(280)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80. Will try with EvenIfInUse.: The process cannot access the file because it is being used by another process. (0x20)
+[3796:14632:0317/213724.756:93508859:ERROR:delete_old_versions.cc(288)] Failed to delete stray directory C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80: The process cannot access the file because it is being used by another process. (0x20)
+[3796:14632:0317/213724.780:93508890:WARNING:delete_old_versions.cc(205)] Path failed to delete: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\122.0.2365.80\icudtl.dat
+[3796:14632:0317/213724.780:93508890:VERBOSE1:delete_old_versions.cc(209)] RmRegisterResources returned 0
+[3796:14632:0317/213725.008:93509125:WARNING:delete_old_versions.cc(240)] Friendly name of process using one of the remaining files: Widgets
+[3796:14632:0317/213725.027:93509140:VERBOSE1:delete_old_versions.cc(473)] Removing broken version dir exe firewall rules under C:\Program Files (x86)\Microsoft\EdgeWebView\Application
+[3796:14632:0317/213725.106:93509218:VERBOSE1:delete_old_versions.cc(525)] Version directories count: 2, full version directories count: 1
+[3796:14632:0317/213725.106:93509218:VERBOSE1:setup_main.cc(840)] Try to schedule deletion of old versions
+[3796:14632:0317/213725.121:93509234:VERBOSE1:setup_main.cc(842)] Successfully scheduled deletion of all old files from --delete-old-versions process.
+[3796:14632:0317/213725.168:93509281:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\120.0.2210.77
+[3796:14632:0317/213725.168:93509281:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.52
+[3796:14632:0317/213725.168:93509281:VERBOSE1:setup_main.cc(1346)] PruneUnusedCoreVersions ignore(?) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.66
+[3796:14632:0317/213725.168:93509281:VERBOSE1:setup_main.cc(1370)] PruneUnusedCoreVersions prune(1) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.80
+[3796:14632:0317/213725.168:93509281:VERBOSE1:uninstall.cc(1431)] Changing current directory to: C:\WINDOWS\TEMP
+[3796:14632:0317/213725.181:93509296:VERBOSE1:uninstall.cc(1444)] Attempting to move setup.exe to: C:\Windows\Temp\3d985f2c-8d5c-4228-a554-101dc818a57f.tmp
+[3796:14632:0317/213725.498:93509609:VERBOSE1:setup_main.cc(1354)] PruneUnusedCoreVersions keep(3) C:\Program Files (x86)\Microsoft\EdgeCore\122.0.2365.92
+[3796:14632:0317/213725.498:93509609:VERBOSE1:setup_main.cc(1397)] PruneUnusedCoreVersions count=5
+[3796:14632:0317/213725.498:93509609:VERBOSE1:install_util.cc(274)] Existing version found: 122.0.2365.92
+[3796:14632:0317/213725.498:93509609:VERBOSE1:setup_main.cc(3159)] NonInstall operation completed. Exit code: 62
