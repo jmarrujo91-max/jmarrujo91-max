@@ -1,0 +1,685 @@
+                                                                   Revision : 18
+--------------------------------------------------------------------------------
+Software name      Windows Utility To Read and Write Asset ID Information
+
+Support models     ThinkPad 10 (Machine types:20E3,20E4)
+                   ThinkPad 11e (Machine types:20D9,20DA)
+                   ThinkPad 11e (Machine types:20E5,20E6,20E7,20E8)
+                   ThinkPad 11e Gen 3 (Machine types:20G9,20GB)
+                   ThinkPad 11e Gen 4 (Machine types:20HT,20HV)
+                   ThinkPad 11e Gen 5
+                   ThinkPad 13
+                   ThinkPad E14 (Machine types:20RA,20RB)
+                   ThinkPad E14 Gen 2 (Machine types: 20TA,20TB,20T6,20T7)
+                   ThinkPad E14 Gen 4 (Machine types:21E3,21E4,21EB,21EC)
+                   ThinkPad E14 Gen 5 (Machine types:21JK,21JL,21JR,21JS)
+                   ThinkPad E15 (Machine types:20RD,20RE)
+                   ThinkPad E15 Gen 2 (Machine types:20TD,20TE,20T8)
+                   ThinkPad E15 Gen 4 (Machine types:21E6,21E7,21ED,21EE)
+                   ThinkPad E16 Gen 1 (Machine types:21JN,21JQ,21JT,21JU)
+                   ThinkPad E460, E470, E480, E485, E490, E490s, E495
+                   ThinkPad E560, E570, E570p, E580, E585, E590, E595
+                   ThinkPad Helix Gen 2 (Machine types:20CG,20CH)
+                   ThinkPad L13 (Machine types:20R3,20R4)
+                   ThinkPad L13 Gen 1 (Machine types:20R3,20R4)
+                   ThinkPad L13 Gen 3 (Machine types:21B3,21B4)
+                   ThinkPad L13 Gen 3 AMD (Machine types:21B9,21BA)
+                   ThinkPad L13 Gen 4 (Machine types:21FG,21FH,21FN,21FQ)
+                   ThinkPad L13 Yoga (Machine types:20R5,20R6)
+                   ThinkPad L13 Yoga Gen 1 (Machine types:20R5,20R6)
+                   ThinkPad L13 Yoga Gen 3 (Machine types:21B5,21B6)
+                   ThinkPad L13 Yoga Gen 3 AMD (Machine types:21BB,21BC)
+                   ThinkPad L13 Yoga Gen 4 (Machine types:21FJ,21FK,21FR,21FS)
+                   ThinkPad L14 Gen 1 (Machine types:20U1,20U2)
+                   ThinkPad L14 Gen 2 (Machine types:20X1,20X2)
+                   ThinkPad L14 Gen 3 (Machine types:21C1,21C2)
+                   ThinkPad L14 Gen 4 (Machine types:21H1,21H2)
+                   ThinkPad L14 Gen 1 AMD (Machine types:20U5,20U6)
+                   ThinkPad L14 Gen 2 AMD (Machine types:20X5,20X6)
+                   ThinkPad L14 Gen 3 AMD (Machine types:21C5,21C6)
+                   ThinkPad L14 Gen 4 AMD (Machine types:21H5,21H6)
+                   ThinkPad L15 Gen 1 (Machine types:20U3,20U4)
+                   ThinkPad L15 Gen 2 (Machine types:20X3,20X4)
+                   ThinkPad L15 Gen 3 (Machine types:21C3,21C4)
+                   ThinkPad L15 Gen 4 (Machine types:21H3,21H4)
+                   ThinkPad L15 Gen 1 AMD (Machine types:20U7,20U8)
+                   ThinkPad L15 Gen 2 AMD (Machine types:20X7,20X8)
+                   ThinkPad L15 Gen 3 AMD (Machine types:21C7,21C8)
+                   ThinkPad L15 Gen 4 AMD (Machine types:21H7,21H8)
+                   ThinkPad L380
+                   ThinkPad L390 (Machine types:20NR,20NS)
+                   ThinkPad L390 Yoga (Machine types:20NT,20NU)
+                   ThinkPad L440, L450, L460, L470, L480, L490
+                   ThinkPad L540, L560, L570, L580, L590
+                   ThinkPad neo 14 (Machine types:21DN)
+                   ThinkPad neo 14 AMD (Machine types:21EF)
+                   ThinkPad P1 Gen 1 (Machine types:20MD,20ME)
+                   ThinkPad P1 Gen 2 (Machine types:20QT,20QU)
+                   ThinkPad P1 Gen 3 (Machine types:20TH,20TJ)
+                   ThinkPad P1 Gen 4 (Machine types:20Y3,20Y4)
+                   ThinkPad P1 Gen 5 (Machine types:21DC,21DD)
+                   ThinkPad P1 Gen 6 (Machine types:21FV,21FW)
+                   ThinkPad P14s Gen 1 (Machine types:20UD,20UE)
+                   ThinkPad P14s Gen 2 (Machine types:20VX,20VY)
+                   ThinkPad P14s Gen 3 (Machine types:21AK,21AL)
+                   ThinkPad P14s Gen 4 (Machine types:21HF 21HG,21K5,21K6)
+                   ThinkPad P15 Gen 1 (Machine types:20ST,20SU)
+                   ThinkPad P15 Gen 2 (Machine types:20YQ,20YR)
+                   ThinkPad P15s Gen 1 (Machine types:20T4,20T5)
+                   ThinkPad P15s Gen 2 (Machine types:20W6,20W7)
+                   ThinkPad P15v Gen 1 (Machine types:20TQ,20TR)
+                   ThinkPad P15v Gen 2 (Machine types:21A9,21AA)
+                   ThinkPad P15v Gen 3 (Machine types:21D8,21D9,21EM,21EN)
+                   ThinkPad P16 Gen 1 (Machine types:21D6,21D7)
+                   ThinkPad P16 Gen 2 (Machine types:21FA,21FB)
+                   ThinkPad P16s Gen 1 (Machine types:21BU,21BT,21CK,21CL)
+                   ThinkPad P16s Gen 2 (Machine types:21HK,21HL,21K9,21KA)
+                   ThinkPad P16v Gen 1 (Machine types:21FC,21FD,21FE,21FF)
+                   ThinkPad P17 Gen 1 (Machine types:20SN,20SQ)
+                   ThinkPad P17 Gen 2 (Machine types:20YU,20YV)
+                   ThinkPad P43s, P50, P50s, P51s, P52s, P70, P53s
+                   ThinkPad P52 (Machine types:20M9,20MA)
+                   ThinkPad P53 (Machine types:20QN,20QQ)
+                   ThinkPad P72 (Machine types:20MB,20MC)
+                   ThinkPad P73 (Machine types:20QR,20QS)
+                   ThinkPad R14 (Machine types:20RC)
+                   ThinkPad R14 Gen 4 (Machine types:21E5)
+                   ThinkPad R14 Gen 5 (Machine types:21JM)
+                   ThinkPad R480, R490, R590
+                   ThinkPad S1, S2, S3, S5
+                   ThinkPad S2 Gen 4 (Machine types:20NV)
+                   ThinkPad S2 Gen 5 (Machine types:20R7)
+                   ThinkPad S2 Gen 7 (Machine types:21B7,21BD)
+                   ThinkPad S2 Gen 8 (Machine types:21FL,21FT)
+                   ThinkPad S3 Gen 2 (Machine types:20RG)
+                   ThinkPad S1 Yoga
+                   ThinkPad S2 Yoga Gen 4 (Machine types:20NW)
+                   ThinkPad S2 Yoga Gen 5 (Machine types:20R8)
+                   ThinkPad S2 Yoga Gen 7 (Machine types:21B8,21BE)
+                   ThinkPad S2 Yoga Gen 8 (Machine types:21FM,21FU)
+                   ThinkPad S5 Yoga 15
+                   ThinkPad T14 Gen 1 (Machine types:20S0,20S1,20S2,20S3)
+                   ThinkPad T14 Gen 1 (Machine types:20UD,20UE)
+                   ThinkPad T14 Gen 2 (Machine types:20W0, 20W1)
+                   ThinkPad T14 Gen 3 (Machine types:21AH,21AJ,21CF,21CG)
+                   ThinkPad T14 Gen 4 (Machine types:21HD,21HE,21K3,21K4)
+                   ThinkPad T14s Gen 1 (Machine types:20T0,20T1,20UH,20UJ)
+                   ThinkPad T14s Gen 2 (Machine types:20WM,20WN)
+                   ThinkPad T14s Gen 3 (Machine types:21BR,21BS,21CQ,21CR)
+                   ThinkPad T14s Gen 4 (Machine types:21F6,21F7,21F8,21F9)
+                   ThinkPad T15 Gen 1 (Machine types:20S6,20S7)
+                   ThinkPad T15 Gen 2 (Machine types:20W4,20W5)
+                   ThinkPad T15g Gen 1 (Machine types:20UR,20US)
+                   ThinkPad T15g Gen 2 (Machine types:20YS,20YT)
+                   ThinkPad T15p Gen 1 (Machine types:20TN,20TM)
+                   ThinkPad T15p Gen 2 (Machine types:21A7,21A8)
+                   ThinkPad T15p Gen 3 (Machine types:21DA,21DB)
+                   ThinkPad T16 Gen 1 (Machine types:21BW,21BV,21CH,21CJ)
+                   ThinkPad T16 Gen 2 (Machine types:21HH,21HJ,21K7,21K8)
+                   ThinkPad T440, T440p, T440s, T450, T450s, T460, T460p, T460s,
+                            T470, T470p, T470s, T480, T480s, T490, T490 HC,
+                            T495, T495s
+                   ThinkPad T490s (Machine types:20NX,20NY)
+                   ThinkPad T540p, T550, T560, T570, T580, T590
+                   ThinkPad W540, W550s
+                   ThinkPad X1 Tablet Gen 1 (Machine types:20GG,20GH)
+                   ThinkPad X1 Tablet Gen 2 (Machine types:20JB,20JC)
+                   ThinkPad X1 Tablet Gen 3 (Machine types:20KJ,20KK)
+                   ThinkPad X1 Carbon Gen 2 (Machine types:20A7,20A8)
+                   ThinkPad X1 Carbon Gen 3 (Machine types:20BS,20BT)
+                   ThinkPad X1 Carbon Gen 4 (Machine types:20FB,20FC)
+                   ThinkPad X1 Carbon Gen 5 (Machine types:20HQ,20HR,20K3,20K4)
+                   ThinkPad X1 Carbon Gen 6 (Machine types:20KH,20KG)
+                   ThinkPad X1 Carbon Gen 7 (Machine types:20QD,20QE,20R1,20R2)
+                   ThinkPad X1 Carbon Gen 8 (Machine types:20U9,20UA)
+                   ThinkPad X1 Carbon Gen 9 (Machine types:20XW,20XX)
+                   ThinkPad X1 Carbon Gen 10 (Machine types:21CB,21CC)
+                   ThinkPad X1 Carbon Gen 11 (Machine types:21HM,21HN)
+                   ThinkPad X1 Extreme Gen 1 (Machine types:20MF,20MG)
+                   ThinkPad X1 Extreme Gen 2 (Machine types:20QV,20QW) 
+                   ThinkPad X1 Extreme Gen 3 (Machine types:20TK,20TL)
+                   ThinkPad X1 Extreme Gen 4 (Machine types:20Y5,20Y6)
+                   ThinkPad X1 Extreme Gen 5 (Machine types:21DE,21DF)
+                   ThinkPad X1 Fold 16 Gen 1 (Machine types:21ES,21ET)
+                   ThinkPad X1 Nano Gen 1 (Machine types:20UN,20UQ)
+                   ThinkPad X1 Nano Gen 2 (Machine types:21E8,21E9)
+                   ThinkPad X1 Nano Gen 3 (Machine types:21K1,21K2)
+                   ThinkPad X1 Titanium Gen1 (Machine types:20QA,20QB)
+                   ThinkPad X1 Yoga (Machine types:20FQ,20FR)
+                   ThinkPad X1 Yoga Gen 2 (Machine types:20JD,20JE,20JF,20JG)
+                   ThinkPad X1 Yoga Gen 3 (Machine types:20LD,20LE,20LF,20LG)
+                   ThinkPad X1 Yoga Gen 4 (Machine types:20QF,20QG,20SA,20SB)
+                   ThinkPad X1 Yoga Gen 5 (Machine types:20UB,20UC)
+                   ThinkPad X1 Yoga Gen 6 (Machine types:20XY,20Y0)
+                   ThinkPad X1 Yoga Gen 7 (Machine types:21CD,21CE)
+                   ThinkPad X1 Yoga Gen 8 (Machine types:21HQ,21HR)
+                   ThinkPad X12 Detachable Gen 1 (Machine types:20UW,20UV)
+                   ThinkPad X12 Gen 1 LTE (Machine types:20UW,20UV)
+                   ThinkPad X13 Gen 1 (Machine types:20T2,20T3,20UF,20UG)
+                   ThinkPad X13 Gen 2 (Machine types:20WK,20WL)
+                   ThinkPad X13 Gen 3 (Machine types:21BN,21BQ,21CM,21CN)
+                   ThinkPad X13 Gen 4 (Machine types:21EX,21EY,21J3,21J4)
+                   ThinkPad X13 Yoga Gen 1 (Machine types:20SX,20SY)
+                   ThinkPad X13 Yoga Gen 2 (Machine types:20W8,20W9)
+                   ThinkPad X13 Yoga Gen 3 (Machine types:21AW,21AX)
+                   ThinkPad X13 Yoga Gen 4 (Machine types:21F2,21F3)
+                   ThinkPad X140e
+                   ThinkPad X240, X240s, X250, X260, X270, X280
+                   ThinkPad X390 (Machine types:20Q0,20Q1)
+                   ThinkPad X395
+                   ThinkPad Yoga, Yoga 14, Yoga 260,Yoga 370, X380 Yoga
+                   ThinkPad X390 Yoga, Yoga 460
+                   ThinkPad Yoga 11e (Machine types:20D9,20DA)
+                   ThinkPad Yoga 11e (Machine types:20E5,20E6,20E7,20E8)
+                   ThinkPad Yoga 11e Gen 3 (Machine types:20G8,20GA)
+                   ThinkPad Yoga 11e Gen 4 (Machine types:20HS,20HU)
+                   ThinkPad Z13 Gen 1 (Machine types:21D2,21D3)
+                   ThinkPad Z13 Gen 2 (Machine types:21JV,21JW)
+                   ThinkPad Z16 Gen 1 (Machine types:21D4,21D5)
+                   ThinkPad Z16 Gen 2 (Machine types:21JX,21JY)
+
+Operating Systems  Microsoft Windows 11
+                   Microsoft Windows 10   64-bit
+                   Microsoft Windows 8.1  64-bit
+                   Microsoft Windows 8    64-bit
+                   Microsoft Windows 7    32-bit, 64-bit
+
+                   Refer to marketing materials to find out what computer models
+                   support which Operating Systems.
+
+Version            1.02
+
+
+--------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+  The utilities running on Windows to read out and store an asset ID data from
+  ThinkPad is to provide query and set feature of an asset ID and other
+  information.
+
+  To use this utility, you need logon to the Windows with administrative
+  privileges.
+
+  If this package has been installed, updating (overwrite-installing) this
+  package will fix problems, add new functions, or expand functions as noted
+  below.
+
+  This program is language independent and can be used with any language system.
+
+
+--------------------------------------------------------------------------------
+CHANGES IN THIS RELEASE
+ Version 1.02
+
+[Important updates]
+ Nothing.
+
+[New functions or enhancements]
+ Added support for the following products:
+        ThinkPad E14 Gen 5 (Machine types:21JK,21JL,21JR,21JS).
+        ThinkPad E16 Gen 1 (Machine types:21JN,21JQ,21JT,21JU).
+        ThinkPad L13 Gen 4 (Machine types:21FG,21FH,21FN,21FQ).
+        ThinkPad L13 Yoga Gen 4 (Machine types:21FJ,21FK,21FR,21FS).
+        ThinkPad L14 Gen 4 (Machine types:21H1,21H2).
+        ThinkPad L14 Gen 4 AMD (Machine types:21H5,21H6).
+        ThinkPad L15 Gen 4 (Machine types:21H3,21H4).
+        ThinkPad L15 Gen 4 AMD (Machine types:21H7,21H8).
+        ThinkPad P1 Gen 6 (Machine types:21FV,21FW).
+        ThinkPad P14s Gen 4 (Machine types:21HF 21HG,21K5,21K6).
+        ThinkPad P16 Gen 2 (Machine types:21FA,21FB).
+        ThinkPad P16s Gen 2 (Machine types:21HK,21HL,21K9,21KA).
+        ThinkPad P16v Gen 1 (Machine types:21FC,21FD,21FE,21FF).
+        ThinkPad R14 Gen 5 (Machine types:21JM).
+        ThinkPad S2 Gen 8 (Machine types:21FL,21FT).
+        ThinkPad S2 Yoga Gen 8 (Machine types:21FM,21FU).
+        ThinkPad T14 Gen 4 (Machine types:21HD,21HE,21K3,21K4).
+        ThinkPad T14s Gen 4 (Machine types:21F6,21F7,21F8,21F9).
+        ThinkPad T16 Gen 2 (Machine types:21HH,21HJ,21K7,21K8).
+        ThinkPad X1 Carbon Gen 11 (Machine types:21HM,21HN).
+        ThinkPad X1 Fold 16 Gen 1 (Machine types:21ES,21ET),
+        ThinkPad X1 Nano Gen 3 (Machine types:21K1,21K2).
+        ThinkPad X1 Yoga Gen 8 (Machine types:21HQ,21HR).
+        ThinkPad X13 Gen 4 (Machine types:21EX,21EY,21J3,21J4).
+        ThinkPad X13 Yoga Gen 4 (Machine types:21F2,21F3),
+        ThinkPad Z13 Gen 2 (Machine types:21JV,21JW),
+        ThinkPad Z16 Gen 2 (Machine types:21JX,21JY).
+
+[Problem fixes]
+ Nothing.
+
+--------------------------------------------------------------------------------
+DETERMINING WHICH VERSION IS INSTALLED
+
+  Version or Details tab from My Computer/Properties.
+  1. Locate WinAIA.exe from My Computer.
+  2. Right click the file and select Properties.
+  3. Depends on Windows OS, a tab "Versions" or "Details" will have file version
+     information.
+
+
+--------------------------------------------------------------------------------
+PROGRAM EXECUTION NOTES
+
+  WinAIAPackage is executed as:
+        WinAIA.exe [options] <command>
+
+  Where valid options are:
+        -silent
+        -output-file <filename>
+
+  And where <command> is one of the following:
+        -get [group[ group[ ...]]]
+        -set-from-file <filename>
+        -set group.field=value [group.field=value [...]]
+        -initialize
+        -help
+
+
+  Note: The filenames should be provided with a full path to the file. This is
+        because the program actually runs from out of the %TMP% folder, and so
+        the relative path is also from the %TMP% folder.
+
+  Note: The filename for input data has each entry on a separate line, in the
+        same group.field=value format.
+
+  Note: When the silent option is provided, there is no opportunity to abort
+        an update in the set modes. Without this option, there is a confirmation
+        dialog.
+
+  Note: By default, WinAIA.exe is copied to C:\DRIVERS\WINAIA.
+
+
+  Examples shown below should be entered on one line. They are broken up to fit
+  the 80 character width of a readme text file.
+
+  To get everything from the user information area (UIA):
+        WinAIA.exe -get
+
+  To get only the OWNERDATA group, silently, while saving the output to a file:
+        WinAIAPackage.exe -silent -output-file "\path\to\file\aia_output.txt"
+        -get OWNERDATA
+
+  To set the ASSET_NUMBER:
+        WinAIA.exe -set "USERASSETDATA.ASSET_NUMBER=ABC 123"
+
+  To set the LEASE_START_DATE
+        WinAIA.exe -set LEASEDATA.LEASE_START_DATE=20130101
+
+  To set one of the user-specifiable values:
+        WinAIA.exe -set "USERDEVICE.My Field=My Value"
+
+
+--------------------------------------------------------------------------------
+DEVICE GROUPS AND FIELDS
+
+  All options, group names and field names are case-insensitive, except for the
+  USERDEVICE group and the prefix value.
+
+  If no options are specified or an incorrect option is specified, then the
+  help text for the utility is displayed.
+
+  Here is a list of the valid group names and their associated fields:
+
+  USERDEVICE         <Field1>  -  These fields are defined by the user.
+                     :            The maximum number of user fields is five.
+                     <Fieldn>
+
+  PRELOADPROFILE     IMAGEDATE
+                     IMAGE
+
+  USERASSETDATA      PURCHASE_DATE
+                     LAST_INVENTORIED
+                     WARRANTY_END
+                     WARRANTY_DURATION
+                     AMOUNT
+                     ASSET_NUMBER
+
+  LEASEDATA          LEASE_START_DATE
+                     LESE_END_DATE
+                     LEASE_TERM
+                     LEASE_AMOUNT
+                     LESSOR
+
+  OWNERDATA          OWNERNAME
+                     DEPARTMENT
+                     LOCATION
+                     PHONE_NUMBER
+                     OWNERPOSITION
+
+  NETWORKCONNECTION  NUMNICS
+                     GATEWAY
+                     IPADDRESS[n]   (1<=n<=NUMNICS, default is 1)
+                     SUBNETMASK[n]
+                     SYSTEMNAME
+                     LOGINNAME
+
+  Note: The USERASSETDATA.ASSET_NUMBER is available through WMI by querying the
+        SMBIOSAssetTag field of the Win32_SystemEnclosure class.
+
+
+--------------------------------------------------------------------------------
+PROGRAM RETURN CODES (EXIT CODES)
+
+  This program does not have a return code.
+
+
+--------------------------------------------------------------------------------
+VERSION INFORMATION
+
+  The following versions have been released to date.
+
+  Package  WinAIA Version   WinAIA64 Version    Rev.  Issue Date
+  -------  ---------------  ----------------    ----  ----------
+  1.02     2.0.2.1          2.0.2.1             18    2023/11/02
+  1.02     2.0.2.1          2.0.2.1             17    2022/11/15
+  1.02     2.0.2.1          2.0.2.1             16    2022/03/24
+  1.02     2.0.2.1          2.0.2.1             15    2021/01/29
+  1.02     2.0.2.1          2.0.2.1             14    2020/06/02
+  1.02     2.0.2.1          2.0.2.1             13    2019/08/27
+  1.02     2.0.2.1          2.0.2.1             12    2019/04/19
+  1.02     2.0.2.1          2.0.2.1             11    2018/05/10
+  1.02     2.0.2.1          2.0.2.1             10    2017/09/19
+  1.02     2.0.2.1          2.0.2.1             09    2017/04/24
+  1.02     2.0.2.1          2.0.2.1             08    2016/05/30
+  1.02     2.0.2.1          2.0.2.1             07    2016/05/12
+  1.02     2.0.2.1          2.0.2.1             06    2016/04/13
+  1.02     2.0.2.1          2.0.2.1             05    2016/02/10
+  1.02     2.0.2.1          2.0.2.1             04    2015/07/01
+  1.02     2.0.2.1          2.0.2.1             03    2015/03/19
+  1.02     2.0.2.1          2.0.2.1             02    2014/12/19
+  1.02     2.0.2.1          2.0.2.1             01    2014/12/19
+  1.01     2.0.1.1          2.0.1.1             01    2014/08/07
+  1.00     2.0.0.0                              06    2014/07/21
+  1.00     2.0.0.0                              05    2014/06/13
+  1.00     2.0.0.0                              04    2014/02/14
+  1.00     2.0.0.0                              03    2013/12/18
+  1.00     2.0.0.0                              02    2013/11/29
+  1.00     2.0.0.0                              01    2013/08/30
+
+  Note: Revision number (Rev.) is for administrative purpose of this README
+        document and is not related to software version. There is no need to
+        upgrade this software when the revision number changes.
+
+  To check the version of software, refer to the Determining which version is
+  installed section.
+
+
+Summary of Changes
+
+  Where: <   >        Package version number
+         [Important]  Important update
+         (New)        New function or enhancement
+         (Fix)        Correction to existing function
+
+<1.02>
+- (New) Added support for the following products:
+        ThinkPad E14 Gen 5 (Machine types:21JK,21JL,21JR,21JS).
+        ThinkPad E16 Gen 1 (Machine types:21JN,21JQ,21JT,21JU).
+        ThinkPad L13 Gen 4 (Machine types:21FG,21FH,21FN,21FQ).
+        ThinkPad L13 Yoga Gen 4 (Machine types:21FJ,21FK,21FR,21FS).
+        ThinkPad L14 Gen 4 (Machine types:21H1,21H2).
+        ThinkPad L14 Gen 4 AMD (Machine types:21H5,21H6).
+        ThinkPad L15 Gen 4 (Machine types:21H3,21H4).
+        ThinkPad L15 Gen 4 AMD (Machine types:21H7,21H8).
+        ThinkPad P1 Gen 6 (Machine types:21FV,21FW).
+        ThinkPad P14s Gen 4 (Machine types:21HF 21HG,21K5,21K6).
+        ThinkPad P16 Gen 2 (Machine types:21FA,21FB).
+        ThinkPad P16s Gen 2 (Machine types:21HK,21HL,21K9,21KA).
+        ThinkPad P16v Gen 1 (Machine types:21FC,21FD,21FE,21FF).
+        ThinkPad R14 Gen 5 (Machine types:21JM).
+        ThinkPad S2 Gen 8 (Machine types:21FL,21FT).
+        ThinkPad S2 Yoga Gen 8 (Machine types:21FM,21FU).
+        ThinkPad T14 Gen 4 (Machine types:21HD,21HE,21K3,21K4).
+        ThinkPad T14s Gen 4 (Machine types:21F6,21F7,21F8,21F9).
+        ThinkPad T16 Gen 2 (Machine types:21HH,21HJ,21K7,21K8).
+        ThinkPad X1 Carbon Gen 11 (Machine types:21HM,21HN).
+        ThinkPad X1 Fold 16 Gen 1 (Machine types:21ES,21ET),
+        ThinkPad X1 Nano Gen 3 (Machine types:21K1,21K2).
+        ThinkPad X1 Yoga Gen 8 (Machine types:21HQ,21HR).
+        ThinkPad X13 Gen 4 (Machine types:21EX,21EY,21J3,21J4).
+        ThinkPad X13 Yoga Gen 4 (Machine types:21F2,21F3).
+        ThinkPad Z13 Gen 2 (Machine types:21JV,21JW),
+        ThinkPad Z16 Gen 2 (Machine types:21JX,21JY).
+<1.02>
+- [Important] Added support for Microsoft Windows 11.
+- (New) Added support for the following products:
+        ThinkPad E14 Gen 4 (Machine types:21E3,21E4,21EB,21EC).
+        ThinkPad E15 Gen 4 (Machine types:21E6,21E7,21ED,21EE).
+        ThinkPad L13 Gen 3 (Machine types:21B3,21B4).
+        ThinkPad L13 Gen 3 AMD (Machine types:21B9,21BA).
+        ThinkPad L13 Yoga Gen 3 (Machine types:21B5,21B6).
+        ThinkPad L13 Yoga Gen 3 AMD (Machine types:21BB,21BC).
+        ThinkPad L14 Gen 3 (Machine types:21C1,21C2).
+        ThinkPad L14 Gen 3 AMD (Machine types:21C5,21C6).
+        ThinkPad L15 Gen 3 (Machine types:21C3,21C4).
+        ThinkPad L15 Gen 3 AMD (Machine types:21C7,21C8).
+        ThinkPad neo 14 (Machine types:21DN).
+        ThinkPad neo 14 AMD (Machine types:21EF).
+        ThinkPad P1 Gen 5 (Machine types:21DC,21DD).
+        ThinkPad P14s Gen 3 (Machine types:21AK,21AL).
+        ThinkPad P15v Gen 3 (Machine types:21D8,21D9,21EM,21EN).
+        ThinkPad P16 Gen 1 (Machine types:21D6,21D7).
+        ThinkPad P16s Gen 1 (Machine types:21BU,21BT,21CK,21CL).
+        ThinkPad R14 Gen 4 (Machine types:21E5).
+        ThinkPad S2 Gen 7 (Machine types:21B7,21BD).
+        ThinkPad S2 Yoga Gen 7 (Machine types:21B8,21BE).
+        ThinkPad T14 Gen 3 (Machine types:21AH,21AJ,21CF,21CG).
+        ThinkPad T14s Gen 3 (Machine types:21BR,21BS,21CQ,21CR).
+        ThinkPad T15p Gen 3 (Machine types:21DA,21DB).
+        ThinkPad T16 Gen 1 (Machine types:21BW,21BV,21CH,21CJ).
+        ThinkPad X1 Carbon Gen 10 (Machine types:21CB,21CC).
+        ThinkPad X1 Extreme Gen 5 (Machine types:21DE,21DF).
+        ThinkPad X1 Nano Gen 2 (Machine types:21E8,21E9).
+        ThinkPad X1 Yoga Gen 7 (Machine types:21CD,21CE).
+        ThinkPad X13 Gen 3 (Machine types:21BN,21BQ,21CM,21CN).
+        ThinkPad X13 Yoga Gen 3 (Machine types:21AW,21AX).
+        ThinkPad Z13 Gen 1 (Machine types:21D2,21D3).
+        ThinkPad Z16 Gen 1 (Machine types:21D4,21D5).
+
+<1.02>
+- (New) Added support for ThinkPad L14 Gen 2 (Machine types:20X1,20X2).
+- (New) Added support for ThinkPad L14 Gen 2 AMD (Machine types:20X5,20X6).
+- (New) Added support for ThinkPad L15 Gen 2 (Machine types:20X3,20X4).
+- (New) Added support for ThinkPad L15 Gen 2 AMD (Machine types:20X7,20X8).
+- (New) Added support for ThinkPad P1 Gen 3 (Machine types:20TH,20TJ).
+- (New) Added support for ThinkPad P1 Gen 4 (Machine types:20Y3,20Y4).
+- (New) Added support for ThinkPad P14s Gen 2 (Machine types:20VX,20VY).
+- (New) Added support for ThinkPad P15 Gen 1 (Machine types:20ST,20SU).
+- (New) Added support for ThinkPad P15 Gen 2 (Machine types:20YQ,20YR).
+- (New) Added support for ThinkPad P15s Gen 2 (Machine types:20W6,20W7).
+- (New) Added support for ThinkPad P15v Gen 1 (Machine types:20TQ,20TR).
+- (New) Added support for ThinkPad P15v Gen 2 (Machine types:21A9,21AA).
+- (New) Added support for ThinkPad P17 Gen 1 (Machine types:20SN,20SQ).
+- (New) Added support for ThinkPad P17 Gen 2 (Machine types:20YU,20YV).
+- (New) Added support for ThinkPad T14 Gen 2 (Machine types:20W0,20W1).
+- (New) Added support for ThinkPad T14s Gen 2 (Machine types:20WM,20WN).
+- (New) Added support for ThinkPad T15 Gen 2 (Machine types:20W4,20W5).
+- (New) Added support for ThinkPad T15g Gen 1 (Machine types:20UR,20US).
+- (New) Added support for ThinkPad T15g Gen 2 (Machine types:20YS,20YT).
+- (New) Added support for ThinkPad T15p Gen 1 (Machine types:20TN,20TM).
+- (New) Added support for ThinkPad T15p Gen 2 (Machine types:21A7,21A8).
+- (New) Added support for ThinkPad X1 Carbon Gen 9 (Machine types:20XW,20XX).
+- (New) Added support for ThinkPad X1 Extreme Gen 3 (Machine types:20TK,20TL).
+- (New) Added support for ThinkPad X1 Extreme Gen 4 (Machine types:20Y5,20Y6).
+- (New) Added support for ThinkPad X1 Nano Gen1 (Machine types:20UN,20UQ).
+- (New) Added support for ThinkPad X1 Titanium Gen1 (Machine types:20QA,20QB).
+- (New) Added support for ThinkPad X1 Yoga Gen 6 (Machine types:20XY,20Y0).
+- (New) Added support for ThinkPad X12 Detachable Gen 1 (Machine types:20UW,20UV).
+- (New) Added support for ThinkPad X12 Gen 1 LTE (Machine types:20UW,20UV).
+- (New) Added support for ThinkPad X13 Gen 2 (Machine types:20WK,20WL).
+- (New) Added support for ThinkPad X13 Yoga Gen 2 (Machine types:20W8,20W9).
+
+<1.02>
+- (New) Added support for ThinkPad L14 Gen 1 (Machine types:20U1,20U2).
+- (New) Added support for ThinkPad L14 Gen 1 AMD (Machine types:20U5,20U6).
+- (New) Added support for ThinkPad L15 Gen 1 (Machine types:20U3,20U4).
+- (New) Added support for ThinkPad L15 Gen 1 AMD (Machine types:20U7,20U8). 
+- (New) Added support for ThinkPad L490.
+- (New) Added support for ThinkPad L590.
+
+<1.02>
+- (New) Added support for ThinkPad E14 (Machine types:20RA,20RB).
+- (New) Added support for ThinkPad E14 Gen2 (Machine types:20TA,20TB,20T6,20T7).
+- (New) Added support for ThinkPad E15 (Machine types:20RD,20RE).
+- (New) Added support for ThinkPad E15 Gen2 (Machine types:20TD,20TE,20T8).
+- (New) Added support for ThinkPad E490, E490s, E495.
+- (New) Added support for ThinkPad E590, E595.
+- (New) Added support for ThinkPad L13 (Machine types:20R3,20R4).
+- (New) Added support for ThinkPad L13 Gen 1 (Machine types:20R3,20R4).
+- (New) Added support for ThinkPad L13 Yoga (Machine types:20R5,20R6).
+- (New) Added support for ThinkPad L13 Yoga Gen 1 (Machine types:20R5,20R6).
+- (New) Added support for ThinkPad L390 (Machine types:20NR,20NS).
+- (New) Added support for ThinkPad L390 Yoga (Machine types:20NT,20NU).
+- (New) Added support for ThinkPad P14s Gen 1 (Machine types:20UD,20UE).
+- (New) Added support for ThinkPad P15s Gen 1 (Machine types:20T4,20T5).
+- (New) Added support for ThinkPad R14 (Machine types:20RC).
+- (New) Added support for ThinkPad R490.
+- (New) Added support for ThinkPad R590.
+- (New) Added support for ThinkPad S2 Gen 4 (Machine types:20NV).
+- (New) Added support for ThinkPad S2 Gen 5 (Machine types:20R7).
+- (New) Added support for ThinkPad S3 Gen 2 (Machine types:20RG).
+- (New) Added support for ThinkPad S2 Yoga Gen 4 (Machine types:20NW).
+- (New) Added support for ThinkPad S2 Yoga Gen 5 (Machine types:20R8).
+- (New) Added support for ThinkPad T14 Gen 1 (Machine types:20S0,20S1,20S2,20S3).
+- (New) Added support for ThinkPad T14 Gen 1 (Machine types:20UD,20UE).
+- (New) Added support for ThinkPad T14s Gen 1 (Machine types:20T0,20T1,20UH,20UJ).
+- (New) Added support for ThinkPad T15 Gen 1 (Machine types:20S6,20S7).
+- (New) Added support for ThinkPad T495, T495s.
+- (New) Added support for ThinkPad X1 Carbon Gen 7 (Machine types:20R1,20R2).
+- (New) Added support for ThinkPad X1 Carbon Gen 8 (Machine types:20U9,20UA).
+- (New) Added support for ThinkPad X1 Yoga Gen 4 (Machine types:20SA,20SB).
+- (New) Added support for ThinkPad X1 Yoga Gen 5 (Machine types:20UB,20UC).
+- (New) Added support for ThinkPad X13 Gen 1 (Machine types:20T2,20T3,20UF,20UG).
+- (New) Added support for ThinkPad X13 Yoga Gen 1 (Machine types:20SX,20SY).
+- (New) Added support for ThinkPad X395.
+
+<1.02>
+- (New) Added support for ThinkPad P1 (Machine types:20MD,20ME).
+- (New) Added support for ThinkPad P1 Gen 2 (Machine types:20QT,20QU).
+- (New) Added support for ThinkPad P43s, P53s.
+- (New) Added support for ThinkPad P53 (Machine types:20QN,20QQ).
+- (New) Added support for ThinkPad P73 (Machine types:20QR,20QS).
+- (New) Added support for ThinkPad T490, T490 HC, T590. 
+- (New) Added support for ThinkPad T490s (Machine types:20NX,20NY).
+- (New) Added support for ThinkPad X1 Carbon Gen 7 (Machine types:20QD,20QE).
+- (New) Added support for ThinkPad X1 Extreme (Machine types:20MF,20MG,20QV,20QW).
+- (New) Added support for ThinkPad X1 Yoga Gen 4 (Machine types:20QF,20QG).
+- (New) Added support for ThinkPad X390 (Machine types:20Q0,20Q1).
+- (New) Added support for ThinkPad X390 Yoga.
+
+<1.02>
+- (New) Added support for ThinkPad P52 (Machine types:20M9,20MA).
+- (New) Added support for ThinkPad P72 (Machine types:20MB,20MC).
+
+<1.02>
+- (New) Added support for ThinkPad 11e Gen 5.
+- (New) Added support for ThinkPad E480, E485, E580, E585
+- (New) Added support for ThinkPad L380, L480, L580
+- (New) Added support for ThinkPad P52s.
+- (New) Added support for ThinkPad R480.
+- (New) Added support for ThinkPad T480, T480s, T580.
+- (New) Added support for ThinkPad X1 Carbon (Machine types:20KH,20KG).
+- (New) Added support for ThinkPad X1 Tablet Gen 3 (Machine types:20KJ,20KK).
+- (New) Added support for ThinkPad X1 Yoga (Machine types:20LD,20LE,20LF,20LG).
+- (New) Added support for ThinkPad X280.
+- (New) Added support for ThinkPad X380 Yoga.
+
+<1.02>
+- (New) Added Machine types information for ThinkPad 11e and ThinkPad Yoga 11e.
+
+<1.02>
+- (New) Added support for ThinkPad E470, E570, E570p.
+- (New) Added support for ThinkPad L470, L570.
+- (New) Added support for ThinkPad P51s.
+- (New) Added support for ThinkPad S2, S5.
+- (New) Added support for ThinkPad T470, T470p, T470s, T570.
+- (New) Added support for ThinkPad X1 Carbon (Machine types:20HQ,20HR).
+- (New) Added support for ThinkPad X1 Carbon (Machine types:20K3,20K4).
+- (New) Added support for ThinkPad X1 Tablet Gen 2 (Machine types:20JB,20JC).
+- (New) Added support for ThinkPad X1 Yoga (Machine types:20JD,20JE,20JF,20JG).
+- (New) Added support for ThinkPad X270.
+- (New) Added support for ThinkPad Yoga 370.
+
+<1.02>
+- (New) Added support for ThinkPad 13.
+- (New) Added support for ThinkPad E460, E560.
+- (New) Added support for ThinkPad L460.
+
+<1.02>
+- (New) Added support for ThinkPad P50s.
+- (New) Added support for ThinkPad S3.
+- (New) Added support for ThinkPad T460, T460p, T560.
+- (New) Added support for ThinkPad X1 Carbon (Machine types:20FB,20FC).
+- (New) Added support for ThinkPad X260.
+- (New) Added support for ThinkPad Yoga 14, Yoga 460.
+
+<1.02>
+- (New) Added support for ThinkPad X1 Tablet (Machine types:20GG,20GH).
+
+<1.02>
+- [Important] Added support for Microsoft Windows 10 64-bit.
+- (New) Added support for ThinkPad 10 (Machine types:20E3,20E4).
+- (New) Added support for ThinkPad L560.
+- (New) Added support for ThinkPad S1.
+- (New) Added support for ThinkPad P50, P70.
+- (New) Added support for ThinkPad T460s.
+- (New) Added support for ThinkPad X1 Yoga (Machine types:20FQ,20FR).
+- (New) Added support for ThinkPad Yoga 260.
+
+<1.02>
+- (New) Added support for ThinkPad L450.
+
+<1.02>
+- (New) Added support for ThinkPad T450,T450s.
+
+<1.02>
+- (New) Added support for ThinkPad T550,W550s,X250.
+
+<1.02>
+- (New) Added support for ThinkPad Helix Gen 2 (Machine types:20CG,20CH),
+        S5 Yoga 15,X1 Carbon (Machine types:20BS,20BT).
+
+<1.01>
+- (New) Added support for 64-bit application.
+- (Fix) Fix an issue where the tool might not read or write data on ThinkPad
+        Yoga.
+
+<1.00>
+- (New) Added support for ThinkPad L440, L540.
+
+<1.00>
+- [Important] Added support for Microsoft Windows 8.1 64-bit.
+- (New) Added support for ThinkPad 11e,Yoga 11e.
+
+<1.00>
+- Removed unsupported models.
+
+<1.00>
+- (New) Added support for ThinkPad X1 Carbon(Machine types:20A7,20A8).
+
+<1.00>
+- (New) Added support for ThinkPad S1 Yoga, ThinkPad Yoga.
+- (New) Added support for ThinkPad T440p.
+- (New) Added support for ThinkPad T540p.
+- (New) Added support for ThinkPad W540.
+- (New) Added support for ThinkPad X140e.
+
+<1.00>
+- (New) Initial release.
+
+
+--------------------------------------------------------------------------------
+LIMITATIONS
+
+  Nothing.
+
+
+--------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo and ThinkPad are registered trademarks of Lenovo.
+
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+
+Other company, product, and service names may be registered trademarks,
+trademarks or service marks of others.
