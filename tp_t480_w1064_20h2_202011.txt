@@ -1,0 +1,123 @@
+                                                                                                Package 01
+----------------------------------------------------------------------------------------------------------
+Software name      SCCM package for Windows 10 version 20H2
+
+Support model      ThinkPad T480(Machine types: 20L5, 20L6)
+
+Operating System   Microsoft Windows 10  64-bit  (20H2)
+
+Revision           01
+
+
+----------------------------------------------------------------------------------------------------------
+WHAT THIS PACKAGE DOES
+
+  This package provides the device drivers in .inf form for ThinkPad computers, in order to allow you to
+  deploy Windows images with Microsoft System Center Configuration Manager (SCCM) by importing the device
+  drivers. INF file will be available after executing the downloaded self-extracting EXE package.
+
+----------------------------------------------------------------------------------------------------------
+NOTES
+
+- Before installing the ThinkPad Monitor File, you need to install Graphics driver and restart the
+  computer first.
+
+- NVIDIA driver needs to be installed from Setup.exe -n -s
+
+----------------------------------------------------------------------------------------------------------
+
+VERSION INFORMATION
+
+  The following versions have been released to date.
+
+  Package   Rev.  Issue Date
+  -------   ----  ----------
+  01        01    2020/12/08
+
+
+Version List
+
+  Software name                             Build ID       Version number
+  ----------------------------------------  --------       --------------
+  Alcor Smart card reader                   N24V105W       1.7.46.1308
+  Fibocom L830 Wireless WAN Driver          NZ3WH03W       3.17763.1034.1
+  Fibocom L850 Wireless WAN Driver          NZ3WJ30W       0.9.4.440
+  Integrated Camera Driver                  N2CCM17W       5.0.18.73_10.0.19041.20146
+  Intel 8265 Bluetooth Driver               N24WW10W       21.110.0.3
+  Intel 8265 Wireless LAN Driver            NZ4W807W       20.70.18.2
+  Intel Chipset Driver                      N24IC07W       10.1.5.2
+  Intel DPTF driver                         N24HD07W       8.5.10103.7263
+  Intel HD Graphics Driver                  N24DR10W       27.20.100.8476
+  Intel LAN Adapter Software                N24RW06W       12.18.9.8
+  Intel Management Engine                   N24RA14W       2013.15.0.1743(MEI)/2011.0.7.0(SOL)
+  Intel Rapid Storage Technology Driver     NZ4IO02W       17.5.1.1021
+  Intel Serial IO Driver                    N24LI05W       30.100.1841.2
+  Intel SGX Driver                          NZ3GS07W       2.7.100.2
+  Intel Thunderbolt software                N22TB03W       1.41.789.0
+  Lenovo Intelligent Thermal Solution       N1ZDY53W       1.00.01.359
+  Lenovo Power Management Driver            N2HKU64W       1.67.17.52
+  NXP NFC Driver                            N24WA04W       12.0.4.0
+  Realtek Audio Driver                      N24AU04W       6.0.8777.1
+  Realtek MultiCard Driver                  N24X807W       10.0.18362.31248
+  Realtek USB Audio for Docking Station     N20PE06W       6.3.9600.2245
+  Synaptics Fingerprint Driver              NZ3GF07W       5.3.3542.26
+  Synaptics UltraNav Driver                 N23GZ18W       19.3.4.226
+  ThinkPad Monitor File                     N22OI07W       6.10.0.0
+  ThinkPad Video Features                   N24DB08W       26.21.14.4332(Intel)
+
+
+  Where: Build ID is for administrative purpose.
+
+----------------------------------------------------------------------------------------------------------
+LIMITATIONS
+
+
+----------------------------------------------------------------------------------------------------------
+SUMMARY OF CHANGES
+
+
+Package 01    Rev 01    2020/12/08
+
+  Software name                             Build ID       Version number
+  ----------------------------------------  --------       --------------
+  Alcor Smart card reader                   N24V105W       1.7.46.1308                                   (Added)
+  Fibocom L830 Wireless WAN Driver          NZ3WH03W       3.17763.1034.1                                (Added)
+  Fibocom L850 Wireless WAN Driver          NZ3WJ30W       0.9.4.440                                     (Added)
+  Integrated Camera Driver                  N2CCM17W       5.0.18.73_10.0.19041.20146                    (Added)
+  Intel 8265 Bluetooth Driver               N24WW10W       21.110.0.3                                    (Added)
+  Intel 8265 Wireless LAN Driver            NZ4W807W       20.70.18.2                                    (Added)
+  Intel Chipset Driver                      N24IC07W       10.1.5.2                                      (Added)
+  Intel DPTF driver                         N24HD07W       8.5.10103.7263                                (Added)
+  Intel HD Graphics Driver                  N24DR10W       27.20.100.8476                                (Added)
+  Intel LAN Adapter Software                N24RW06W       12.18.9.8                                     (Added)
+  Intel Management Engine                   N24RA14W       2013.15.0.1743(MEI)/2011.0.7.0(SOL)           (Added)
+  Intel Rapid Storage Technology Driver     NZ4IO02W       17.5.1.1021                                   (Added)
+  Intel Serial IO Driver                    N24LI05W       30.100.1841.2                                 (Added)
+  Intel SGX Driver                          NZ3GS07W       2.7.100.2                                     (Added)
+  Intel Thunderbolt software                N22TB03W       1.41.789.0                                    (Added)
+  Lenovo Intelligent Thermal Solution       N1ZDY53W       1.00.01.359                                   (Added)
+  Lenovo Power Management Driver            N2HKU64W       1.67.17.52                                    (Added)
+  NXP NFC Driver                            N24WA04W       12.0.4.0                                      (Added)
+  Realtek Audio Driver                      N24AU04W       6.0.8777.1                                    (Added)
+  Realtek MultiCard Driver                  N24X807W       10.0.18362.31248                              (Added)
+  Realtek USB Audio for Docking Station     N20PE06W       6.3.9600.2245                                 (Added)
+  Synaptics Fingerprint Driver              NZ3GF07W       5.3.3542.26                                   (Added)
+  Synaptics UltraNav Driver                 N23GZ18W       19.3.4.226                                    (Added)
+  ThinkPad Monitor File                     N22OI07W       6.10.0.0                                      (Added)
+  ThinkPad Video Features                   N24DB08W       26.21.14.4332(Intel)                          (Added)
+
+
+----------------------------------------------------------------------------------------------------------
+TRADEMARKS
+
+* Lenovo, ThinkPad, ThinkVantage and UltraNav are registered trademarks of Lenovo.
+
+* Intel is a registered trademark of Intel Corporation.
+* Microsoft and Windows are registered trademarks of Microsoft Corporation.
+* NVIDIA is a registered trademark of NVIDIA Corporation.
+* Realtek is a registered trademark of Realtek Semiconductor Corp.
+* Sunplus is a registered trademark of Sunplus Innovation Technology Inc.
+* Synaptics is a registered trademark of Synaptics Inc.
+
+Other company, product, and service names may be registered trademarks, trademarks or service marks of
+others.
